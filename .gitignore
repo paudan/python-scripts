@@ -15,7 +15,6 @@ out
 gen
 
 # Custom files
-*.jpg
 /pricing models/ebay.apikey
 /search/wiki.tar.gz
 /financial data/config.cfg

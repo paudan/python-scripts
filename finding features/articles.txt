@@ -1,0 +1,1170 @@
+Pope exhorts U.S. and Cuba to push detente further
+0.0270148107994 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0225108991943 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0206952552974 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Greeks vote on whether to give leftists another chance
+0.0205931167517 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0111690509669 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00629365767567 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+East European leaders in war of words as migrants pour across borders
+0.0251923272872 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.012132484786 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0118949410527 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Fed's Williams still sees 2015 rate hike after 'close call'
+0.0274614799946 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.0144823882491 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.00618632025753 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Chinese computer hack attacks slow ahead of Obama summit: experts
+0.0274121372346 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0139739564761 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0135751340109 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+U.S. says Assad must go, timing down to negotiation
+0.0286262848584 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0123145838547 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.0106687021782 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Trump defend Obama? 'I don't think so!'
+0.0280704809068 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0233061096384 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.0136410619607 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Baseball player in critical condition after New York drive-by shooting
+0.0231532239069 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0136979073974 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.0110997859024 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Democratic donors urge Biden to challenge Clinton in U.S. 2016 race
+0.0222502249874 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0169656795492 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.011354834267 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Croatia says 'forcing' Hungary to take in migrants
+0.0323294482516 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0245232298347 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.022318577876 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Putin gives go-ahead to Belarus airbase plan
+0.013457155393 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0132115775576 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.00838491312402 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Fed's Lacker says economy strong enough for higher rates
+0.0104323191069 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0103332961516 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00946166434669 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Insurgents killed 56 government troops at captured air base: Syria monitor
+0.0384795989397 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0368766262133 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0163387852845 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Turkish jets hit Kurdish militant camps in Iraq, at least 55 killed: sources
+0.0324898262736 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.0220229728336 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0216654702585 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+'Heads as well as hearts': Croatia says it can take no more migrants
+0.026168666728 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0176959698648 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0150846104217 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Campaigning over, Greeks prepare to vote
+0.0145656530542 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0090567952796 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00760918569645 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+
+Saudi-led warplanes pound Yemen's interior ministry in Sanaa
+0.0166361785598 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0104552544279 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00933667436231 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Obama nominates first openly gay service secretary to lead Army
+0.0393844750744 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.0228070744778 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0137998170911 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Starbucks? OK. Lattes? No! Cuba business rules still complex after U.S. changes
+0.0191857598216 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.014569677186 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.0030822036527 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+
+Pope's visit to Cuba raises prospect of human rights friction
+0.037044552326 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0266139158705 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0155445271315 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Suspect charged in Arizona highway shootings, held on $1 million bond
+0.0349804371071 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0330268641973 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.00879971071814 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Gains made in fighting California wildfires but threat persists
+0.0251498484378 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0181011758128 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0177307035434 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Mother, boyfriend charged in death of toddler found on Boston Harbor beach
+0.068400118083 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0352430061912 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00694291289181 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Suspect in string of Arizona shootings arrested: authorities
+0.0620945580014 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0275369683247 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0130123326051 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+
+Watching paint dry leads to Guinness world record in rural Indiana
+0.0169725510914 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0152478975149 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Crews gain ground on California blazes, search for missing goes on
+0.0395692607636 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0341876026792 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.0215653478451 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Alabama court voids lesbian couple's Georgia adoption agreement
+0.0355537168521 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00854010100065 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00679872097157 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Woman wishing to kill someone with bare hands charged in Montana strangling
+0.0251201809604 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.0184011319845 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0133342808771 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Army's Bergdahl suffered some of the worst abuse of any U.S. POW: witness
+0.0463649074679 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0314429867117 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0140955625226 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Utah flood toll rises to 20; dead Zion National Park hikers named
+0.0308434026432 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.0242262707594 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0225438324535 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+
+California man tied to 'Gone Girl' kidnap pleads guilty in separate case
+0.0262461993119 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.012035595852 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0115910093541 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Deputy Kentucky clerk questions validity of licenses altered by Kim Davis
+0.0202695548017 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0146348127072 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0130135105592 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+House Republicans vote to strip Planned Parenthood funds
+0.0267573052038 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.0259054717153 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0109231702931 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+Jesse Jackson Jr. completes sentence for misusing campaign funds
+0.0170171702236 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0110911093706 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.010551553816 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Lawyers spar over ownership of oldest U.S. synagogue
+0.0305293544837 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0203152205259 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00345477120185 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Police to review handling of Texas student handcuffed over clock
+0.0441892830357 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0207643647692 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00982821935711 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+California police criticized after rough arrest of jaywalking black teen
+0.0272914618724 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0240041168671 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00956251507801 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Man gets life in prison for throwing daughter, four, off California cliff
+0.0278303054348 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0150002566709 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0128060237141 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+U.S. reports 17 air strikes against Islamic State in Iraq and Syria
+0.0327539548758 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.0170543551956 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.00832705448022 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Burkina to reinstate interim government after coup: Benin president
+0.0230021930668 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0194422183435 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.014671665172 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+Venezuela's opposition protests 'wicked' Lopez sentence
+0.0243616540846 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.00962953918713 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00830665332359 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Afghan Taliban divided as talks between two factions fail
+0.0232668506605 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.0171259468583 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.0149372549277 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Anti-coup protests in Burkina amid crisis talks
+0.0356684822576 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0258293685729 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.0103925893368 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+Hundreds of Thais defy protest ban in anti-junta march
+0.035562882254 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00674696950865 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00564781785411 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+Egypt's Sisi swears in new government, keeps ministers in key posts
+0.0100180349724 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00915371166527 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00862958704563 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Israeli aircraft strike Gaza after rocket fire
+0.026257523969 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00602244413056 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00583749182413 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Refugee journey: A tough welcome in Germany
+0.0198884922719 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0136701839228 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00617871680599 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Head of U.N. nuclear agency to visit Iran
+0.0161015800536 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0157665711975 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0113294061314 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Portugal pre-election poll puts ruling alliance ahead, many undecided
+0.0223518023768 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0177544713777 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0126589427049 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Haiti border crisis grows as Dominican Republic expels 'migrants'
+0.0236442135882 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0234496277655 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00823503269484 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+The Latest: Euphoria greets Pope Francis at Havana residence
+0.0293315423214 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0192698553362 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.018867399495 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Kerry: Russian fighter jets in Syria raise serious questions
+0.0212862781008 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0170677829935 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.016628955408 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Phoenix freeway shooting suspect: 'I'm the wrong guy'
+0.0590000696315 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.026510213746 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.0178516012518 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Iran nuclear deal is done, but not the debate in Congress
+0.0137887377924 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00952361011075 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00867595048952 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+
+Saga surrounding Kentucky clerk may not be over
+0.0292120948801 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.014688862011 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00277027130594 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+The Latest: Police checked pawn shops for I-10 gunfire clues
+0.0112573865286 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00859498568601 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00838377472676 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Trump's latest policy paper marks departure on gun control
+0.0248104205543 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0108355709206 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00457633563135 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+
+Immigration detainers often issued by California center
+0.0140979559621 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.00619707818361 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00602820606466 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+AP Interview: Black Lives Matter skipping 2016 endorsement
+0.0247937985084 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.0212157253456 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0151002066596 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Safety experts question classroom barricade devices
+0.0166147325898 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.0106868013445 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.00644022308451 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+
+Pope Francis praises US-Cuba detente as model for world
+0.0363382879318 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0255390837019 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0195533408606 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+The Latest: Pope says he met with Syrian refugees in Vatican
+0.0338748193278 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0137785548649 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0115282168775 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Joy as migrants flood into Austria; tears for those kept out
+0.0194198210404 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0173976130682 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0129830053929 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Europe's aging economies stand to gain from influx of people
+0.0231307975821 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.017669528169 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0120426202009 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+The Latest on the 2016 campaign: Bush hits Georgia football
+0.037237464426 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00888986017873 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00595571998284 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+Walker cancels twice on Michigan GOP, goes to must-win Iowa
+0.0342416923893 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.017612133674 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.00946785328467 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Clinton 'appalled' by Muslim comment at Trump campaign event
+0.0273663938298 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0220606239454 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.0215995864584 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+Economic View: Donald Trump and the Art of the Public Sector Deal
+0.010464620359 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00793797750871 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00509472536394 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+
+Cubans Have Mixed Opinions on Effect of Visit by Pope Francis
+0.0296866179192 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.0157310991245 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0151904385027 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Republicans Go to a Michigan Island in an Effort to Set Themselves Apart
+0.0179539157388 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0156860968843 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.0131085010688 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Thousands Flood Into Austria as Migrants Are Bounced Around Europe
+0.0314532175194 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00605157196754 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00514045508087 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Yankees 5, Mets 0: For a Day, the Yankees Do All the Right Things and Throttle the Mets
+0.0143903740353 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0104118986037 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00894394208222 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Pope Francis, Arriving in Cuba, Seeks to Revive Church
+0.0243033642668 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0206093023958 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.0075657594523 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Party Rules to Streamline Race May Backfire for G.O.P.
+0.0296657078367 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0188626002732 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00146818303128 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+F.D.A. Nominee Califf’s Ties to Drug Makers Worry Some
+0.0165475361167 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00647330470864 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00389276473485 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+
+U.S. and China Seek Arms Deal for Cyberspace
+0.0239942716518 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00797386807056 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.0064285133269 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Francis in America: A Humble Pope, Challenging the World
+0.0330587806044 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0109549168335 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00583476185513 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Warily Eyeing China, Philippines May Invite U.S. Back to Subic Bay
+0.0191742025941 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0123064285499 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00953772074384 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+Facebook Group’s Push for Safe Land Passage for Migrants Founders
+0.0210270067121 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0157184648676 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0151399630699 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Arab Coalition Bombs Yemen’s Capital, Killing Dozens
+0.00959949581452 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00797146305383 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00772356883853 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+‘White Only’ Signs in Art Project at SUNY Buffalo Draw Concern
+0.0126985359515 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.00548603773506 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00505294086726 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+A Unit Stalked by Suicide, Trying to Save Itself
+0.00612757362495 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00583530152609 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00561475411604 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+Tourists Thwart Turtles from Nesting in Costa Rica
+0.00797434741253 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00585614966043 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00553490902613 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Enabling of Ad Blocking in Apple’s iOS 9 Prompts Backlash
+0.0180627347807 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0086707740632 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00364161273436 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+
+Top Trustees at Carnegie Hall Deny Ronald Perelman’s Charges
+0.0151782401663 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00380670875802 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.000409043606747 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Russian Buildup in Syria Raises Questions on Role
+0.010918837567 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00878962142468 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.00237201346292 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Israeli Settlers Publish Their Reality, with Palestine as Fiction
+0.0264233039149 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00763207841975 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00514917231775 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Abandoning Afghan War Zone in a Perilous Quest for Europe
+0.0271190078831 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00783151522712 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00726510838285 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Japan’s Parliament Approves Overseas Combat Role for Military
+0.0242160894165 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0149600052404 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00260248482723 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Pope Francis Faces a Challenge in Opening Cuba to the Church
+0.0140737476658 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0110803995677 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.010463659372 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+The Saturday Profile: In Sierra Leone, Giving the Stigma of Ebola a Good, Swift Kick
+0.0276104311068 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00407955301207 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Francis In America: Latino Catholics See Reflection in a Friar Set for Sainthood
+0.010471639055 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.00848369698579 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00262504099438 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Leader of Protests Against Caste Quotas in India Is Detained
+0.0236989818539 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0124745930971 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00562583833302 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+
+Lebanon Tribunal Gives Mixed Verdict in Confidential Witnesses Case
+0.00911065067664 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00726040889808 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00250399751396 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Brazil to Keep Allowances for the Poor
+0.00814734036097 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00353263650375 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.0012418439161 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+
+ISIS Group Attacks Prison in Libya
+0.0254235457511 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0164724026188 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00681441660377 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Open Source: Hungary Accuses Migrant Protesters of Terrorism for Clashing With Police
+0.0184676329612 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.0155775320891 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.013082659085 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+
+World Briefing: Ukraine: U.S. Judge Tosses Tymoshenko Lawsuit
+0.0165636652927 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0146758474353 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00842837953017 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+
+Op-Ed Contributors: A Wet Winter Won’t Save California
+0.00286410275793 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00228607163091 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00194178533352 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Contributing Op-Ed Writer: What Italy Can Teach America About Donald Trump
+0.0111285804259 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00824661820402 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00548481483696 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Contributing Op-Ed Writer: Europe’s Dangerous Ambivalence
+0.0158177759383 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00627961366734 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0020983605921 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+First Words: Who Qualifies for ‘Asylum’?
+0.00658287617609 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0065031875064 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00130275109538 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Traveling in Europe’s River of Migrants
+0.0331448440177 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0228999738758 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.0147952462307 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+Migrant or Refugee? There Is a Difference, With Legal Implications
+0.0110131060463 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00922762395528 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00860504082267 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Sinosphere Blog: PEN Appeals to Xi Jinping for Release of Imprisoned Chinese
+0.0223776066697 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0119409272051 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00661909563013 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Sinosphere Blog: Q. and A.: Louie Cheng on Chemical Contamination in Tianjin
+0.0132164021574 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00617861340611 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.000513482856207 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+At War Blog: The Women of the Army Rangers’ Cultural Support Teams
+0.0195645080039 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.01160622319 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0110302307931 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Pope exhorts US and Cuba to push detente further - Reuters
+0.0740785501184 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0390770908334 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0226277037645 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Arizona Freeway Shooting Suspect Leslie Allen Merritt Denies Being Gunman - NBCNews.com
+0.10157464742 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0954338301072 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0594537647922 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+​More than 1000 homes destroyed by 2 California fires - CBS News
+0.0940212059684 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0782981959228 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.0235663253042 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+
+Donald Trump breaks his silence on anti-Muslim comments - Fortune
+0.0897528165503 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0639923072732 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0289036280213 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+Thousands Flood Into Austria as Migrants Are Bounced Around Europe - New York Times
+0.0824363431453 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0595722452872 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0414946150533 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+
+Kasich: Comments about tipping Latina maid were about honoring people 'we run ... - USA TODAY
+0.0715488627999 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.0345367320453 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.0230468956809 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Biden receives warm welcome at Congressional Black Caucus event - CNN
+0.0749606236837 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0688314808723 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.0412883277654 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+
+Police shooting from helicopters -- rare but not unheard of - Los Angeles Times
+0.0785414438262 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.0490597151331 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0292981939206 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+On Lesbos, endless waves of boats and fears of a more treacherous voyage - Washington Post
+0.059317977621 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.042990579414 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0247637767733 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+John Kerry says Syria's Bashar al-Assad must go but timing down to negotiation - ABC Online
+0.0919959904976 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0772048154061 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0525212180764 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Trump breaks silence on no response to Obama Muslim comments, says not 'morally obligated'
+0.0158609333166 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00585789377407 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00441071423839 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+NOT FUNNY More advertisers abandon 'The View' over remarks
+0.00935829647745 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00508173248039 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00468737070794 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+OUT OF THIS WORLD  7-mile scale model of solar system created in lakebed
+0.010612891623 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00780644736633 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.000222713545865 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+'WRONG GUY' Suspect in freeway shootings tells judge he&rsquo;s innocent
+0.0202469723515 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.011094277345 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00368174392576 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+ALL SYSTEMS JOE?  Biden reportedly close to announcing 2016 WH bid
+0.0202287365699 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.000845746560677 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Obama nominates first openly gay man to lead Army - VIDEO: Obama's latest nomination
+0.00914470390883 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00899347002554 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00885833329626 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Saudi Arabia says 100,000 troops to secure this year's hajj
+0.0130982627882 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00529506091939 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00196229801652 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Obama set to speak at Black Caucus dinner, Clinton to mingle
+0.0195138918239 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00855326662208 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Notorious litterbug convicted of trashing Colorado national forest earns prison term
+0.00849222861003 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00463658010522 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00156487398917 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+Lawmaker: Terror intel manipulation dates back to at least 2012 - VIDEO: Scope of investigation into ISIS intel widens
+0.00840522525166 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00436999100548 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.00354963038466 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Police seeking family of child left at school, find 3 dead
+0.0125837880953 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00740529889586 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00271794481161 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Obama administration urged by police, GOP candidates to be more outspoken on cop killings
+0.00860041783841 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00641420414313 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00469080244415 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Investigators eye motive, cause of death in 'Baby Doe' case - VIDEO: 'Baby Doe' identified by authorities
+0.00865328324851 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00852928505751 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00578189271724 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+
+London-bound flight grounded after wing hits fence in NYC
+0.0109739950746 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00228741014604 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00062398900329 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+Georgia cop injured in shootout with 2 suspects at gas station
+0.00479661140147 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00448433225383 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.001662100649 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Kentucky clerk Kim Davis interfered with judge's order, attorney says
+0.0116126019245 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.0100046294217 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00624622591692 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+UN nuke chief heads to Iran to push for progress in nuclear weapons probe - Obama admin won't reveal to Congress number of Americans killed by Iran
+0.0122619592737 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00854067138548 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00653983818856 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+Former Ca. mayor accused of helping company that allegedly scammed thousands
+0.0174621855908 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00158521526822 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.000938244798554 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+
+Police: Child, 2 adults dead in suspected murder-suicide
+0.00883050134803 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.00517183547788 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00123840173082 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Naked woman rescued in ocean 3 miles off southern California coast
+0.00691291137483 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00615398811389 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00284027951068 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Testimony eyed as likely reason for charging Roof's friend
+0.00323939259688 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.00209190933274 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00113274327742 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Police shoot, kill suspect from helicopter after high-speed pursuit on Southern California freeway
+0.0153947754825 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.0141520430049 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00866352341671 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Tests on brains of former deceased NFL players continue CTE trend
+0.00706482711841 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00351154903421 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00332342392804 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+Bernie Sanders receives rousing welcome from audience on 'Late Show'
+0.00945475872198 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00128139565558 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.000727712319122 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+Military operations begin at expanded bomber training site
+0.00417637644712 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.00260238656579 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00130024497463 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Texas high school football players say coach told them to hit referee
+0.0104431759115 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00796880527681 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00555656883885 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+Kim regime expands secret prison camp for women forcibly returned from China
+0.0116820628582 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00895699902982 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0038173094067 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Biden gets the bully 'pope'-it as 2016 chatter builds - Pope arrives on historic trip to Cuba, US - Papal visit: Francis may bring 'uncomfortable messages' to America - COMPLETE POPE FRANCIS COVERAGE
+0.0243413653073 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0226322525526 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00907484121854 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Arkansas judge reinstates Medicaid contract with Planned Parenthood - House OKs bill blocking Planned Parenthood funding
+0.0133785894797 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00999880182807 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.00452347568497 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Peyton flies in cancer patient
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+What's an Emmy nod worth?
+0.00520533194327 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0028055367501 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00107674748263 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+Wood tweets about bisexuality
+0.00454786226854 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00185363194862 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.000986248220278 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Sanders: KFC was 'the worst'
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+&lsquo;Luxury fortress on wheels&rsquo;
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Whale nearly crushes kayakers
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Fix a sexless marriage
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Coolest motorcycle ever?
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Is 'Black Mass' rotten?
+0.00570155465016 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00152215804909 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00124997964357 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+
+Holy snap! Model cuddles croc
+0.00442204776553 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00305929352602 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00245140781731 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Volcano &lsquo;superchain&rsquo; discovery
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Want to buy a commando boat?
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+My message for Emily
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+How to buy unlisted homes
+0.00366879163648 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.0036346389036 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00258427670677 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Is this soccer or rugby? Chelsea star angers Wenger
+0.00469303609586 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00406505688944 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.00192516468411 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Pope Francis lands in Cuba
+0.00848407835871 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00820725947358 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00436760088897 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+Tiger Woods suffers new setback
+0.00969368707751 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00527796815456 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00476136202594 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Son of Dubai ruler dies
+0.0212911075451 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0208814364325 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0146963357407 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Japan stuns S. Africa at World Cup
+0.0110378839576 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00944361192532 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.00343987798087 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+
+Road shootings: SWAT team swoops
+0.017249382731 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0151279111285 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0113980957896 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+The battle-worn face of Indian wrestling
+0.0222169624231 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0116017556051 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0112271079418 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Ferrari ends Mercedes' record bid
+0.0121013755449 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0115118191328 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0113049128324 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Trump hits back on Obama claim
+0.0317765075023 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.0317705831407 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0128907955321 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Migrant crisis: Neighbors trade accusations
+0.00620421165712 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00338140752119 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.000825146749014 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Sunken Egyptian cities revealed
+0.0039660052467 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00182464652686 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00045393321972 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+Possible 1665 'plague pit' discovered in London
+0.0115834626382 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.00848003532873 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00718549884712 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Uprooted tree reveals ancient death
+0.00663316168854 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00261667231593 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.000561704625396 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+Goliath gates discovered?
+0.00834859378924 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00493364150085 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00390307232685 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Has Nefertiti's tomb finally been found?
+0.0208653432769 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0137164459458 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00129675257805 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Pope visit raises safety concerns
+0.0266282048975 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0206366131932 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0194904219311 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+
+Who caught photographers' eyes this week?
+0.0154438743184 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.0113954032415 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00777633816398 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+Bubble-wrapped guns -- but why?
+0.0145470181057 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00812952643325 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00482043415355 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+Body in bag killing: Two charged
+0.045297306313 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0126740648657 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.000560023115495 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Will Pope get chummy with Castro?
+0.0109930052345 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.00363862336047 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00303922623296 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+How to make a Pope
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Airplane graveyard taken over homeless
+0.00529821517169 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00207050355039 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.000822651459714 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+'Not ethical' West angers fashion designers
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Group invokes 9/11 to hit Bush
+0.0244815035914 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0188602696443 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00854803834851 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+
+Japan combat stance spooks neighbors
+0.0204862724538 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0120254727573 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0110638398167 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Ig Nobel prizes: Research on mammal pee, dinosaur chickens
+0.0192780999871 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0154856839391 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.00192742586053 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+
+#CNNFood challenge: What's your country's national dish?
+0.0341654317679 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0124613787111 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00824545627832 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+How the new super-rich spend their millions
+0.007369263997 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00343957177748 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00285883745 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+
+The son of the ruler of Dubai dies
+0.0253179544501 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0229908643085 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0185624181989 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Risks grow as Russia sends jets to Syria
+0.0249305514281 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0235142366313 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.0175288850758 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+The migrant trail through Europe: No end in sight
+0.00699483193704 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00664628582251 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00532180430182 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+Marco Rubio: Pope an inspiration for religious freedom
+0.0312178559834 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00913563917978 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+0.0075893741173 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+Pope calls on Cuba to 'open itself to the world'
+0.0143183658208 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0131421845095 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.0111013728156 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Could Pope bring Raul Castro back to the faith?
+0.0167481646697 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.013865363503 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.00571890446367 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Japan OKs dramatic shift away from pacifism
+0.0129604386188 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0115863391453 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0102971789233 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Hungarian mayor drives off migrants with action video
+0.0113475176409 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0068372950968 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+How the Pope is being 'Obamafied'
+0.00512781899429 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00253499105828 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00127470756279 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+The Pope's trip: 5 key questions
+0.0180129061015 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.0150834636051 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.0135243425317 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+
+A 13,000-mile road trip to see the Pope
+0.0163648325373 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00607292054081 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00518092268214 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+'Falling in love' with the Pope
+0.00274518444681 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00242566744393 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0016606394105 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+'The face of our church is changing'
+0.0288186182167 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00646019006288 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00448048898587 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+
+Russia sends fighter jets to Syria after talks with U.S.
+0.0343640554812 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.013276852186 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.0126084228925 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+Help refugees survive conflict in Syria and Iraq
+0.0254991297684 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0118090953235 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00913470294807 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Taliban militants attack air force base in Pakistan
+0.013812163865 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.0102234125073 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.00447045769974 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Friend of accused Charleston shooter Dylann Roof charged
+0.0055981156567 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00428545415826 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00201267955169 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Focus on dangerous world
+0.00301574806771 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+0.00188775403496 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.00139447324253 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+Senate fails to derail Iran deal
+0.00992076754755 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00223352969159 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00128121948852 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+
+Pope heads to Cuba after push for change
+0.0171204683433 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00996818847625 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00281943689101 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Foreign policy fantasies
+0.0038293202176 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+0.00171441746808 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+New details about Baby Bella
+0.0286959264254 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0150486728256 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.00151718706541 ['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
+
+Army general: Don't jail Bowe Bergdahl
+0.0220248398069 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+0.0210648818472 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+0.0152767738246 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+New date set for Georgia woman's execution
+0.0150834468065 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.0142833713621 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00858741738817 ['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
+
+New dinosaur species like 'a fat pony'
+0.0245931759279 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00829576014422 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.00214429088583 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+FAA fines Cleveland's airport
+0.0157581847885 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0061543105791 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.0030721124852 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Transplant patients die from fungal infections
+0.0183092500816 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00934136327494 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0069703600375 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Suspect arrested in Phoenix freeway shootings
+0.0184209826448 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00332064300866 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00323083484908 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+
+96% of former NFL players tested had CTE
+0.00706482711841 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.00351154903421 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00332342392804 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+
+4 ways to celebrate 'Talk Like a Pirate' Day
+0.0205149089707 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.00797502608858 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00199528857031 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+
+Priest tracks down 'secret' family in Cuba
+0.0221147523183 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.0166394774507 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.0098756536662 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+
+Players: Coach told us to level football official
+0.0199290846561 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0175115204505 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.0125346725903 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+The Pope faces tests in America
+0.0113669867342 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00839229624406 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+0.00635718092922 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+
+Keeping Pope Francis safe
+0.0342682911297 ['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
+0.021899130385 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+0.020680496335 ['pope', 'francis', 'from', 'croatia', 'said', 'about']
+
+'Baby Doe' ID'd; mother and her boyfriend arrested
+0.0196566929938 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.00846235637508 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.000348123794543 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Keeping young players safe on the football field
+0.0179346406175 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0174578568668 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.0146318730616 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Athletes and CTE
+0.0118347683129 ['trump', 'about', 'obama', 'said', 'muslim', 'president']
+0.0105741556535 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00998868280531 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+
+Robot helps football players avoid concussions
+0.0211592910945 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.015053856397 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+0.0101712492415 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Opinion: Should you let your kids play football?
+0.0326561993032 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.0300412742301 ['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
+0.0227967467232 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+
+Explain it to me: Concussions
+-0.0 ['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
+-0.0 ['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
+-0.0 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+America's newest citizens reflect on migration crisis
+0.0143289466216 ['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
+0.00713901641471 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00552505933061 ['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
+
+Twitter offers inspiration, invitations and internships
+0.0171912054825 ['kerry', 'syria', 'their', 'after', 'suspect', 'down']
+0.00903492039035 ['been', 'ahead', 'friday', 'group', 'house', 'former']
+0.00882204917122 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+
+Madison's challenge to millennials
+0.00320477977026 ['over', 'york', 'cuba', 'pope', 'ahead', 'race']
+0.00257219015188 ['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
+0.000924491463818 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+
+Teen who made clock is transferring to another school
+0.00911908186322 ['saturday', 'said', 'that', 'says', 'trump', 'muslim']
+0.00699129835654 ['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
+0.00399488712926 ['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
+
+Dylann Roof's friend charged
+0.0055981156567 ['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
+0.00428545415826 ['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
+0.00201267955169 ['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
+

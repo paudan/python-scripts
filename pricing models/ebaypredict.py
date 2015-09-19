@@ -1,3 +1,5 @@
+# Example from Programming Collective Intelligence, Chapter 8
+
 import httplib
 from xml.dom.minidom import parse, parseString, Node
 import numpredict

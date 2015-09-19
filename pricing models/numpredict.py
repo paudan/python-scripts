@@ -1,3 +1,5 @@
+# Example from Programming Collective Intelligence, Chapter 8
+
 from random import random, randint
 import math
 from numpy import array, arange
