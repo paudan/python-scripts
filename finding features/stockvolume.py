@@ -1,3 +1,5 @@
+# Example from Programming Collective Intelligence, Chapter 10
+
 import nnmf
 import urllib2
 from numpy import *

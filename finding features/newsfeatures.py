@@ -1,4 +1,6 @@
-import feedparser
+# Example from Programming Collective Intelligence, Chapter 10
+
+import feedparser   # pip install feedparser
 import re
 import sys
 from sklearn.decomposition import NMF

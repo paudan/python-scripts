@@ -1,3 +1,5 @@
+# Example from Programming Collective Intelligence, Chapter 11
+
 from random import random, randint, choice
 from copy import deepcopy
 from math import log
