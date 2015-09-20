@@ -9,7 +9,7 @@ config.read('fbconfig.ini')
 apikey = config.get('fbconfig', 'apikey')
 secret = config.get('fbconfig', 'secret')
 # token = config.get('fbconfig', 'token')
-FacebookURL = "https://api.facebook.com/restserver.php"
+FacebookURL = "https://api.facebook analysis.com/restserver.php"
 
 
 def getsinglevalue(node, tag):
@@ -62,22 +62,22 @@ class fbsession:
         return hasher.hexdigest()
 
     def createtoken(self):
-        res = self.sendrequest({'method': "facebook.auth.createToken"})
+        res = self.sendrequest({'method': "facebook analysis.auth.createToken"})
         self.token = getsinglevalue(res, 'auth_createToken_response')
 
     def getlogin(self):
-        return "http://api.facebook.com/login.php?api_key=" + apikey + \
+        return "http://api.facebook analysis.com/login.php?api_key=" + apikey + \
                "&auth_token=" + self.token
 
     def getsession(self):
-        doc = self.sendrequest({'method': 'facebook.auth.getSession',
+        doc = self.sendrequest({'method': 'facebook analysis.auth.getSession',
                                 'auth_token': self.token,
                                 'generate_session_secret': 'true'})
         self.session_key = getsinglevalue(doc, 'session_key')
         self.session_secret = getsinglevalue(doc, 'secret')
 
     def getfriends(self):
-        doc = self.sendrequest({'method': 'facebook.friends.get',
+        doc = self.sendrequest({'method': 'facebook analysis.friends.get',
                                 'session_key': self.session_key, 'call_id': callid()})
         results = []
         for n in doc.getElementsByTagName('result_elt'):
@@ -90,7 +90,7 @@ class fbsession:
         fields = 'gender,current_location,relationship_status,' + \
                  'affiliations,hometown_location'
 
-        doc = self.sendrequest({'method': 'facebook.users.getInfo',
+        doc = self.sendrequest({'method': 'facebook analysis.users.getInfo',
                                 'session_key': self.session_key, 'call_id': callid(),
                                 'users': ulist, 'fields': fields})
 
@@ -118,7 +118,7 @@ class fbsession:
     def arefriends(self, idlist1, idlist2):
         id1 = ','.join(idlist1)
         id2 = ','.join(idlist2)
-        doc = self.sendrequest({'method': 'facebook.friends.areFriends',
+        doc = self.sendrequest({'method': 'facebook analysis.friends.areFriends',
                                 'session_key': self.session_key, 'call_id': callid(),
                                 'id1': id1, 'id2': id2})
         results = []

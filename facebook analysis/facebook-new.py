@@ -3,7 +3,7 @@
 import time
 import hashlib
 import hmac
-import facebook     # pip install facebook-sdk
+import facebook     # pip install facebook analysis-sdk
 from ConfigParser import ConfigParser
 
 config = ConfigParser()
@@ -51,6 +51,5 @@ def main():
     s=fbsession()
     friends=s.getfriends()
     friends[1]
-
 
 if __name__ == "__main__": main()
