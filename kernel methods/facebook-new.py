@@ -1,3 +1,5 @@
+# facebook friends information - very limited, as it is not supported by FB
+
 import time
 import hashlib
 import hmac

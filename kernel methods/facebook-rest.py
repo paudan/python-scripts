@@ -1,3 +1,5 @@
+# Facebook friends information processing using REST - probably will not work, as it is not supported by FB
+
 import urllib, md5, webbrowser, time
 from xml.dom.minidom import parseString
 from ConfigParser import ConfigParser
