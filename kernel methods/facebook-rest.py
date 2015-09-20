@@ -1,8 +1,12 @@
 import urllib, md5, webbrowser, time
 from xml.dom.minidom import parseString
+from ConfigParser import ConfigParser
 
-apikey = "47e953c8ea9ed30db904af453125c759"
-secret = "ea703e4721e8c7bf88b92110a46a9b06"
+config = ConfigParser()
+config.read('fbconfig.ini')
+apikey = config.get('fbconfig', 'apikey')
+secret = config.get('fbconfig', 'secret')
+# token = config.get('fbconfig', 'token')
 FacebookURL = "https://api.facebook.com/restserver.php"
 
 
@@ -23,6 +27,7 @@ class fbsession:
     def __init__(self):
         self.session_secret = None
         self.session_key = None
+        self.token = None
         self.createtoken()
         webbrowser.open(self.getlogin())
         print "Press enter after logging in:",
@@ -31,6 +36,8 @@ class fbsession:
 
     def sendrequest(self, args):
         args['api_key'] = apikey
+        if self.token is not None and args['auth_token'] is not None:
+            args['auth_token'] = self.token
         args['sig'] = self.makehash(args)
         post_data = urllib.urlencode(args)
         url = FacebookURL + "?" + post_data
@@ -39,16 +46,22 @@ class fbsession:
         return parseString(data)
 
     def makehash(self, args):
-        hasher = md5.new(''.join([x + '=' + args[x] for x in sorted(args.keys())]))
+        str = ''.join([x + '=' + args[x] for x in sorted(args.keys())])
         if self.session_secret:
-            hasher.update(self.session_secret)
+           str += self.session_secret
         else:
-            hasher.update(secret)
+            str += secret
+        hasher = md5.new(str)
+        # hasher = md5.new(''.join([x + '=' + args[x] for x in sorted(args.keys())]))
+        # if self.session_secret:
+        #     hasher.update(self.session_secret)
+        # else:
+        #     hasher.update(secret)
         return hasher.hexdigest()
 
     def createtoken(self):
         res = self.sendrequest({'method': "facebook.auth.createToken"})
-        self.token = getsinglevalue(res, 'token')
+        self.token = getsinglevalue(res, 'auth_createToken_response')
 
     def getlogin(self):
         return "http://api.facebook.com/login.php?api_key=" + apikey + \
@@ -56,7 +69,8 @@ class fbsession:
 
     def getsession(self):
         doc = self.sendrequest({'method': 'facebook.auth.getSession',
-                                'auth_token': self.token})
+                                'auth_token': self.token,
+                                'generate_session_secret': 'true'})
         self.session_key = getsinglevalue(doc, 'session_key')
         self.session_secret = getsinglevalue(doc, 'secret')
 
