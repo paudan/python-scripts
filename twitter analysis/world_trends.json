@@ -1,0 +1,74 @@
+[
+ {
+  "created_at": "2015-09-21T20:06:17Z", 
+  "trends": [
+   {
+    "url": "http://twitter.com/search?q=%23AskTrump", 
+    "query": "%23AskTrump", 
+    "name": "#AskTrump", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83_%D8%A7%D9%84%D8%BA%D8%A7%D9%84%D9%8A", 
+    "query": "%23%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83_%D8%A7%D9%84%D8%BA%D8%A7%D9%84%D9%8A", 
+    "name": "#الزمالك_الغالي", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23BenimleOynarM%C4%B1s%C4%B1n", 
+    "query": "%23BenimleOynarM%C4%B1s%C4%B1n", 
+    "name": "#BenimleOynarMısın", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23ConMaduroPorLaPaz", 
+    "query": "%23ConMaduroPorLaPaz", 
+    "name": "#ConMaduroPorLaPaz", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23CoisasQueMeuCrushNaoSabe", 
+    "query": "%23CoisasQueMeuCrushNaoSabe", 
+    "name": "#CoisasQueMeuCrushNaoSabe", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22Viciconte+QUEEN+OF+The+Spring%22", 
+    "query": "%22Viciconte+QUEEN+OF+The+Spring%22", 
+    "name": "Viciconte QUEEN OF The Spring", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22VIGNA+La+Flor+Mas+Bella%22", 
+    "query": "%22VIGNA+La+Flor+Mas+Bella%22", 
+    "name": "VIGNA La Flor Mas Bella", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22%D8%A8%D8%A7%D8%B3%D9%85+%D9%85%D8%B1%D8%B3%D9%8A%22", 
+    "query": "%22%D8%A8%D8%A7%D8%B3%D9%85+%D9%85%D8%B1%D8%B3%D9%8A%22", 
+    "name": "باسم مرسي", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22Ryan+Adams%22", 
+    "query": "%22Ryan+Adams%22", 
+    "name": "Ryan Adams", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=Pizarro", 
+    "query": "Pizarro", 
+    "name": "Pizarro", 
+    "promoted_content": null
+   }
+  ], 
+  "as_of": "2015-09-21T20:09:58Z", 
+  "locations": [
+   {
+    "woeid": 1, 
+    "name": "Worldwide"
+   }
+  ]
+ }
+]

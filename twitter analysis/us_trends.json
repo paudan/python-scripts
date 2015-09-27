@@ -1,0 +1,74 @@
+[
+ {
+  "created_at": "2015-09-21T20:06:17Z", 
+  "trends": [
+   {
+    "url": "http://twitter.com/search?q=%23AskTrump", 
+    "query": "%23AskTrump", 
+    "name": "#AskTrump", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23blackoutday", 
+    "query": "%23blackoutday", 
+    "name": "#blackoutday", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23PeaceDay", 
+    "query": "%23PeaceDay", 
+    "name": "#PeaceDay", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23Maloski", 
+    "query": "%23Maloski", 
+    "name": "#Maloski", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%23mondaymotivation", 
+    "query": "%23mondaymotivation", 
+    "name": "#mondaymotivation", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22Ryan+Adams%22", 
+    "query": "%22Ryan+Adams%22", 
+    "name": "Ryan Adams", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22Apple+Car%22", 
+    "query": "%22Apple+Car%22", 
+    "name": "Apple Car", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22Jeff+Samardzija%22", 
+    "query": "%22Jeff+Samardzija%22", 
+    "name": "Jeff Samardzija", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22Martin+Shkreli%22", 
+    "query": "%22Martin+Shkreli%22", 
+    "name": "Martin Shkreli", 
+    "promoted_content": null
+   }, 
+   {
+    "url": "http://twitter.com/search?q=%22Tristan+Thompson%22", 
+    "query": "%22Tristan+Thompson%22", 
+    "name": "Tristan Thompson", 
+    "promoted_content": null
+   }
+  ], 
+  "as_of": "2015-09-21T20:09:59Z", 
+  "locations": [
+   {
+    "woeid": 23424977, 
+    "name": "United States"
+   }
+  ]
+ }
+]

@@ -1,0 +1,870 @@
+Blocks in Ruby
+--------------
+
+[ caption id=; attachment_80346; align=; alignright; width=
+[ /caption; blocks; Ruby; code; blocks; blocks; statements
+syntax; Ruby
+blocks; article; procs
+Ruby; blocks; methods
+
+
+data; block
+
+
+Blocks; methods; method; grab; data
+
+Keep; reading
+Block; syntax; example; uses; block; method; Ruby; builtin; Array
+
+iterator; data; sequence; help; something
+
+First; array; names; Western; U.S.; array; Array; method; ]; block parameter e
+
+
+block; uses; parameter; track; element; array; uses; something; element; array; case; strings
+block; do; shown
+braces; precedence; syntax; ]; Multiple; parameters; block
+Multiple; parameters
+hash; Hash; method; parameters; sense; ]; way; containers
+synonym; Hash
+Life; blocks; happens; Array; Hash; method
+Well; iterators
+method; enumerator
+Iterator; methods; sense
+example; upto; methods; Integer
+Compare; calls; example; [; ] Nothing
+Sort; like
+Scope; Ruby; parameter; name; containing scope; block; assigns; parameter; value; object; value; to_a; method; converts; range; array; ]; parameter; names; instances
+yield statement; block
+something; method call; block; code; block
+yield; work; part; control structure; iterator
+
+yield statement; block
+code; book; Ruby Pocket Reference
+method; gim; yield statement
+gim; call; irb; Ruby; homegrown interactive programming environment; ]; Uh
+error; yield; job; block; method
+Avoid; error
+
+Redefine; statement; ]; Try; gim; block
+]; redefine gim; yield; s; block; ]; thing; yield; executes; control
+
+Do; blocks; return
+note; return; values
+Blocks; return; values; way; parent
+return statement; block; containing method
+block; yields; value
+
+blocks; procs; lambdas; proc; way; procedure
+
+reason; proc; proc; block
+
+
+object; proc; runtime; data structures
+proc; Proc; Kernel; lambda; Kernel
+term lambda; Alonzo Church; lambda calculus; development; Lisp; programing language; programming
+Lambda; logic; number; programming; languages; Lisp; Python; Swift; C; Ruby
+
+difference; procs
+Lambdas; methods; procs; blocks; instances; Proc
+
+lambda; methods
+Kernel; lambda method; example
+call; calling; calls
+call; necessity; block; call; proc; ]; way; lambda; syntax; result; [
+
+fuller treatment; procs merits
+Summary Let; summary
+Blocks; functions; concise way
+iterator method; block
+
+addition; block; return value
+
+procedures; Ruby —; procs; use
+
+
+detail; Mike; reading section; blocks; section; procs; lambdas; Ruby Programming Language; David Flanagan; Yukihiro Matsumoto; chapter; blocks; Lucas Carlson
+
+domain; studs; image
+No, the IoT does not need strong privacy and security to flourish
+-----------------------------------------------------------------
+
+Get; report; Privacy; Security; Internet; Things
+addressing privacy; trust; Internet
+refrain; IoT; conferences; opinion; pieces; press
+consumers; IoT
+
+idea; concern; privacy; security
+Internet; Things; privacy
+technology evolution; IoT; citizen concern; minor role
+discourse; subject; developers; designers; policy-makers; manufacturers; actors; privacy; architectures
+research; people; feel
+Pew Research Center; Americans; feel privacy; lives; number
+sense; surveillance; feel; deal; control
+Research; countries; perception; risks; disclosure; information online; expectations; information; owners; parties; users; knowledge
+people; IoT; products; future
+surveys; definition; IoT (; something; ); relationship; consumers; something; concerns; privacy; security
+vendors; lackluster; sales; devices; ask; consumers; response; privacy
+(; disclosures; vendors
+absence; proof; professionals; commentariat; constraint; growth
+
+before; IoT; market domain
+
+protection; works; communications; network
+(; Copyright; violation; problem
+
+[; Federal Trade ] Commission; legislation; conjunction; self-regulation; protections; consumer privacy; time; development
+protections; commerce; consumers; confidence; order
+
+
+security; privacy; [
+
+
+economy; boundaries; ICT
+(; plenty; uneven; qualities; Internet
+
+privacy; online consumer; everyone; online
+
+Time; assertions; Internet; US; information infrastructure
+privacy; security; risks; way
+warm; fuzzies; accounts
+theory; argument; vulnerability
+research; people; intrusiveness; technology; desire; worries; things; wariness; part; IoT
+argument; privacy; security; IoT; head; warm; feelings
+
+Internet; Things; privacy; security
+senses; loss; privacy; part; encourages; improvement
+businesses; think; populace; creepy; gulf; opinions; sales; privacy
+marketing; engineering
+IoT; Orthodoxy; Chilled Innovation; history; logic; businesses; frictionless; transactions; privacy; differentiator; security; privacy become; topics; time; businesses; ( absence; )
+danger; Orthodoxy; people; something; sense; privacy loss; IoT; world; utopia; false sense
+Privacy; markets; goals; privacy
+Privacy; pursuit; designers; engineers; product; managers; compliance; managers; company; leaders; ones; privacy posture
+information; policies; require privacy impact; security; assessments
+view; privacy; pursuit
+view; face; belief; self-regulation; force; privacy; e; citizens; way; privacy; failures
+Markets; democracies; regulation; regulation; effect
+Privacy protection; occurs; plurality; insufficient
+
+domain image; article; category; pages
+Translating data into knowledge
+-------------------------------
+
+Download; Data Preparation; Big Data Era; report; challenges; data
+Data; rate worldwide; business; opportunities; challenges
+Internet traffic; exabytes; month; Cisco
+ability; manage; analyze; amount; data; success
+benefits; data; strategy; question; data
+challenge; company; picture; knowledge; assets; area; expertise; core; competencies
+picture; business model; relationships; distributors; suppliers; customers; order
+potential value; data; business context; data; drives; decisions
+report; Data Preparation; Big Data Era; guide; manage; challenges; data; preparation; steps; data
+problems; data; preparation; steps; data; combination
+products; deal; problem; data; variety; scale; Tamr; solution; data; scale; combination; machine
+report; discussing; importance
+terms; data preparation phase; raw; data; data; consistent; data; tidy; data
+Explore; raw; data errors; normalization; approximation; techniques; value; having
+
+post; collaboration
+See; statement
+domain image; article; category; pages; Wikimedia
+Four short links: 25 September 2015
+-----------------------------------
+
+Police Program Aims; Pinpoint Those Most Likely; Commit Crimes ( NYT ); John S. Hollywood; operations; RAND Corporation; number; studies; efficacy; policing; improvement; forecasting; crimes; %; %; policing
+Apple; Assault; Advertising; Google ( Calacanis ); Google; legacy; people; ads; profiles; advertisers; awesome business; legacy; Larry
+Read; Bloomberg; piece; click fraud; future
+ad; bursts
+China Is Building The Mother Of All Reputation; Systems; To Monitor Citizen Behavior; The; document; construction; credibility; ability; credits; areas; life; energy
+Computer Hardware ( Makezine ); hardware project
+spec; R8 ARM; processor; RAM; NAND; storage; Wi-Fi
+DevOps for Finance
+------------------
+
+[ caption id=; attachment_80326; align=; alignright; width=; Download DevOps
+[ /caption; Download; copy; DevOps; Finance; report; Jim Bird; services; software insider; DevOps; unsure
+DevOps; story
+online tech; companies; Flickr; Etsy; Twitter; Facebook
+
+Amazon; deploying; thousands; changes
+DevOps; WebOps; Internet; companies; Cloud; handful; Lean Startups
+companies; ways; faster
+velocity; change; business; enterprises; horses; contrast; unicorns; content; features
+organizations; way; adapt; DevOps; ideas; practices
+book; DevOps; DevOps; practices; Continuous Delivery; Infrastructure; Code; problems; systems; trading firm; bank
+ideas; DevOps; world; systems; wall; confusion; development; operations; Agile; practices; values; development; operations; configuration management; tools; Chef; Puppet; CFEngine; Ansible; provision; configure; systems; Infrastructure; Code ) Building Continuous Integration; Continuous Delivery ( CI/CD ); test; changes; security; compliance; pipelines; containerization; virtualization; technologies; Docker; Vagrant; Infrastructure; Code; IaaS; PaaS; SaaS; clouds; Running; experiments; loops; learning; failure; book; ideas
+lot; good stuff; DevOps
+place; watching; John Allspaw; Paul Hammond; presentation; Velocity; Deploys; Per Day; Dev; Ops Cooperation; Flickr; DevOps; ideas
+Revolution; DevOps; Guide; DevOps; point
+Phoenix Project; Novel About IT; DevOps; Helping Your Business Win; Gene Kim; Kevin Behr; George Spafford (; Revolution
+practices; DevOps; time; Delivery ( Addison- Wesley ); Dave Farley
+DevOps; Practice; ebook; explains; DevOps; organizations; DevOps; initiatives; Nordstrom
+challenges; trading; firms; banks; exchanges; industry; players; success; Google; Amazon; ideas; speed; delivery; operations costs; online
+services; services providers; Internet; tech; companies; share; technology; business
+
+farms; thousands; tens; thousands; servers; thousands
+bank; bank; number; users; online company; Facebook; Twitter
+hand; volume; value; transactions; stock exchange; handles; trading day; online; sites; Amazon
+Netflix; deals; amounts; video traffic; trading; firms; online market; data; millions; messages
+Big Data; worlds; firms; Morgan Stanley; Credit Suisse; Bank; America; adopt; data analytics platforms
+Google; partnership; SunGard ); providers; Securities; Exchange Commission; Consolidated Audit Trail ( CAT ); secure platform; record; order; quote; trade; US; equities options markets; records; day; trading; firms; exchanges; online
+
+services; industry; online tech world; premium; innovation; time
+Businesses; pressure; efficiency; expense; reliability; service
+services; DevOps; ways; products; services; time; constraints; uptime; performance service-level; agreements; SLAs; compliance; governance
+DevOps tools; finance industry; DevOps; culture; collaboration; development
+jobs; software; operating; systems; testing; compliance; security; checks; software packaging; configuration management
+basis; automation; explains; vendors
+DevOps; toolchain; Version; control; artifact; repositories; Delivery; servers; Jenkins; Bamboo; TeamCity; Go Automated; testing; tools; analysis; checkers; test; frameworks; Automated; tools; Infrastructure; Code; configuration management; tools; Ansible; Chef; CFEngine; Puppet Virtualization; containerization; technologies; Docker; Vagrant Build; management; tools; Maven; Continuous Integration; servers; Jenkins; industry; Agile; development
+analysis; tools; test; security; vulnerabilities; coding; bugs; system testing; practices
+test; frameworks; JUnit; Selenium; lot; help; solving; test automation; problems; systems; integration testing; security testing
+Log; management; analysis; tools; Splunk; services organizations; BNP Paribas; Credit Suisse; ING; Financial Industry Regulatory Authority ( FINRA ); security event; fraud analysis; surveillance; transaction
+Automated; configuration management; systems; release management
+CFEngine; tools; banks; Wall Street
+Puppet; International Securities Exchange; NYSE; Bank
+Bloomberg; Standard Bank; South Africa (; bank; Africa ); others
+Electric Cloud; build; deployment; solutions; investment; banks
+office trading; systems; bare metal; order; latency; requirements; Docker; containerization; virtualization; technologies; clouds; testing; data analytics; office; functions; institutions; ING; Société Générale
+players; part; DevOps; community; source
+example; LMAX; detail; core infrastructure technology; low-latency; Disruptor inter-thread
+year; OSCON; Capital; Hygieia; source; Continuous Delivery
+operations; WebOps Financial; services firms; DevOps engineers; releases; Delivery; pipelines; Site Reliability; Engineers; (; Google )
+jobs; firms; ways; bank; stock exchange; way; Google; Facebook; online
+differences; Banks; investment; advisers; online; experiments; users
+
+DevOps practices; Monitoring; Testing; developers; root access; production; NoOps; environments; systems; online; media startups; environments; requirements; testing; assurance; release approval; segregation
+Web; channels; services; example; online banking; trading; web; services; B2B system-to-system
+happens; systems; messaging; protocols; FIX; FAST; SWIFT; low-latency proprietary; APIs; names; ITCH
+tools; ideas; solving web; development
+Deployment; developers; changes; production; works; stateless web; applications; kinds; challenges; problems; B2B; systems; exchange; thousands; messages; latencies; regulators; change; schedules; quarters
+book; Continuous Delivery; pipelines; change; deployment; changes; production; operations; compliance; teams
+Internet; businesses; businesses; markets
+amount; activity; amount
+window; after-hours
+online; companies; Etsy; PCI DSS; regulations; credit card; data; requirements; cash register; part
+services; organization; cash register; needs; activity
+industry; players; adopters
+history; investing; technology; legacy; systems; decades; systems
+legacy problem; duplication; overlap; systems; mergers; acquisitions; investment bank; dozens; systems; functions; dozens; copies; master file; data
+systems; industry; changes; problems; system
+addition; forces; inertia; challenges; costs; DevOps
+benefits; risks; value; customers; competitors; online; startups
+challenges; detail; organizations; order; DevOps; DevOps
+DevOps; practices; systems; ideas; DevOps; leaders; Etsy; Amazon; Netflix
+Disclaimer; views; book; author; employer
+Learning the Web
+----------------
+
+
+HTML; CSS; JavaScript; entry; points; newcomers; finding
+media; level; HTML; Web; knowledge; people; contributing; time; jump; Web
+Part; challenge; HTML; CSS; JavaScript; marquee; technologies; hosts
+requires; set; technologies; domain; names; server
+
+requires; toolset
+report; Getting Started; Web; core
+
+year; Rachel Andrew; entries; web developer; Grunt; things
+Web; websites; source
+
+routes; people; playing; things; need; stack; stuff; line
+Tools; part; challenge; universe; devices; people
+Andrew; battle
+multiple; sites; design; issues; performance; things
+
+news; device front; HTML; formatting; device
+ways; design
+
+HTML5; HTML; years; effort; HTML
+Support; audio; video; need; ) browser; Flash; way; people; multimedia; content; years; hands
+audio; video; files; challenge; document; image
+things; sites; years
+HTML5; Fundamentals
+Training in the big data ecosystem
+----------------------------------
+
+Subscribe; Radar Podcast; technologies; people; world
+week; Radar Podcast; Ben Lorica; Paco Nathan; director; Learning; Jesse Anderson; trainer; engineer
+discussion; focuses; training landscape; data; ecosystem; teaching; techniques; content; look
+snippets; chat; vs; PowerPoint; Anderson; startup; somebody; 'Well; training; software; developers; training
+differences; training thing; PowerPoints; meetup; training
+
+concepts; things; person
+lot; time; expertise
+Nathan; committer; meetup; extension
+client firm; training
+
+
+thing; people; understand; design
+size; afterthought
+training; Anderson; Companies; Hadoop; Hadoop; place; things
+frameworks; Spark; streaming; cases; Flink; lot; technologies; processing
+
+Part; reason; Confluent; Kafka; training; companies; architecture diagram; Kafka; Hadoop
+Nathan; People
+business context; kind; patterns; work; right kind; use
+Jesse; people; framework; ones; showing
+
+people; training; integrations; ones
+Spark; Kafka; Cassandra
+pattern; banking
+
+illustration; integrations
+enterprise; Anderson; gaps; things; engineers; analysts; operations people; business
+Cloudera; managers; people; companies
+love; knowledge; time
+business person; idea; technologies; idea
+course; Business
+technology; level; applications
+technology; data; technology; order
+data; order
+
+data; order
+
+things; companies; difficulty; data; project; bit different
+
+
+Nathan; training; companies; training; stops
+
+lot; room; people; context
+things; team; training session; issues
+thing; something; Jesse; reason; people; kinds; training; environment
+
+
+pain; points; companies; teams; experts; company; lot
+Subscribe; Radar Podcast Stitcher; TuneIn; iTunes; SoundCloud; RSS Related; Business; Big Data Workshop — Live; online training; Jesse Anderson; November; a.m.; p.m.
+Learning Path; Architect; Build Big Data; Applications; — This Learning Path; process; building; data applications; interpret; reams
+domain image; article; category; pages; Wikimedia
+Building enterprise data applications with open source components
+-----------------------------------------------------------------
+
+Subscribe; Data Show Podcast; opportunities; techniques; data; data
+Scala; Spark (
+Spark; books; Scala
+days; Spark; Scala
+Data Show Podcast; author; Typesafe; resident; data; architect; Dean Wampler; Scala; programming; languages; data; ecosystem; interest
+years; experience; companies; software; projects; years; enterprises; design
+snippets; conversation; Apache Mesos; data; ecosystem; capability; Spark ]; laptop
+…; course; interesting part
+
+
+…; thing; Mesos; YARN
+cluster; machine; resources; illusion; things; network; latencies
+machine; resources; jobs; users; stuff; flexibility; things; Spark; jobs; services; HDFS; Cassandra; Kafka
+…; situation; successor
+mature; ecosystem; Hadoop; ecosystem; everybody
+people; flexibility; Mesos
+Tachyon; days
+way; Spark; fundamental
+Spark; case; resilient
+Tachyon; file system; way; cache; system
+applications; data sets; memory; file system; kind; API; API; speeds; configuration
+scenes; data
+facilities; data; file system; number; problems; data applications; data; jobs; giving; flexibility; performance
+
+Backpressure; streams; Backpressure; consumer; producer; data
+protocol; rate
+reason; way; connection; producer; consumer; buffer; queue
+
+stream system; years; situation; producer; data; consumer; memory
+flipside; right; things; buffers
+
+
+idea; backpressure; negotiation happen; band; socket connection; something; consumer
+data; consumer; consumer; right; send; kind; thing; [
+[; Reactive; streams; backpressure mechanism; graph; things; decisions
+data; system; backpressure
+Subscribe; Data Show Podcast Stitcher; TuneIn; iTunes; SoundCloud; RSS Related; resources; data; center; operating system; Benjamin Hindman; creator; Apache Mesos Introduction; Tachyon; deep dive; Baidu; production use case; webcast; Haoyuan Li; co-creator
+processing revival; Tools; resources; building intelligent; products; sessions; World NYC ) Apache Spark; Powering; applications; cloud; Data Show; episode; Spark; release manager
+interview; SoundCloud; player; Stitcher; SoundCloud; TuneIn
+Image; article; category; pages; L Rempe-Gillen
+Major players and important partnerships in the big data market
+---------------------------------------------------------------
+
+Download; report; Mapping Big Data; Data Driven Market Report; insights; shape; structure; data
+players; data
+
+
+handful; questions; report; download; Big Data
+report; San; startup; Relato; intersection; companies; data; network; tens; thousands; nodes; edges; companies; partnerships; data
+Relato; network; extracting; data; company home; pages; Web; network analysis; market; experts; results; insights
+result; preview; future; market
+report; introduction; data; history
+market segmentation; cluster analysis; sub-markets; data; vendors
+markets; explore
+report; compare; players; market; development; market; Hadoop; platform; vendors; Cloudera; Hortonworks
+contrast; vendors; metrics; types
+report; vendors; partnership; networks; understanding
+market; analyses; surveys; quadrant
+report; reveals; market; data; footprint; market; players; course
+
+Screenshot; image; article; category; pages; Relato
+Renaming isomorphic JavaScript?
+-------------------------------
+
+[ caption id=; attachment_80286; align=; alignright; width=; Abbott; Costello; performing
+[ /caption; Abbott; Costello; signature wordplay sketch
+
+
+sketch; reveals; fact
+Good; precise
+names; people
+code; names; function; names
+
+Phil Karlton; things; Computer Science; invalidation
+developers; ways; JavaScript; code; web application server
+sharing; JavaScript; code; web; pages; client; benefits; page load; times
+name; approach; Charlie Robbins; Spike Brehm
+applications; sense; (; isos; form; shape; environment; browser
+JavaScript; code; server; client
+Isomorphism; notion; objects; forms
+
+Take; example; graphs
+[ caption id=; attachment_80287; align=; alignnone; width=; Example
+
+starters; number; nodes; node; number
+node; graph; corresponding node; graph
+example; node; can; maintaining; adjacency
+fact; nodes; graph; one-to-one correspondence
+
+order; JavaScript; code; client; server; environments; environments; mapping; client environment; server environment functionality
+graphs; JavaScript
+JavaScript; code; environment; features; example; avoids; window; request; sides
+JavaScript; code; properties; e.g.; mapping; fill; shim
+Isomorphic JavaScript; applications; advantage; build; scripts; tools; Browserify; Webpack; extract; morph; package code
+
+concerns; word; inaccuracy; barrier; developers
+
+Michael Jackson; trainer; co-author; project; term; universal
+term; Apple; description; app; bundles; CPU
+PowerPC; Intel ); apps; iPad
+Apple; usage; familiarity; term; everyday use; Michael; luck; universal; JavaScript
+term; universal; JavaScript; code; servers; browsers; devices
+name; flavor; helps; discussion beyond
+others; names; JavaScript; stress; commonality; code; server
+
+names; merit; desire; JavaScript; community; good
+upcoming; book
+term; right; things
+
+Please; comment; suggestions
+
+image; Wikimedia
+Improving corporate planning through insight generation
+-------------------------------------------------------
+
+
+difficulty; insight generation; apparent; companies; offer; generation
+Data; storage; management; analytics; services; companies; services; basis; data; data; access
+Companies; DataHero; Host Analytics [; disclosure; Host Analytics; portfolio; companies; way
+Host Analytics; product offering; Enterprise Performance Management ( EPM ) Suite; enterprise; EPM; company
+post; trends; insight; service; IaaS; discuss; case; software-as-a-service; SaaS; EPM; solution; data; insight; service; level
+Insight; generation; identification; novel; relations; elements; data set; ) lead; formation; action plan; b; result; improvement; set
+evaluation; set; relations; insight; creation; action plan; insight; insights; context; use
+Insight; service; refers; solutions; generate; insights; action
+Insight; service; layer; cloud stack; IaaS
+case; Host Analytics; EPM; solution; customer; planning; data; actuals; Enterprise Resource Planning ( ERP ); applications; e.g.; SAP; NetSuite; source; data; offering
+EPM; words; matter; data provisions; enterprise; opportunity
+EPM; category; rest; data; industry; solutions; enterprises; software; SaaS; storage
+evolution; planning; processes; priority
+EPM; applications; Excel; way; solutions; years; rise; vendors; Hyperion
+Hyperion; Essbase; OLAP; technology; analysis
+enterprise; applications; EPM; cloud
+corporation; data; data sources; source
+rise; data; access; management; data; SaaS; applications; —; business user; access; data
+result; access; data; companies; everything; numbers; sales pipelines; benchmarking; data; data
+data; insights; corporations
+First; companies; agility
+company leadership; boards
+Legacy; EPM; applications
+
+EPM; solutions; departments; information; information; CRM; data
+departments; report; deliver; data; using; Excel; spreadsheets; manage; time; data; source
+
+ramifications; barrier; achieving true enterprise performance management; IaaS; applications; EPM; functions; marketing; sales; services
+IaaS; applications; data sets; departments; plan; process; companies; realize; benefits; insight
+way; CFO; VP; sales; CMO; VP; services; actions; performance; departments; extension; elevate; performance
+Image; article; category; pages; Wellcome
+Integrate, catalog, and preserve metadata
+-----------------------------------------
+
+edition; Podcast; host; chief; data; Ben Lorica; Dr. Clare Bernard; particle physicist; CERN; ATLAS; experiment
+Bernard; field engineer; Tamr; project; variety; data; enterprise
+Key; chat; lot; companies; master; data; management; projects; place; lot; data-governance
+data; fields; transformations; data; time
+metadata; allows; data pipelines; lineage; provenance
+Ben Lorica; Let; start; bit
+
+
+
+CERN; couple; years; ATLAS; experiment
+
+
+BL; physicist; side
+CB; Yes
+bit; collecting; data; time; data; measuring standard model; physics processes; types
+BL; kind; tools; world; type
+CB; Particle; physicists; type; software; world
+Particle; physicists; framework; Root —
+BL; like; framework; type
+CB; Yes; jobs; computing
+CERN; system; computing; ones; twos; data; world
+
+CB; work; grad school; CERN; figuring
+data; analysis; translates; world
+CERN; Higgs-Boson
+experiments; future; precision; measurements
+BL; Today; Fortune; companies; Tamr
+thoughts; state; enterprise; data
+CB; organizations; amounts; data; amount; value; data; enterprises; time
+
+side; enterprise; analysts; data scientists; value; data; data
+data; quality; issues; data; format; hurdles
+challenge; messiness; enterprise; data; variety
+BL; tools; systems; companies
+CB; lot; patterns
+lot; companies; master; data; management; projects; place; lot; data-governance
+challenge; systems; system; records; something
+data; systems
+BL; tools; terms; data sources
+CB; lot; companies; data; repository
+data; place; bit; data; places; lot; information
+BL; Actually; attention
+
+lot; companies; issue; metadata; data; HDFS
+
+CB; lot; companies; metadata
+metadata; catalogs
+
+issue; data; data
+
+
+BL; Let; set; stage; metadata
+
+Let; say; data; customers; data lake; fields; Given Name; name; field
+
+name; fields; name
+reality; someone; ETL; process; data; source system; data; transformations; name field; information; transformations; data
+data; difficult; data
+data; fields; transformations; data; time
+BL; data pipelines; lineage; provenance
+
+leverage; work; people
+data; hundreds
+data; project; data; transformations; data scientists; advantage
+BL; data scientists; company; way
+CB; Exactly; data scientists
+
+everyone; leverage; work
+
+tools; explain; colleagues
+CB; lot; tools; address; parts
+
+reasons; problem; something; customer; sites; time
+Catalogs; go; systems; capture; metadata; comments; features; something; exists
+BL; source; project; Joe Hellerstein; co-founders; Trifacta; something
+Tamr; issue; folks; companies
+
+things; happens; lot; meetings; screens; Tamr Connect; product; list; sources; system; reaction; people
+
+
+
+
+problem; people; people; initiatives; data; data; lot
+BL; Tamr; Catalog; software; problems
+CB; Customers; data sets; type; data
+Catalog; product; web application; problem; data
+organization; Catalog; repository; metadata; human knowledge
+connecting; systems
+BL; machine; part
+CB; Catalog; software; profiling; lot
+Catalog; lot; systems; list; sources; value; list; sources; attributes
+vision; Tamr; Connect; product; integration; machine
+BL; Have; customers
+
+CB; Yes; registrants; users; variety
+Alpha; customers
+lot; feedback; data; awareness; level; organization; data
+BL; companies; existence
+CB; lot; tools; problems; approaches; number; administrators
+core; Tamr; difference; Catalog
+
+Catalog; part
+Catalog; data; enterprise; data; projects; Tamr Connect; product; data sources; data
+BL; Data; sources; gamut; types
+CB; Yes; Tamr Catalog; laptop; XML; CSV; Excel; files
+
+vision; product
+everything; enterprise; embrace
+Tamr; Catalog; product; podcast episode
+post; collaboration
+See; statement
+Cropped; image; article; category; pages; Nevit Dilmen
+The validated learning process for building a hardware startup
+--------------------------------------------------------------
+
+Buy; The Hardware Startup; Building Your Product; Business; Brand; Renee DiResta; Brady Forrest
+post; excerpt
+Hardware; founders; development; validate; ideas
+
+design; technologies; once; prototype
+foundation; learning
+groups; people; success
+fellow; hardwarians; group; helpers; road; building; product; hardware
+hardware community; customer; roots
+
+experience; guidance
+
+Certain; development process; finding; contract manufacturer
+founders; products; space; chance; things
+hardware; founders; software; makers; networks
+
+online; communities; ties; substitute
+town; meeting fellow hardware; hackers; facilities; suppliers
+
+Hackerspace Wiki; resource; finding; people; benefit; workspace
+See; TechShop; FabLab
+addition; teaching; classes; spots; community; events; show-and-tells
+Hardware Startup Wiki; Maker Map; sites; part; authors; book
+co-founder; team; founding team
+
+months; convince someone; team
+relationship; marriage; company; person; years; partner; channels; communication
+consider; matching community; FounderDating
+
+days; finding; people
+
+founder; hardware experience; business experience
+
+sales; point; someone; convince; people
+business development person; team member
+
+funding; market; terms
+co-founder; gun
+teammate; shares; vision
+Sales; experience; days; company; co-founder
+device; product; customer; software; software engineer
+Software; arena; hardware company
+founders; software development; beginning; someone
+pipeline; talent
+Talent; acquisition; reason
+cities; hackathons; low-pressure way; project
+university; alumni network; join; school; listserve; LinkedIn
+LinkedIn; connections; resource
+network; teammates
+someone; introduction
+
+
+
+vision; aligns
+ideas; product
+founding team; collaborators; people; decisions; %
+teammates; work
+Founder; incompatibility; reasons
+questions; equity; splits; division
+
+concern; commitment; co-founders; jobs
+job; funding; founder; %; time; attention; launching
+founder; startup; paying job; founder; s; took; risk
+mentors; Another; group; people; idea stage
+mentor; advice
+experience; facet; market
+mentor; skill set; example; marketing expert; domain knowledge; instance; doctor; ailment; device; remedies; years; experience; industry
+hardware entrepreneur; building; close relationship; someone; process; manufacturing; product
+case; hardwarians; mentor; waste
+
+People; lot; experience; leadership
+time; commodity
+Therefore; approach
+someone; mentor; bat; approach; marriage
+mentor; relationships
+time; pointers; Keep; email; message concise
+
+Tell; person; impression; email
+
+Ask; help; question
+something; response; issue; blog post; source
+Minimize; friction; offering; schedule; mode
+startup; founders; advisory relationship; mentor; contribution; awarding; equity stake
+contract; founder; mentor; level; engagement
+
+Strategic; help; participation; recruiting; introduction; customers; expert; value-adds; work; project; amount
+Do; mistake; choosing; advisors; picture; slide; impress
+part; company; person; work
+advisory contract; criteria; termination; case; relationship; advisor; space; advisor; expertise
+True Believers; community; True Believers
+people; care; road; success
+core; group; friends
+True Believers; look
+Start; tell; closest; friends; family; ask
+
+media channels; leverage; tweet; post; friends; followers; landing page; forum
+Identify; influencers; network; project
+
+
+functions; group; word; number; True Believers; reach; spending time
+group; crowdfunding; preorder campaign
+
+Believers; subset; group
+Communities; form; interests; practices; instance; hobbies; professions; location
+goal; communities
+
+earliest; adopters; time
+
+product; chunk; time
+True Believers; care; adopter community
+result; excellent source; feedback
+community; ground; obstacle; group
+community; True Believers; effort; extending
+circle; contacts; presence; channels; consider; amount; time
+
+relationships; online
+Post; content; Twitter; engage; people; articles
+Google; variety; keywords; phrases; blogs; sites
+Look; in-person
+
+spirits; academia; example; universities; robotics
+handful; adopters; time; dialogue; begin; group
+Introduce; members
+work; conversations
+
+extent; talk; development process; solicit feedback
+Passionate; community; members; part
+level; excitement; path
+Work; community; discussions
+Discuss; industry
+Share news; articles; issues
+Call; attention; milestones; successes; members
+True Believers; adopters
+Consider; offering; perks; appreciation; pre-orders
+group; encourage; members; contacts
+community; members; anyone
+model; beginning; size; tone; community
+group; longer; engagement
+group; tools
+Google; Facebook; group
+Ning; forum
+search; results
+project; audience; consider; forum
+platform; format
+community; sharing; content; networks
+Brady Forrest; Renee DiResta; Advising Hardware Startups —; podcast; Bazillion Dollar Club; SyFy Watch; fireside; authors; Renee DiResta; Brady Forrest; Ryan Vinyard; Solid; https; Public; domain image; article; category; pages
+Four short links: 24 September 2015
+-----------------------------------
+
+Hit Charade ( MIT TR ); system; millions; example; songs
+What’s; algorithms; songs
+Nor; piece; me-too imitation
+Johnson; acknowledges; limitation; expertise; part; Spotify’s
+Future; War; Distant Past ( John Birmingham ); Naval Academy; future; creating cybersecurity; midshipmen; requiring; midshipman
+Happens Next Will Amaze You ( Maciej Ceglowski ); Maciej; amazing series; keynotes; convincing case; fixing
+Go Will Dominate; Next Decade ( Ian Eyberg )
+
+Understanding the experience design of consumer IoT products
+------------------------------------------------------------
+
+Download; copy; report; User Experience Design; Internet; Things; Claire Rowland; framework; understanding; UX; consumer; IoT
+post; excerpt
+design; products
+design; devices; user; interfaces; UIs; Web; apps
+concerns; impact; end user; experience
+
+UI; stunning piece; hardware; users; experience
+IoT; Web
+
+reflects; immature understanding; consumer; IoT; value
+stems; fact; aspects
+
+product; approach
+
+collaboration; design; technology
+Great UX; understanding
+designer; ability; users; needs depends; technology; enablers; business; models
+designers; collaborators; understanding
+discussing; word; design
+report; framework; understanding; experience design; consumer; IoT
+facets; design; combine; shape
+
+technology; wider commercial context work; shape; UX; IoT
+scope; report; design process
+pure software design; hardware
+Value; propositions; design; requirements; product; design; decisions
+nature; challenges; collaboration; design; engineering; hardware; software
+UX; IoT; Connected; products; design; challenges; designers; software
+stem; nature; IoT; devices; Their; ability; worlds; fact; IoT; products; systems; multiple; devices
+challenges; maturity; technology; context; use; expectations; users; system; complexity; service; example; devices; user; products; factors; devices; capabilities; 'things; internet; things; computing
+computers; smartphones; PCs; hardware; software
+
+UI; capabilities; screens; buttons; controls; audio; haptics; gestures
+
+user; interactions; benefit; style; standards; Web
+user input; output
+way; state; remote
+[ caption id=; attachment_80239; align=; aligncenter; width=
+Jared Ficklin; demonstrating Room-E; system; voice
+gesture; lamp; voice input; turn; light”
+Image; Taylor Hamilton; Frog
+[ /caption; Real; world context; Connected; products
+Sensors; data; transmission; actions
+Actuators; capability; commands; world; effects
+
+
+
+[ caption id=; attachment_80240; align=; aligncenter; width=
+Sensors; readings; environment; information; actuators; instructions
+[ /caption; context; use
+
+
+
+Devices; requirements; radio interference; waste
+context; use
+solutions; needs
+example; living product; balance; need; people; safety; support; preserving; privacy
+Automated; rules; modes; smart home; systems; perform; actions; conditions; turning; devices; people; home
+permissions; smart home; systems; admin; user; access; devices; others; house; TV/games; time; children; cupboards
+account; life
+
+
+people; sysadmins
+systems; devices; services; Many; products; systems; devices
+Functionality; devices
+Designers; functionality
+UIs; interactions; system; –; devices; standalone; UIs –
+
+information processing; IoT; product
+system experience; device
+Furthermore; understanding
+
+
+Parts; system; offline
+knowledge; component; users; consequences; figure
+products; support automation; example home automation; rules; turn; devices; response
+Users; track; Web; interrelationships; devices; clashes; strange
+years; trend; UI; design; manipulation
+Users; control; representations; objects; outcome
+IoT; interactions; location; remote control; time
+link; user; actions; consequences; software
+Complex; products; home system; users; multiple; UIs; devices; rules
+
+Aside; configuration overhead; imposes; users
+
+understanding; systems; interrelationships; future; consequences
+networks; factor; impact; network
+Designers; Web; software; backgrounds; luxury
+users; internet; PCs
+
+latency; reliability
+experience; world
+Light; switches; instructions; seconds
+Delays; glitches; properties; networks; transmission
+strange; world
+engineer; issues; system; see
+[ caption id=; attachment_80242; align=; aligncenter; width=
+design; product company; BERG; concept prototype
+video; responses; app; machine
+
+Images; Timo Arnall
+[ /caption; In; addition; nature; devices; order
+Computers; data
+IoT; systems; sync; devices; report; information; state
+system; designers; delays; discontinuities; uncertainty; part; user

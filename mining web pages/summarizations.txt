@@ -1,0 +1,222 @@
+Blocks in Ruby
+==============
+
+Top N Summary
+-------------
+The yield statement 
+ As you know by now, a block must follow a method call. and without: 
+ [crayon-56082082d7b8a869687801/] 
+ Now redefine gimme to contain two yield s, and then call it with a block: 
+ [crayon-56082082d7b91603795181/] 
+ Another thing you ought know is that after yield executes, control goes back to the statement immediately following it. Kernel 's lambda method, for example, expects a block. An iterator method such as each without a block will return only an enumerator. Finally, stored procedures in Ruby — procs — use blocks as well.
+-------------------
+Mean Scored Summary
+-------------------
+An iterator munches data, usually in sequence, and with a little help, can actually do something useful with that data. The braces actually have higher precedence than do / end , and the syntax is more concise, as you can see: 
+ [crayon-56082082d7b4d637945346/] 
+ Multiple parameters 
+ A block may use more than one parameter. Compare these calls, for example: 
+ [crayon-56082082d7b5d055566786/] 
+ With these: 
+ [crayon-56082082d7b64343657285/] 
+ Nothing doing with the last two, except returned enumerators. The yield statement 
+ As you know by now, a block must follow a method call. We don't always see yield at work — it is part of the underlying, implicit control structure of iterator methods. Redefine gimme with an if statement: 
+ [crayon-56082082d7b83857171859/] 
+ Try gimme again with a very simple block (not an iterator!) and without: 
+ [crayon-56082082d7b8a869687801/] 
+ Now redefine gimme to contain two yield s, and then call it with a block: 
+ [crayon-56082082d7b91603795181/] 
+ Another thing you ought know is that after yield executes, control goes back to the statement immediately following it. Kernel 's lambda method, for example, expects a block. An iterator method such as each without a block will return only an enumerator. Finally, stored procedures in Ruby — procs — use blocks as well.
+
+No, the IoT does not need strong privacy and security to flourish
+=================================================================
+
+Top N Summary
+-------------
+To wit: 
+ 1995: The global marketplace is doomed! "Unless security and privacy are protected, the [national information infrastructure] won't reach its full potential." "A networked economy will only reach its full potential if sectoral boundaries are dismantled and an even take-up of ICT in society is ensured." (There are plenty of uneven socio-economic qualities to the Internet and related technologies.) The argument that privacy and security must be addressed for the IoT to blossom, then, can be met with head nodding and warm feelings because it assuages fears.
+-------------------
+Mean Scored Summary
+-------------------
+Economic imperative and technology evolution will impel the IoT and its tremendous potential for increased monitoring forward, but citizen concern plays a minor role in operationalizing privacy. To wit: 
+ 1995: The global marketplace is doomed! "Unless security and privacy are protected, the [national information infrastructure] won't reach its full potential." (Seems to be healthy and evolving.) "A networked economy will only reach its full potential if sectoral boundaries are dismantled and an even take-up of ICT in society is ensured." (There are plenty of uneven socio-economic qualities to the Internet and related technologies.) The argument that privacy and security must be addressed for the IoT to blossom, then, can be met with head nodding and warm feelings because it assuages fears. Such a view flies in the face of the economically driven belief that self-regulation is the main force by which we should engender privacy, or that "[e]ducating and empowering citizens is the better way" to address privacy failures – two more orthodoxies.
+
+Translating data into knowledge
+===============================
+
+Top N Summary
+-------------
+Data is growing at an exponential rate worldwide, with huge business opportunities and challenges for every industry. In 2016, global Internet traffic will reach 90 exabytes per month , according to a recent Cisco report. Having a clear picture of the business model and the relationships with distributors, suppliers, and customers is extremely useful in order to design a tactical and strategic decision-making process. We explore the common problems of data preparation and the different steps involved, including data cleaning, combination, and transformation. Public domain image on article and category pages via Wikimedia Commons .
+-------------------
+Mean Scored Summary
+-------------------
+Data is growing at an exponential rate worldwide, with huge business opportunities and challenges for every industry. In 2016, global Internet traffic will reach 90 exabytes per month , according to a recent Cisco report. Having a clear picture of the business model and the relationships with distributors, suppliers, and customers is extremely useful in order to design a tactical and strategic decision-making process. We explore the common problems of data preparation and the different steps involved, including data cleaning, combination, and transformation. This free report begins by discussing the importance of identifying and exploring your business question. Public domain image on article and category pages via Wikimedia Commons .
+
+Four short links: 25 September 2015
+===================================
+
+Top N Summary
+-------------
+Apple's Assault on Advertising and Google (Calacanis) -- Google wants to be proud of their legacy, and tricking people into clicking ads and selling our profiles to advertisers is an awesome business – but a horrible legacy for Larry and Sergey. Read beside the Bloomberg piece on click fraud and the future isn't too rosy for advertising. China Is Building The Mother Of All Reputation Systems To Monitor Citizen Behavior -- The document talks about the "construction of credibility" — the ability to give and take away credits — across more than 30 areas of life, from energy saving to advertising. $9 Computer Hardware (Makezine) -- open hardware project, with open source software. The board’s spec is a 1GHz R8 ARM processor with 512MB of RAM, 4GB of NAND storage, and Wi-Fi and Bluetooth built in.
+-------------------
+Mean Scored Summary
+-------------------
+Apple's Assault on Advertising and Google (Calacanis) -- Google wants to be proud of their legacy, and tricking people into clicking ads and selling our profiles to advertisers is an awesome business – but a horrible legacy for Larry and Sergey. China Is Building The Mother Of All Reputation Systems To Monitor Citizen Behavior -- The document talks about the "construction of credibility" — the ability to give and take away credits — across more than 30 areas of life, from energy saving to advertising.
+
+DevOps for Finance
+==================
+
+Top N Summary
+-------------
+[/caption] 
+ Download a free copy of DevOps for Finance , an O’Reilly report by Jim Bird for the financial services software insider who's heard about DevOps, but is unsure whether it represents solution or suicide. Businesses (and IT) are under constantly increasing pressure to deliver faster, and with greater efficiency — but not at the expense of reliability of service or security. A common DevOps toolchain includes: 
+ 
+ Version control and artifact repositories 
+ Continuous Integration/Continuous Delivery servers like Jenkins, Bamboo, TeamCity, and Go 
+ Automated testing tools (including static analysis checkers and 
+automated test frameworks) 
+ Automated release/deployment tools 
+ Infrastructure as Code: software-defined configuration management tools like Ansible, Chef, CFEngine, and Puppet 
+ Virtualization and containerization technologies such as Docker 
+and Vagrant 
+ 
+ Build management tools like Maven and Continuous Integration servers like Jenkins are already well established across the industry through Agile development programs. Something like this could violate securities laws. This means that a massive amount of activity is compressed into a small amount of time.
+-------------------
+Mean Scored Summary
+-------------------
+[/caption] 
+ Download a free copy of DevOps for Finance , an O’Reilly report by Jim Bird for the financial services software insider who's heard about DevOps, but is unsure whether it represents solution or suicide. Businesses (and IT) are under constantly increasing pressure to deliver faster, and with greater efficiency — but not at the expense of reliability of service or security. A common DevOps toolchain includes: 
+ 
+ Version control and artifact repositories 
+ Continuous Integration/Continuous Delivery servers like Jenkins, Bamboo, TeamCity, and Go 
+ Automated testing tools (including static analysis checkers and 
+automated test frameworks) 
+ Automated release/deployment tools 
+ Infrastructure as Code: software-defined configuration management tools like Ansible, Chef, CFEngine, and Puppet 
+ Virtualization and containerization technologies such as Docker 
+and Vagrant 
+ 
+ Build management tools like Maven and Continuous Integration servers like Jenkins are already well established across the industry through Agile development programs. Something like this could violate securities laws.
+
+Learning the Web
+================
+
+Top N Summary
+-------------
+Our free report, Getting Started with the Web , provides the core foundations beginners need. Tools are just part of the challenge, though - the ever-expanding universe of devices on which people view the Web makes it all more daunting. Andrew addressed that too : 
+ that battle about "what do we do with these phones?" ...we sidestepped [making multiple sites] with responsible design but there are still issues of performance, things we're trying to work out as a community. Managing large audio and video files remains a challenge of its own, but including them in a document has become much more like including an image in a document - manageable.
+-------------------
+Mean Scored Summary
+-------------------
+Our free report, Getting Started with the Web , provides the core foundations beginners need. Tools are just part of the challenge, though - the ever-expanding universe of devices on which people view the Web makes it all more daunting. ...we sidestepped [making multiple sites] with responsible design but there are still issues of performance, things we're trying to work out as a community. Managing large audio and video files remains a challenge of its own, but including them in a document has become much more like including an image in a document - manageable.
+
+Training in the big data ecosystem
+==================================
+
+Top N Summary
+-------------
+Their discussion focuses on the training landscape in the big data ecosystem, their teaching techniques and particular content they choose, and a look at some expected future trends. I created a course I call the Business of Big Data to address that. ... How do I use data in order to make a decision? I think there's a lot of room for that because people really want to understand the context before they could ever jump into a contract. Public domain image on article and category pages via Wikimedia Commons.
+-------------------
+Mean Scored Summary
+-------------------
+In this week's Radar Podcast, O'Reilly's Ben Lorica talks to Paco Nathan , director of O'Reilly Learning, and Jesse Anderson , technical trainer and creative engineer at Confluent. Their discussion focuses on the training landscape in the big data ecosystem, their teaching techniques and particular content they choose, and a look at some expected future trends. As it evolved, that really didn't work. Nathan: "People want to focus on the context. Really, what's the business context and what kind of architectural patterns work for the right kind of use cases? Educating the enterprise 
+ Anderson: "One of the big gaps is that we've done great things for engineers and for analysts and for some of the operations people, but we really haven't dealt with the business people. I saw this when I was teaching at Cloudera; I'd have managers or even sometimes director-level people that publicly traded companies sitting through my entire four-day class. I thought, they either have a great love of knowledge or they're really wasting their time — they could have gotten about what they needed in a day or so. I created a course I call the Business of Big Data to address that. ... How do I use data in order to make a decision? I think there's a lot of room for that because people really want to understand the context before they could ever jump into a contract. Public domain image on article and category pages via Wikimedia Commons.
+
+Building enterprise data applications with open source components
+=================================================================
+
+Top N Summary
+-------------
+It's obviously not as mature an ecosystem as the Hadoop ecosystem but not everybody needs that maturity. Some people would rather have the flexibility of Mesos or of solving more focused problems. Behind the scenes, obviously you don't want that data to get lost if the machine goes down. You can listen to our entire interview in the SoundCloud player above, or subscribe through Stitcher , SoundCloud , TuneIn , or iTunes . Image on article and category pages by L Rempe-Gillen on Wikimedia Commons .
+-------------------
+Mean Scored Summary
+-------------------
+For this Data Show Podcast, I spoke with O'Reilly author and Typesafe's resident big data architect Dean Wampler about Scala and other programming languages, the big data ecosystem, and his recent interest in real-time applications. … But, of course, the real interesting part is to run on a cluster. You need some cluster infrastructure and, fortunately, it works very nicely with YARN. It basically treats your cluster as one giant machine of resources and gives you that illusion, ignoring things like network latencies and stuff. It's obviously not as mature an ecosystem as the Hadoop ecosystem but not everybody needs that maturity. Some people would rather have the flexibility of Mesos or of solving more focused problems. In Spark's case, it would be the so-called resilient distributed data sets. Behind the scenes, obviously you don't want that data to get lost if the machine goes down. You don't like that but the flipside is, all right, make these things bounded buffers but you still haven't completely solved your problems because then what do you do when that fills up? You can listen to our entire interview in the SoundCloud player above, or subscribe through Stitcher , SoundCloud , TuneIn , or iTunes . Image on article and category pages by L Rempe-Gillen on Wikimedia Commons .
+
+Major players and important partnerships in the big data market
+===============================================================
+
+Top N Summary
+-------------
+For this new report, San Francisco-based startup Relato mapped the intersection of companies throughout the data ecosystem — curating a network with tens of thousands of nodes and edges representing companies and partnerships in the big data space. Relato created the network by extracting data from company home pages on the Web and analyzed it using social network analysis; market experts interpreted the results to yield the insights presented in the report. The report ranks and compare the major players in the market — those who have enabled the development of the market — Hadoop platform vendors Cloudera, Hortonworks, and MapR. You'll see how we compare and contrast vendors using traditional metrics and various types of centrality. No longer do market analyses need to rely only on surveys and produce completely subjective quadrant charts.
+-------------------
+Mean Scored Summary
+-------------------
+For this new report, San Francisco-based startup Relato mapped the intersection of companies throughout the data ecosystem — curating a network with tens of thousands of nodes and edges representing companies and partnerships in the big data space. Relato created the network by extracting data from company home pages on the Web and analyzed it using social network analysis; market experts interpreted the results to yield the insights presented in the report. You'll see how we compare and contrast vendors using traditional metrics and various types of centrality. No longer do market analyses need to rely only on surveys and produce completely subjective quadrant charts.
+
+Renaming isomorphic JavaScript?
+===============================
+
+Top N Summary
+-------------
+The name of this approach was coined by Charlie Robbins and later popularized by Spike Brehm as "isomorphic" JavaScript. Just as the two isomorphic graphs have a mapping, so do isomorphic JavaScript environments. This term borrows from Apple's description of app bundles that ran on different CPU architectures (i.e. This gives the name a distinct flavor and helps in expanding the discussion beyond the traditional web application client-server model. image via Wikimedia Commons .
+-------------------
+Mean Scored Summary
+-------------------
+The name of this approach was coined by Charlie Robbins and later popularized by Spike Brehm as "isomorphic" JavaScript. Take for example the two graphs in the following figure. [/caption] 
+ These graphs are isomorphic, even though they look much different. For example, the node A can be mapped to node 1 while maintaining its adjacency in the second graph. Just as the two isomorphic graphs have a mapping, so do isomorphic JavaScript environments. This term borrows from Apple's description of app bundles that ran on different CPU architectures (i.e. The term "universal" also highlights JavaScript code that can run "not only on servers and browsers, but on native devices and embedded architectures as well". This gives the name a distinct flavor and helps in expanding the discussion beyond the traditional web application client-server model. image via Wikimedia Commons .
+
+Improving corporate planning through insight generation
+=======================================================
+
+Top N Summary
+-------------
+EPM, in other words, is not just a matter of streamlining data provisions within the enterprise; it's an opportunity to provide a true insight generation solution. Throughout this evolution, improving the financial planning, forecasting, close, and reporting processes continue to be a priority for corporations. Like many other strategic enterprise applications, EPM started moving to the cloud a few years ago. In most corporations, this data remains disconnected. Image on article and category pages via Wellcome on Wikimedia Commons .
+-------------------
+Mean Scored Summary
+-------------------
+Contrary to what many believe, insights are difficult to identify and effectively apply. In this post, I will discuss a few of the trends that have enabled insight as a service (IaaS) and discuss the general case of using a software-as-a-service (SaaS) EPM solution to corral data and deliver insight as a service as the next level of product. Insight as a service is a distinct layer of the cloud stack (I've discussed IaaS in earlier posts here and here ). EPM, in other words, is not just a matter of streamlining data provisions within the enterprise; it's an opportunity to provide a true insight generation solution. Throughout this evolution, improving the financial planning, forecasting, close, and reporting processes continue to be a priority for corporations. Like many other strategic enterprise applications, EPM started moving to the cloud a few years ago. The rise of big data — and the access and management of such data by SaaS applications, in particular — are enabling the business user to access internal and external data, including public data. This led to several different operational "data hubs" existing within each corporation. In most corporations, this data remains disconnected. Image on article and category pages via Wellcome on Wikimedia Commons .
+
+Integrate, catalog, and preserve metadata
+=========================================
+
+Top N Summary
+-------------
+Bernard is now a field engineer at Tamr, where she's involved in a new project that aims to integrate and catalog a variety of data across an enterprise, while preserving metadata. Tracking metadata allows you to reproduce your data pipelines, and understand the lineage, and provenance of your data. I worked at CERN for a couple years and worked on the ATLAS experiment at the Large Hadron Collider. What are your thoughts on the state of enterprise data in most large organizations? My initial reaction was, "Wait, really?"
+-------------------
+Mean Scored Summary
+-------------------
+During a special edition of The O'Reilly Podcast , host and O'Reilly chief data scientist Ben Lorica interviewed Dr. Clare Bernard, a former particle physicist at CERN, who worked on the ATLAS experiment at the Large Hadron Collider. Bernard is now a field engineer at Tamr, where she's involved in a new project that aims to integrate and catalog a variety of data across an enterprise, while preserving metadata. Tracking metadata allows you to reproduce your data pipelines, and understand the lineage, and provenance of your data. I worked at CERN for a couple years and worked on the ATLAS experiment at the Large Hadron Collider. BL: What kind of tools did you use in the academic world, for that type of work? Some of the other experiments proposed for the future are more related to precision measurements, rather than looking for new particles, which was what I was particularly interested in. What are your thoughts on the state of enterprise data in most large organizations? Another challenge is too many systems, and then even within one system you can have duplicate records about something like a customer. CB: One big initiative that a lot of companies have started on is centralizing all of their data into a central repository (the data lake). A lot of companies are realizing that this is an issue, and they're trying to track all of the metadata about the data they're putting into HDFS, into their data lake. They don't necessarily want the exact same transformations. BL: What are the tools for making that happen? CB: I think there are a lot of tools that address parts of this issue. BL: There's an open source academic project right now that's just starting, by Joe Hellerstein, one of the co-founders of Trifacta that attempts to do this; that's something you can share across different frameworks. My initial reaction was, "Wait, really?" CB: Customers often ask us: how do we integrate our data sets and make them into the type of data set that a data scientist would want to use? It's focused on connecting to as many systems as possible, and then capturing collaborative insights. The core Tamr difference is that Catalog can connect to any system. Cropped image on article and category pages via Nevit Dilmen on Wikimedia Commons .
+
+The validated learning process for building a hardware startup
+==============================================================
+
+Top N Summary
+-------------
+Founder incompatibility is one of the most common reasons young companies fail. Strong mentor relationships develop over time. Or, alternatively, they might be bound by shared circumstances, such as sexual orientation. If you don't have a strong circle of contacts, or have avoided developing a presence on popular social channels, consider putting in a small amount of time each day to foster one. Passionate community members will enjoy feeling like they're part of the process.
+-------------------
+Mean Scored Summary
+-------------------
+Buy "The Hardware Startup: Building Your Product, Business, and Brand," by Renee DiResta, Brady Forrest, and Ryan Vinyard. Many first-time hardware founders are coming from software, or are hobbyist makers who haven't developed extensive personal networks within the hardware startup community. Fortunately, it's easier than ever to find fellow hardwarians. The Hackerspace Wiki is a great resource for finding like-minded people, and it has the added benefit of potentially helping you discover a shared workspace or machine shop. Building a well-rounded team right from the start is crucial. If you're planning to build a connected device, wearable, or any product that interfaces with your customer via software, you'll want to bring on a software engineer as early as possible, preferably one with some UI/UX design experience. If you went to a university with a strong alumni network, join your school's listserve or LinkedIn group. Founder incompatibility is one of the most common reasons young companies fail. Strong mentor relationships develop over time. Strategic help, such as participation in recruiting or introduction to customers, or expert value-adds, such as work on a particular project, typically increase the amount of equity offered. Or, alternatively, they might be bound by shared circumstances, such as sexual orientation. If you don't have a strong circle of contacts, or have avoided developing a presence on popular social channels, consider putting in a small amount of time each day to foster one. Passionate community members will enjoy feeling like they're part of the process.
+
+Four short links: 24 September 2015
+===================================
+
+Top N Summary
+-------------
+The Hit Charade (MIT TR) -- Spotify’s deep-learning system still has to be trained using millions of example songs, and it would be perplexed by a bold new style of music. Nor can they distinguish between a truly original piece and yet another me-too imitation of a popular sound. Johnson acknowledges this limitation, and he says human expertise will remain a key part of Spotify’s algorithms for the foreseeable future. The Future of War is the Distant Past (John Birmingham) -- the Naval Academy is hedging against the future by creating cybersecurity midshipmen, and by requiring every midshipman to learn how to do celestial navigation. Go Will Dominate the Next Decade (Ian Eyberg) -- COBOL OF THE 2020s.
+-------------------
+Mean Scored Summary
+-------------------
+The Hit Charade (MIT TR) -- Spotify’s deep-learning system still has to be trained using millions of example songs, and it would be perplexed by a bold new style of music.
+
+Understanding the experience design of consumer IoT products
+============================================================
+
+Top N Summary
+-------------
+We also need a common vocabulary for discussing them so that when we use the word "design," we're talking about the same things. This report introduces a framework for understanding the experience design of consumer IoT products. It explains the extra complexities that surround designing for connected products. Parts of the system will inevitably go offline from time to time. Users control visual representations of objects and immediately see the outcome of their actions, which can be reversed.
+-------------------
+Mean Scored Summary
+-------------------
+Some of this reflects our as-yet immature understanding of compelling consumer IoT value propositions. Some of this stems from the fact that there are more aspects of design to consider. Tackling them independently creates an incoherent user experience (UX). We also need a common vocabulary for discussing them so that when we use the word "design," we're talking about the same things. This report introduces a framework for understanding the experience design of consumer IoT products. It explains the extra complexities that surround designing for connected products. How tricky those challenges prove will depend on: 
+ 
+ The maturity of the technology you're working with 
+ The context of use, and the expectations your users have of the system, and 
+ The complexity of your service (for example, how many devices the user has to interact with) 
+ 
+ But for most connected products, you'll need to consider the following factors: 
+ Specialized devices, with different capabilities 
+ Many of the 'things' in the internet of things are specialized embedded computing devices. And permissions in some smart home systems allow an "admin" user to grant or deny access to certain devices to others in the house, such as controlling TV/games console time for children or locking cupboards containing dangerous things. Few people enjoy feeling like sysadmins for their own homes. Parts of the system will inevitably go offline from time to time. Users control visual representations of objects and immediately see the outcome of their actions, which can be reversed. This breaks the link between user actions and visible, reversible consequences we have come to expect from modern software (PDF) . Designing for networks 
+ Another major factor is the impact of the network on UX. Emails can be slow to download and Skype calls can fail. The video shows instant responses between the mobile app and washing machine, running over the Internet.
+

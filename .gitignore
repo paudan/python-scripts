@@ -1,6 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
+*/.ipynb_checkpoints
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,14 +9,21 @@ __pycache__/
 *.so
 
 # IntelliJ project files
-.idea
+*.idea
 *.iml
 out
 gen
 
 # Custom files
+/linkedin analysis/LinkedInDataExport
 /pricing models/ebay.apikey
 /search/wiki.tar.gz
 /financial data/config.cfg
 /akismet/config.ini
 /facebook analysis/fbconfig.ini
+/google analysis/gplus.dat
+/google analysis/credentials.json
+/google analysis/config.ini
+/linkedin analysis/config.ini
+/twitter analysis/twitter_oauth
+/twitter analysis/config.ini
