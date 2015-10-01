@@ -1,0 +1,39 @@
+{
+ "name": "My LinkedIn", 
+ "children": [
+  {
+   "name": "Recruitment, Consultant", 
+   "children": [
+    {
+     "name": "Neringa \u017demaityt\u0117"
+    }, 
+    {
+     "name": "Remigijus Romas"
+    }, 
+    {
+     "name": "Kristina Bak\u0161ait\u0117 Kandrotien\u0117"
+    }, 
+    {
+     "name": "Evelina Tarandiene"
+    }
+   ]
+  }, 
+  {
+   "name": "Marketing, Manager", 
+   "children": [
+    {
+     "name": "Aurelijus Daskevicius"
+    }, 
+    {
+     "name": "Simona Bela"
+    }, 
+    {
+     "name": "Viktorija Pozingyte"
+    }, 
+    {
+     "name": "Ignas Lenkauskas"
+    }
+   ]
+  }
+ ]
+}
