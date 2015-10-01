@@ -19,6 +19,7 @@ gen
 /pricing models/ebay.apikey
 /search/wiki.tar.gz
 /financial data/config.cfg
+/financial data/parsed.txt
 /akismet/config.ini
 /facebook analysis/fbconfig.ini
 /google analysis/gplus.dat

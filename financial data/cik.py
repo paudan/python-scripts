@@ -1,4 +1,6 @@
-# Find company information from SEC EDGAR database using CIK
+"""
+Find company information from SEC EDGAR database using CIK
+"""
 
 import urllib
 import urllib2

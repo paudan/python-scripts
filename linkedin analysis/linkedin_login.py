@@ -1,6 +1,7 @@
 # Examples from Mining the Social Web, section 3
 
 from linkedin import linkedin # pip install python-linkedin
+import json
 from ConfigParser import ConfigParser
 
 config = ConfigParser()
@@ -12,5 +13,10 @@ TOKEN = config.get('linkedin', 'oauth2_access_token')
 
 application = linkedin.LinkedInApplication(token=TOKEN)
 print application.get_profile()
-print application.get_connections()
+
+my_positions = application.get_profile(selectors=['positions'])
+print json.dumps(my_positions, indent=1)
+
+my_positions = application.get_profile(selectors=['positions:(company:(name,industry,id))'])
+print json.dumps(my_positions, indent=1)
 
