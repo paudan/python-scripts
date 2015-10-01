@@ -17,7 +17,6 @@ gen
 # Custom files
 /linkedin analysis/LinkedInDataExport
 /pricing models/ebay.apikey
-/search/wiki.tar.gz
 /financial data/config.cfg
 /financial data/parsed.txt
 /akismet/config.ini
