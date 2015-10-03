@@ -27,6 +27,6 @@ gen
 /linkedin analysis/config.ini
 /twitter analysis/twitter_oauth
 /twitter analysis/config.ini
-/mining mailboxes/data/danpaulius.gmail.json
 /mining mailboxes/config.ini
+/mining mailboxes/data/danpaulius.gmail.json
 /mining mailboxes/data/enron.mbox.json
