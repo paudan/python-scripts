@@ -25,6 +25,7 @@ gen
 /google analysis/credentials.json
 /google analysis/config.ini
 /linkedin analysis/config.ini
+/github analysis/config.ini
 /twitter analysis/twitter_oauth
 /twitter analysis/config.ini
 /mining mailboxes/config.ini
