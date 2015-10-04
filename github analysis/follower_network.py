@@ -139,59 +139,59 @@ def create_stargazers_graph():
 
     # Save your work by serializing out (pickling) the graph
     nx.write_gpickle(g, "data/github.gpickle.1")
-    # analyse_centrality_measures(g)
-    #
-    # # Let's add each stargazer's additional starred repos and add edges to find additional interests.
-    # MAX_REPOS = 500
-    # for i, sg in enumerate(stargazers):
-    #     print sg.login
-    #     try:
-    #         for starred in sg.get_starred()[:MAX_REPOS]:  # Slice to avoid supernodes
-    #             g.add_node(starred.name + '(repo)', type='repo', lang=starred.language, \
-    #                        owner=starred.owner.login)
-    #             g.add_edge(sg.login + '(user)', starred.name + '(repo)', type='gazes')
-    #     except Exception, e:  # ssl.SSLError:
-    #         print "Encountered an error fetching starred repos for", sg.login, "Skipping."
-    #     print "Processed", i + 1, "stargazers' starred repos"
-    #     print "Num nodes/edges in graph", g.number_of_nodes(), "/", g.number_of_edges()
-    #     print "Rate limit", client.rate_limiting
-    #
-    # # Save your work by serializing out another snapshot of the graph
-    # nx.write_gpickle(g, "data/github.gpickle.2")
-    # analyse_repositories(g)
-    #
-    # # Update graph to include nodes for programming languages
-    # # Iterate over all of the repos, and add edges for programming languages for each person in the graph.
-    # # We'll also add edges back to repos so that we have a good point to "pivot" upon.
-    # repos = [n for n in g.nodes_iter() if g.node[n]['type'] == 'repo']
-    # for repo in repos:
-    #     lang = (g.node[repo]['lang'] or "") + "(lang)"
-    #     stargazers = [u for (u, r, d) in g.in_edges_iter(repo, data=True) if d['type'] == 'gazes']
-    #     for sg in stargazers:
-    #         g.add_node(lang, type='lang')
-    #         g.add_edge(sg, lang, type='programs')
-    #         g.add_edge(lang, repo, type='implements')
-    #
-    # nx.write_gpickle(g, "data/github.gpickle.3")
-    # analyse_programming_languages(g)
-    #
-    # print "Stats on the full graph"
-    # print nx.info(g)
-    # print
-    #
-    # # Create a subgraph from a collection of nodes. In this case, the collection is all of the users in the original interest graph
-    # mtsw_users = [n for n in g if g.node[n]['type'] == 'user']
-    # h = g.subgraph(mtsw_users)
-    #
-    # print "Stats on the extracted subgraph"
-    # print nx.info(h)
-    #
-    # # Visualize the social network of all people from the original interest graph.
-    # d = json_graph.node_link_data(h)
-    # json.dump(d, open('visualization/force.json', 'w'))
-    #
-    # viz_file = 'visualization/force.html'
-    # webbrowser.open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "visualization", 'force.html'))
+    analyse_centrality_measures(g)
+
+    # Let's add each stargazer's additional starred repos and add edges to find additional interests.
+    MAX_REPOS = 500
+    for i, sg in enumerate(stargazers):
+        print sg.login
+        try:
+            for starred in sg.get_starred()[:MAX_REPOS]:  # Slice to avoid supernodes
+                g.add_node(starred.name + '(repo)', type='repo', lang=starred.language, \
+                           owner=starred.owner.login)
+                g.add_edge(sg.login + '(user)', starred.name + '(repo)', type='gazes')
+        except Exception, e:  # ssl.SSLError:
+            print "Encountered an error fetching starred repos for", sg.login, "Skipping."
+        print "Processed", i + 1, "stargazers' starred repos"
+        print "Num nodes/edges in graph", g.number_of_nodes(), "/", g.number_of_edges()
+        print "Rate limit", client.rate_limiting
+
+    # Save your work by serializing out another snapshot of the graph
+    nx.write_gpickle(g, "data/github.gpickle.2")
+    analyse_repositories(g)
+
+    # Update graph to include nodes for programming languages
+    # Iterate over all of the repos, and add edges for programming languages for each person in the graph.
+    # We'll also add edges back to repos so that we have a good point to "pivot" upon.
+    repos = [n for n in g.nodes_iter() if g.node[n]['type'] == 'repo']
+    for repo in repos:
+        lang = (g.node[repo]['lang'] or "") + "(lang)"
+        stargazers = [u for (u, r, d) in g.in_edges_iter(repo, data=True) if d['type'] == 'gazes']
+        for sg in stargazers:
+            g.add_node(lang, type='lang')
+            g.add_edge(sg, lang, type='programs')
+            g.add_edge(lang, repo, type='implements')
+
+    nx.write_gpickle(g, "data/github.gpickle.3")
+    analyse_programming_languages(g)
+
+    print "Stats on the full graph"
+    print nx.info(g)
+    print
+
+    # Create a subgraph from a collection of nodes. In this case, the collection is all of the users in the original interest graph
+    mtsw_users = [n for n in g if g.node[n]['type'] == 'user']
+    h = g.subgraph(mtsw_users)
+
+    print "Stats on the extracted subgraph"
+    print nx.info(h)
+
+    # Visualize the social network of all people from the original interest graph.
+    d = json_graph.node_link_data(h)
+    json.dump(d, open('visualization/force.json', 'w'))
+
+    viz_file = 'visualization/force.html'
+    webbrowser.open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "visualization", 'force.html'))
 
 
 def load_graph_after_create(nx):
