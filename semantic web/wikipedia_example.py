@@ -1,13 +1,15 @@
 # Examples from Mining the Social Web, section 8
 
 import webbrowser
-import requests # pip install requests
-from BeautifulSoup import BeautifulSoup # pip install BeautifulSoup
+
+import requests  # pip install requests
+from BeautifulSoup import BeautifulSoup  # pip install BeautifulSoup
+
 
 # XXX: Any URL containing a geo microformat...
 URL = 'http://en.wikipedia.org/wiki/Kaunas'
 
-req = requests.get(URL, headers={'User-Agent' : "Mining the Social Web"})
+req = requests.get(URL, headers={'User-Agent': "Mining the Social Web"})
 soup = BeautifulSoup(req.text)
 
 geoTag = soup.find(True, 'geo')

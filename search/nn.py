@@ -1,13 +1,15 @@
 from math import tanh
 from sqlite3 import dbapi2 as sqlite
 
+
 def dtanh(y):
-    return 1.0-y*y
+    return 1.0 - y * y
+
 
 class searchnet:
-    def __init__(self,dbname):
-        self.con=sqlite.connect(dbname)
-  
+    def __init__(self, dbname):
+        self.con = sqlite.connect(dbname)
+
     def __del__(self):
         self.con.close()
 
@@ -17,79 +19,81 @@ class searchnet:
         self.con.execute('create table hiddenurl(fromid,toid,strength)')
         self.con.commit()
 
-    def getstrength(self,fromid,toid,layer):
-        if layer==0: table='wordhidden'
-        else: table='hiddenurl'
-        res=self.con.execute('select strength from %s where fromid=%d and toid=%d' % (table,fromid,toid)).fetchone()
-        if res==None: 
-            if layer==0: return -0.2
-            if layer==1: return 0
+    def getstrength(self, fromid, toid, layer):
+        if layer == 0:
+            table = 'wordhidden'
+        else:
+            table = 'hiddenurl'
+        res = self.con.execute('select strength from %s where fromid=%d and toid=%d' % (table, fromid, toid)).fetchone()
+        if res == None:
+            if layer == 0: return -0.2
+            if layer == 1: return 0
         return res[0]
 
-    def setstrength(self,fromid,toid,layer,strength):
-        if layer==0: table='wordhidden'
-        else: table='hiddenurl'
-        res=self.con.execute('select rowid from %s where fromid=%d and toid=%d' % (table,fromid,toid)).fetchone()
-        if res==None: 
-          self.con.execute('insert into %s (fromid,toid,strength) values (%d,%d,%f)' % (table,fromid,toid,strength))
+    def setstrength(self, fromid, toid, layer, strength):
+        if layer == 0:
+            table = 'wordhidden'
         else:
-          rowid=res[0]
-          self.con.execute('update %s set strength=%f where rowid=%d' % (table,strength,rowid))
+            table = 'hiddenurl'
+        res = self.con.execute('select rowid from %s where fromid=%d and toid=%d' % (table, fromid, toid)).fetchone()
+        if res == None:
+            self.con.execute(
+                'insert into %s (fromid,toid,strength) values (%d,%d,%f)' % (table, fromid, toid, strength))
+        else:
+            rowid = res[0]
+            self.con.execute('update %s set strength=%f where rowid=%d' % (table, strength, rowid))
 
-    def generatehiddennode(self,wordids,urls):
-      if len(wordids)>3: return None
-      # Check if we already created a node for this set of words
-      sorted_words=[str(id) for id in wordids]
-      sorted_words.sort()
-      createkey='_'.join(sorted_words)
-      res=self.con.execute(
-      "select rowid from hiddennode where create_key='%s'" % createkey).fetchone()
+    def generatehiddennode(self, wordids, urls):
+        if len(wordids) > 3: return None
+        # Check if we already created a node for this set of words
+        sorted_words = [str(id) for id in wordids]
+        sorted_words.sort()
+        createkey = '_'.join(sorted_words)
+        res = self.con.execute(
+            "select rowid from hiddennode where create_key='%s'" % createkey).fetchone()
 
-      # If not, create it
-      if res==None:
-        cur=self.con.execute(
-        "insert into hiddennode (create_key) values ('%s')" % createkey)
-        hiddenid=cur.lastrowid
-        # Put in some default weights
+        # If not, create it
+        if res == None:
+            cur = self.con.execute(
+                "insert into hiddennode (create_key) values ('%s')" % createkey)
+            hiddenid = cur.lastrowid
+            # Put in some default weights
+            for wordid in wordids:
+                self.setstrength(wordid, hiddenid, 0, 1.0 / len(wordids))
+            for urlid in urls:
+                self.setstrength(hiddenid, urlid, 1, 0.1)
+            self.con.commit()
+
+    def getallhiddenids(self, wordids, urlids):
+        l1 = {}
         for wordid in wordids:
-          self.setstrength(wordid,hiddenid,0,1.0/len(wordids))
-        for urlid in urls:
-          self.setstrength(hiddenid,urlid,1,0.1)
-        self.con.commit()
+            cur = self.con.execute(
+                'select toid from wordhidden where fromid=%d' % wordid)
+            for row in cur: l1[row[0]] = 1
+        for urlid in urlids:
+            cur = self.con.execute(
+                'select fromid from hiddenurl where toid=%d' % urlid)
+            for row in cur: l1[row[0]] = 1
+        return l1.keys()
 
-
-    def getallhiddenids(self,wordids,urlids):
-      l1={}
-      for wordid in wordids:
-        cur=self.con.execute(
-        'select toid from wordhidden where fromid=%d' % wordid)
-        for row in cur: l1[row[0]]=1
-      for urlid in urlids:
-        cur=self.con.execute(
-        'select fromid from hiddenurl where toid=%d' % urlid)
-        for row in cur: l1[row[0]]=1
-      return l1.keys()
-
-
-    def setupnetwork(self,wordids,urlids):
+    def setupnetwork(self, wordids, urlids):
         # value lists
-        self.wordids=wordids
-        self.hiddenids=self.getallhiddenids(wordids,urlids)
-        self.urlids=urlids
- 
+        self.wordids = wordids
+        self.hiddenids = self.getallhiddenids(wordids, urlids)
+        self.urlids = urlids
+
         # node outputs
-        self.ai = [1.0]*len(self.wordids)
-        self.ah = [1.0]*len(self.hiddenids)
-        self.ao = [1.0]*len(self.urlids)
+        self.ai = [1.0] * len(self.wordids)
+        self.ah = [1.0] * len(self.hiddenids)
+        self.ao = [1.0] * len(self.urlids)
 
         # create weights matrix
-        self.wi = [[self.getstrength(wordid,hiddenid,0) 
-                    for hiddenid in self.hiddenids] 
+        self.wi = [[self.getstrength(wordid, hiddenid, 0)
+                    for hiddenid in self.hiddenids]
                    for wordid in self.wordids]
-        self.wo = [[self.getstrength(hiddenid,urlid,1) 
-                    for urlid in self.urlids] 
+        self.wo = [[self.getstrength(hiddenid, urlid, 1)
+                    for urlid in self.urlids]
                    for hiddenid in self.hiddenids]
-
 
     def feedforward(self):
         # the only inputs are the query words
@@ -112,17 +116,15 @@ class searchnet:
 
         return self.ao[:]
 
-
-    def getresult(self,wordids,urlids):
-        self.setupnetwork(wordids,urlids)
+    def getresult(self, wordids, urlids):
+        self.setupnetwork(wordids, urlids)
         return self.feedforward()
-
 
     def backPropagate(self, targets, N=0.5):
         # calculate errors for output
         output_deltas = [0.0] * len(self.urlids)
         for k in range(len(self.urlids)):
-            error = targets[k]-self.ao[k]
+            error = targets[k] - self.ao[k]
             output_deltas[k] = dtanh(self.ao[k]) * error
 
         # calculate errors for hidden layer
@@ -130,69 +132,67 @@ class searchnet:
         for j in range(len(self.hiddenids)):
             error = 0.0
             for k in range(len(self.urlids)):
-                error = error + output_deltas[k]*self.wo[j][k]
+                error = error + output_deltas[k] * self.wo[j][k]
             hidden_deltas[j] = dtanh(self.ah[j]) * error
 
         # update output weights
         for j in range(len(self.hiddenids)):
             for k in range(len(self.urlids)):
-                change = output_deltas[k]*self.ah[j]
-                self.wo[j][k] = self.wo[j][k] + N*change
+                change = output_deltas[k] * self.ah[j]
+                self.wo[j][k] = self.wo[j][k] + N * change
 
         # update input weights
         for i in range(len(self.wordids)):
             for j in range(len(self.hiddenids)):
-                change = hidden_deltas[j]*self.ai[i]
-                self.wi[i][j] = self.wi[i][j] + N*change
+                change = hidden_deltas[j] * self.ai[i]
+                self.wi[i][j] = self.wi[i][j] + N * change
 
-
-    def trainquery(self,wordids,urlids,selectedurl): 
+    def trainquery(self, wordids, urlids, selectedurl):
         # generate a hidden node if necessary
-        self.generatehiddennode(wordids,urlids)
+        self.generatehiddennode(wordids, urlids)
 
-        self.setupnetwork(wordids,urlids)
+        self.setupnetwork(wordids, urlids)
         self.feedforward()
-        targets=[0.0]*len(urlids)
-        targets[urlids.index(selectedurl)]=1.0
+        targets = [0.0] * len(urlids)
+        targets[urlids.index(selectedurl)] = 1.0
         error = self.backPropagate(targets)
         self.updatedatabase()
 
-
     def updatedatabase(self):
-      # set them to database values
-      for i in range(len(self.wordids)):
-          for j in range(len(self.hiddenids)):
-              self.setstrength(self.wordids[i],self. hiddenids[j],0,self.wi[i][j])
-      for j in range(len(self.hiddenids)):
-          for k in range(len(self.urlids)):
-              self.setstrength(self.hiddenids[j],self.urlids[k],1,self.wo[j][k])
-      self.con.commit()
+        # set them to database values
+        for i in range(len(self.wordids)):
+            for j in range(len(self.hiddenids)):
+                self.setstrength(self.wordids[i], self.hiddenids[j], 0, self.wi[i][j])
+        for j in range(len(self.hiddenids)):
+            for k in range(len(self.urlids)):
+                self.setstrength(self.hiddenids[j], self.urlids[k], 1, self.wo[j][k])
+        self.con.commit()
 
 
 def main():
-    mynet=searchnet('nn.db')
-    #mynet.maketables()
-    wWorld,wRiver,wBank =101,102,103
-    uWorldBank,uRiver,uEarth =201,202,203
-    #mynet.generatehiddennode([wWorld,wBank],[uWorldBank,uRiver,uEarth])
+    mynet = searchnet('nn.db')
+    # mynet.maketables()
+    wWorld, wRiver, wBank = 101, 102, 103
+    uWorldBank, uRiver, uEarth = 201, 202, 203
+    # mynet.generatehiddennode([wWorld,wBank],[uWorldBank,uRiver,uEarth])
     for c in mynet.con.execute('select * from wordhidden'): print c
     for c in mynet.con.execute('select * from hiddenurl'): print c
     # Setup network
-    print mynet.getresult([wWorld,wBank],[uWorldBank,uRiver,uEarth])
+    print mynet.getresult([wWorld, wBank], [uWorldBank, uRiver, uEarth])
     # Train and query network
     print "Network output after training"
-    mynet.trainquery([wWorld,wBank],[uWorldBank,uRiver,uEarth],uWorldBank)
-    print mynet.getresult([wWorld,wBank],[uWorldBank,uRiver,uEarth])
+    mynet.trainquery([wWorld, wBank], [uWorldBank, uRiver, uEarth], uWorldBank)
+    print mynet.getresult([wWorld, wBank], [uWorldBank, uRiver, uEarth])
     print "Training test"
-    allurls=[uWorldBank,uRiver,uEarth]
+    allurls = [uWorldBank, uRiver, uEarth]
     for i in range(30):
-        mynet.trainquery([wWorld,wBank],allurls,uWorldBank)
-        mynet.trainquery([wRiver,wBank],allurls,uRiver)
-        mynet.trainquery([wWorld],allurls,uEarth)
+        mynet.trainquery([wWorld, wBank], allurls, uWorldBank)
+        mynet.trainquery([wRiver, wBank], allurls, uRiver)
+        mynet.trainquery([wWorld], allurls, uEarth)
 
-    print mynet.getresult([wWorld,wBank],allurls)
-    print mynet.getresult([wRiver,wBank],allurls)
-    print mynet.getresult([wBank],allurls)
+    print mynet.getresult([wWorld, wBank], allurls)
+    print mynet.getresult([wRiver, wBank], allurls)
+    print mynet.getresult([wBank], allurls)
 
 
 if __name__ == "__main__": main()

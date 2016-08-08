@@ -2,11 +2,13 @@
 
 from random import random, randint
 import math
+import sys
+
 from numpy import array, arange
 from matplotlib.pyplot import *
-import sys
+
 sys.path.insert(0, '../optimization')
-import optimization
+
 
 def wineprice(rating, age):
     peak_age = rating - 50
@@ -192,6 +194,7 @@ def probguess(data, vec1, low, high, k=5, weightf=gaussian):
     # divided by all the weights
     return nweight / tweight
 
+
 def cumulativegraph(data, vec1, high, k=5, weightf=gaussian):
     t1 = arange(0.0, high, 0.1)
     cprob = array([probguess(data, vec1, 0, v, k, weightf) for v in t1])
@@ -220,13 +223,13 @@ def probabilitygraph(data, vec1, high, k=5, weightf=gaussian, ss=5.0):
 
 
 def main():
-    data=wineset1()
-    print knnestimate(data,(95.0,3.0))
-    print knnestimate(data,(99.0,3.0))
-    print knnestimate(data,(99.0,5.0))
-    print weightedknn(data,(99.0,5.0))  # Weighted knn
-    print wineprice(99.0,5.0) # Get the actual price
-    print knnestimate(data,(99.0,5.0),k=1) # Try with fewer neighbors
+    data = wineset1()
+    print knnestimate(data, (95.0, 3.0))
+    print knnestimate(data, (99.0, 3.0))
+    print knnestimate(data, (99.0, 5.0))
+    print weightedknn(data, (99.0, 5.0))  # Weighted knn
+    print wineprice(99.0, 5.0)  # Get the actual price
+    print knnestimate(data, (99.0, 5.0), k=1)  # Try with fewer neighbors
 
     print "\nTesting distance conversions to weights\n"
     print subtractweight(0.1)
@@ -238,23 +241,29 @@ def main():
     print gaussian(3.0)
 
     print "\nCross-validation"
-    print crossvalidate(knnestimate,data)
-    def knn3(d,v): return knnestimate(d,v,k=3)
-    print crossvalidate(knn3,data)
-    def knn1(d,v): return knnestimate(d,v,k=1)
-    print crossvalidate(knn1,data)
-    print crossvalidate(weightedknn,data)
-    def knninverse(d,v): return weightedknn(d,v,weightf=inverseweight)
-    print crossvalidate(knninverse,data)
+    print crossvalidate(knnestimate, data)
+
+    def knn3(d, v): return knnestimate(d, v, k=3)
+
+    print crossvalidate(knn3, data)
+
+    def knn1(d, v): return knnestimate(d, v, k=1)
+
+    print crossvalidate(knn1, data)
+    print crossvalidate(weightedknn, data)
+
+    def knninverse(d, v): return weightedknn(d, v, weightf=inverseweight)
+
+    print crossvalidate(knninverse, data)
 
     print "\nData scaling"
     data = wineset2()
-    print crossvalidate(knn3,data)
-    print crossvalidate(weightedknn,data)
-    sdata=rescale(data,[10,10,0,0.5])
+    print crossvalidate(knn3, data)
+    print crossvalidate(weightedknn, data)
+    sdata = rescale(data, [10, 10, 0, 0.5])
     print "Rescaled:"
-    print crossvalidate(knn3,sdata)
-    print crossvalidate(weightedknn,sdata)
+    print crossvalidate(knn3, sdata)
+    print crossvalidate(weightedknn, sdata)
 
     # print"\nOptimization"
     # costf = createcostfunction(knnestimate,data)
@@ -266,17 +275,17 @@ def main():
 
     print "Uneven distributions"
     data = wineset3()
-    print wineprice(99.0,20.0)
-    print weightedknn(data,[99.0,20.0])
-    print crossvalidate(weightedknn,data)
+    print wineprice(99.0, 20.0)
+    print weightedknn(data, [99.0, 20.0])
+    print crossvalidate(weightedknn, data)
     print "Probability of price in the interval"
-    print probguess(data,[99,20],40,80)
-    print probguess(data,[99,20],80,120)
-    print probguess(data,[99,20],120,1000)
-    print probguess(data,[99,20],30,120)
+    print probguess(data, [99, 20], 40, 80)
+    print probguess(data, [99, 20], 80, 120)
+    print probguess(data, [99, 20], 120, 1000)
+    print probguess(data, [99, 20], 30, 120)
     # Graphs
-    cumulativegraph(data,(1,1),6)
-    probabilitygraph(data,(1,1),6)
+    cumulativegraph(data, (1, 1), 6)
+    probabilitygraph(data, (1, 1), 6)
 
 
 if __name__ == "__main__": main()

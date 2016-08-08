@@ -1,16 +1,17 @@
 # Examples from Mining the Social Web, section 4
 
-from httplib2 import Http
 import json
-from apiclient import discovery  # pip install google-api-python-client
-from oauth2client import client, file, tools
-from BeautifulSoup import BeautifulStoneSoup
 import re
-import nltk
 from ConfigParser import ConfigParser
 import sys
 import codecs
 from os import path
+
+from httplib2 import Http
+from apiclient import discovery  # pip install google-api-python-client
+from oauth2client import client, file, tools
+from BeautifulSoup import BeautifulStoneSoup
+import nltk
 
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
@@ -170,10 +171,10 @@ def cosine_similarity(fname):
     data = json.loads(open(fname).read())
 
     # Only consider content that's ~1000+ words.
-    data = [ post for post in json.loads(open(fname).read())
-             if len(post['object']['content']) > 1000 ]
+    data = [post for post in json.loads(open(fname).read())
+            if len(post['object']['content']) > 1000]
 
-    all_posts = [post['object']['content'].lower().split() for post in data ]
+    all_posts = [post['object']['content'].lower().split() for post in data]
     tc = nltk.TextCollection(all_posts)
 
     # Compute a term-document matrix such that td_matrix[doc_title][term]
@@ -227,21 +228,20 @@ def cosine_similarity(fname):
                 nltk.cluster.util.cosine_distance(v1, v2)
 
             if url1 == url2:
-                #print distances[(title1, url1)][(title2, url2)]
+                # print distances[(title1, url1)][(title2, url2)]
                 continue
 
             if distances[(title1, url1)][(title2, url2)] < min_dist:
                 (min_dist, most_similar) = (distances[(title1, url1)][(title2,
-                                             url2)], (title2, url2))
+                                                                       url2)], (title2, url2))
 
         print '''Most similar to %s (%s)
     \t%s (%s)
     \tscore %f
-    ''' % (title1, url1, most_similar[0], most_similar[1], 1-min_dist)
+    ''' % (title1, url1, most_similar[0], most_similar[1], 1 - min_dist)
 
 
 def linkage_matrix(fname):
-
     from IPython.display import IFrame
     from IPython.core.display import display
 
@@ -266,14 +266,14 @@ def linkage_matrix(fname):
     distances = {}
 
     viz_links = []
-    viz_nodes = [ {'title' : title, 'url' : url} for (title, url) in td_matrix.keys() ]
+    viz_nodes = [{'title': title, 'url': url} for (title, url) in td_matrix.keys()]
 
     foo = 0
     for vn in viz_nodes:
-        vn.update({'idx' : foo})
+        vn.update({'idx': foo})
         foo += 1
 
-    idx = dict(zip([ vn['title'] for vn in viz_nodes ], range(len(viz_nodes))))
+    idx = dict(zip([vn['title'] for vn in viz_nodes], range(len(viz_nodes))))
     for (title1, url1) in td_matrix.keys():
         distances[(title1, url1)] = {}
         (min_dist, most_similar) = (1.0, ('', ''))
@@ -296,15 +296,15 @@ def linkage_matrix(fname):
             distances[(title1, url1)][(title2, url2)] = \
                 nltk.cluster.util.cosine_distance(v1, v2)
             if url1 == url2:
-                #print distances[(title1, url1)][(title2, url2)]
+                # print distances[(title1, url1)][(title2, url2)]
                 continue
             if distances[(title1, url1)][(title2, url2)] < min_dist:
                 (min_dist, most_similar) = (distances[(title1, url1)][(title2,
-                                             url2)], (title2, url2))
-        viz_links.append({'source' : idx[title1], 'target' : idx[most_similar[0]], 'score' : 1 - min_dist})
+                                                                       url2)], (title2, url2))
+        viz_links.append({'source': idx[title1], 'target': idx[most_similar[0]], 'score': 1 - min_dist})
 
     f = open('visualization/matrix.json', 'w')
-    f.write(json.dumps({'nodes' : viz_nodes, 'links' : viz_links}, indent=1))
+    f.write(json.dumps({'nodes': viz_nodes, 'links': viz_links}, indent=1))
     f.close()
 
     # Display the visualization below with an inline frame
@@ -313,7 +313,7 @@ def linkage_matrix(fname):
 
 def calculate_collocations(fname):
     data = json.loads(open(fname).read())
-    N = 25      # Number of collocations to find
+    N = 25  # Number of collocations to find
 
     all_tokens = [token for activity in data for token in activity['object']['content'].lower().split()]
     finder = nltk.BigramCollocationFinder.from_words(all_tokens)

@@ -1,7 +1,9 @@
 # Example from Programming Collective Intelligence, Chapter 3
 
-import feedparser   # pip install feedparser
 import re
+
+import feedparser  # pip install feedparser
+
 
 # Returns title and dictionary of word counts for an RSS feed
 def getwordcounts(url):
@@ -9,8 +11,10 @@ def getwordcounts(url):
     wc = {}
     # Loop over all the entries
     for e in d.entries:
-        if 'summary' in e: summary = e.summary
-        else: summary = e.description
+        if 'summary' in e:
+            summary = e.summary
+        else:
+            summary = e.description
         # Extract a list of words
         words = getwords(e.title + ' ' + summary)
         for word in words:
@@ -28,8 +32,8 @@ def getwords(html):
     return [word.lower() for word in words if word != '']
 
 
-apcount={}
-wordcounts={}
+apcount = {}
+wordcounts = {}
 feedlist = [line for line in file('feedlist.txt')]
 for feedurl in feedlist:
     try:
@@ -43,9 +47,9 @@ for feedurl in feedlist:
                 apcount[word] += 1
     except AttributeError:
         continue
-wordlist=[]
+wordlist = []
 for w, bc in apcount.items():
-    frac = float(bc)/len(feedlist)
+    frac = float(bc) / len(feedlist)
     if frac > 0.1 and frac < 0.5:
         wordlist.append(w)
 out = file('blogdata.txt', 'w')
@@ -56,6 +60,8 @@ out.write('\n')
 for blog, wc in wordcounts.items():
     out.write(blog.encode('utf-8'))
     for word in wordlist:
-        if word in wc: out.write('\t%d' % wc[word])
-        else: out.write('\t0')
+        if word in wc:
+            out.write('\t%d' % wc[word])
+        else:
+            out.write('\t0')
     out.write('\n')

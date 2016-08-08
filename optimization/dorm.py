@@ -1,7 +1,5 @@
 # Example from Programming Collective Intelligence, Chapter 5
 
-import random
-import math
 import optimization as opt
 
 # The dorms, each of which has two available spaces
@@ -18,6 +16,7 @@ prefs = [('Toby', ('Bacchus', 'Hercules')),
          ('Suzie', ('Bacchus', 'Hercules')),
          ('Laura', ('Bacchus', 'Hercules')),
          ('James', ('Hercules', 'Athena'))]
+
 
 def printsolution(vec):
     slots = []
@@ -50,7 +49,7 @@ def dormcost(vec):
         elif pref[1] == dorm:
             cost += 1
         else:
-            cost += 3   # Not on the list costs 3
+            cost += 3  # Not on the list costs 3
         # Remove selected slot
         del slots[x]
     return cost

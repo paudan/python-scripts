@@ -2,9 +2,11 @@
 
 import xml.dom.minidom
 import urllib2
+
 import treepredict
 
 zwskey = "X1-ZWz1chwxis15aj_9skq6"
+
 
 def getaddressdata(address, city):
     print "Getting data for %s" % address

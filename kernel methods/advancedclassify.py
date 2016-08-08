@@ -1,15 +1,17 @@
 # Example from Programming Collective Intelligence, Chapter 9
 
-from matplotlib.pyplot import *
 from xml.dom.minidom import parseString
 from urllib import urlopen, quote_plus
 import math
 import sys
 
+from matplotlib.pyplot import *
+
 sys.path.insert(0, 'D:/development/svm/libsvm-3.12/python')
 from svm import *
 
 loc_cache = {}
+
 
 class matchrow:
     def __init__(self, row, allnum=False):
@@ -102,8 +104,9 @@ def matchcount(interest1, interest2):
 
 def getlocation(address):
     if address in loc_cache: return loc_cache[address]
-    data = urlopen('http://query.yahooapis.com/v1/public/yql?q=select latitude, longitude from geo.placefinder where text="%s"' %
-                   quote_plus(address)).read()
+    data = urlopen(
+        'http://query.yahooapis.com/v1/public/yql?q=select latitude, longitude from geo.placefinder where text="%s"' %
+        quote_plus(address)).read()
     doc = parseString(data)
     lat = doc.getElementsByTagName('latitude')[0].firstChild.nodeValue
     long = doc.getElementsByTagName('longitude')[0].firstChild.nodeValue
@@ -198,60 +201,60 @@ def getoffset(rows, gamma=10):
 
 
 def main():
-    agesonly = loadmatch('agesonly.csv',allnum=True)
+    agesonly = loadmatch('agesonly.csv', allnum=True)
     matchmaker = loadmatch('matchmaker.csv')
     plotagematches(agesonly)
     # Linear classifier
     avgs = lineartrain(agesonly)
     print "Performing linear classification"
-    print dpclassify([30,30],avgs)
-    print dpclassify([30,25],avgs)
-    print dpclassify([25,40],avgs)
-    print dpclassify([48,20],avgs)
+    print dpclassify([30, 30], avgs)
+    print dpclassify([30, 25], avgs)
+    print dpclassify([25, 40], avgs)
+    print dpclassify([48, 20], avgs)
 
     print "Performing linear classification with categorical and scaled data"
     numericalset = loadnumerical()
-    scaledset,scalef=scaledata(numericalset)
+    scaledset, scalef = scaledata(numericalset)
     avgs = lineartrain(scaledset)
     print avgs
-    print numericalset[0].match, dpclassify(scalef(numericalset[0].data),avgs)
-    print numericalset[11].match, dpclassify(scalef(numericalset[11].data),avgs)
+    print numericalset[0].match, dpclassify(scalef(numericalset[0].data), avgs)
+    print numericalset[11].match, dpclassify(scalef(numericalset[11].data), avgs)
 
     print "Performing nonlinear classification"
     offset = getoffset(agesonly)
     print "Offset: ", offset
-    print nlclassify([30,30],agesonly,offset)
-    print nlclassify([30,25],agesonly,offset)
-    print nlclassify([25,40],agesonly,offset)
-    print nlclassify([48,20],agesonly,offset)
+    print nlclassify([30, 30], agesonly, offset)
+    print nlclassify([30, 25], agesonly, offset)
+    print nlclassify([25, 40], agesonly, offset)
+    print nlclassify([48, 20], agesonly, offset)
 
     ssoffset = getoffset(scaledset)
     print "Scaled offset: ", ssoffset
-    print numericalset[0].match, nlclassify(scalef(numericalset[0].data),scaledset,ssoffset)
-    print numericalset[1].match, nlclassify(scalef(numericalset[1].data),scaledset,ssoffset)
-    newrow=[28.0,-1,-1,26.0,-1,1,2,0.8] # Man doesn't want children, woman does
-    print nlclassify(scalef(newrow),scaledset,ssoffset) # Do not match
-    newrow=[28.0,-1,1,26.0,-1,1,2,0.8] # Both want children
-    print nlclassify(scalef(newrow),scaledset,ssoffset) # Match
+    print numericalset[0].match, nlclassify(scalef(numericalset[0].data), scaledset, ssoffset)
+    print numericalset[1].match, nlclassify(scalef(numericalset[1].data), scaledset, ssoffset)
+    newrow = [28.0, -1, -1, 26.0, -1, 1, 2, 0.8]  # Man doesn't want children, woman does
+    print nlclassify(scalef(newrow), scaledset, ssoffset)  # Do not match
+    newrow = [28.0, -1, 1, 26.0, -1, 1, 2, 0.8]  # Both want children
+    print nlclassify(scalef(newrow), scaledset, ssoffset)  # Match
 
     print "Performing SVM classification"
 
-    def create_svm_inst(newrow) :
+    def create_svm_inst(newrow):
         inst = scalef(newrow)
         dict = {}
         for x in range(0, len(inst)):
-            dict[x+1] = inst[x]
+            dict[x + 1] = inst[x]
         return gen_svm_nodearray(dict)
 
-    answers,inputs=[r.match for r in scaledset],[r.data for r in scaledset]
+    answers, inputs = [r.match for r in scaledset], [r.data for r in scaledset]
     param = svm_parameter('-s 0 -t 2 -c 10')
     print "Training SVM with parameters ", param.show()
-    prob = svm_problem(answers,inputs)
-    m = libsvm.svm_train(prob,param)
-    newrow=[28.0,-1,-1,26.0,-1,1,2,0.8] # Man doesn't want children, woman does
+    prob = svm_problem(answers, inputs)
+    m = libsvm.svm_train(prob, param)
+    newrow = [28.0, -1, -1, 26.0, -1, 1, 2, 0.8]  # Man doesn't want children, woman does
     x0, max_idx = create_svm_inst(newrow)
     print libsvm.svm_predict(m, x0)
-    newrow=[28.0,-1,1,26.0,-1,1,2,0.8] # Both want children
+    newrow = [28.0, -1, 1, 26.0, -1, 1, 2, 0.8]  # Both want children
     x0, max_idx = create_svm_inst(newrow)
     print libsvm.svm_predict(m, x0)
 

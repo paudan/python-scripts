@@ -1,10 +1,13 @@
 # Example from Programming Collective Intelligence, Chapter 8
 
 import httplib
-from xml.dom.minidom import parse, parseString, Node
-import numpredict
-from ebay.utils import set_config_file, get_config_store      # pip install python-ebay
+from xml.dom.minidom import parseString
+
+from ebay.utils import set_config_file, get_config_store  # pip install python-ebay
 from ebay.finding import findItemsByKeywords
+
+import numpredict
+
 
 # Setting eBay configuration values, as necessary by python-ebay module, and reading them from the config file
 set_config_file("ebay.apikey")
@@ -37,6 +40,7 @@ def sendRequest(apicall, xmlparameters):
         connection.close()
     return data
 
+
 def getSingleValue(node, tag):
     nl = node.getElementsByTagName(tag)
     if len(nl) > 0:
@@ -47,7 +51,8 @@ def getSingleValue(node, tag):
 
 
 def doSearch(query, pageNum=1):
-    data = findItemsByKeywords(query, paginationInput = {"entriesPerPage": "200", "pageNumber": str(pageNum)}, encoding="XML")
+    data = findItemsByKeywords(query, paginationInput={"entriesPerPage": "200", "pageNumber": str(pageNum)},
+                               encoding="XML")
     response = parseString(data)
     itemNodes = response.getElementsByTagName('item');
     results = []
@@ -140,7 +145,7 @@ def main():
     # if laptops:
     #     print getItem(laptops[7][0])
     set = makeLaptopDataset()
-    numpredict.knnestimate(set,(512,1000,14,40,1000))
+    numpredict.knnestimate(set, (512, 1000, 14, 40, 1000))
 
 
 if __name__ == "__main__": main()

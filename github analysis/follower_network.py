@@ -1,16 +1,18 @@
 # Examples from Mining the Social Web, section 7
 
-import requests
 import json
 import sys
 import os
 from operator import itemgetter
 from collections import Counter
 import webbrowser
+from ConfigParser import ConfigParser
+
+import requests
 from github import Github
 import networkx as nx  # pip install networkx
 from networkx.readwrite import json_graph
-from ConfigParser import ConfigParser
+
 
 # Set utf-8 encoding as default
 reload(sys)

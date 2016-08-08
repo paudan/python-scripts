@@ -1,6 +1,6 @@
 # Example from Programming Collective Intelligence, Chapter 7
 
-from PIL import Image,ImageDraw
+from PIL import Image, ImageDraw
 
 my_data = [['slashdot', 'USA', 'yes', 18, 'None'],
            ['google', 'France', 'yes', 23, 'Premium'],
@@ -110,6 +110,7 @@ def getwidth(tree):
 def getdepth(tree):
     if tree.tb == None and tree.fb == None: return 0
     return max(getdepth(tree.tb), getdepth(tree.fb)) + 1
+
 
 def drawtree(tree, jpeg='tree.jpg'):
     w = getwidth(tree) * 100
@@ -268,30 +269,30 @@ def buildtree(rows, scoref=entropy):
 
 
 def main():
-    print divideset(my_data,2,'yes')
+    print divideset(my_data, 2, 'yes')
     print "Gini impurity of the whole dataset: %f" % giniimpurity(my_data)
     print "Entropy of the whole dataset: %f" % entropy(my_data)
-    set1, set2 = divideset(my_data,2,'yes')
+    set1, set2 = divideset(my_data, 2, 'yes')
     print "Gini impurity of partial dataset: %f" % giniimpurity(set1)
     print "Entropy of partial dataset: %f" % entropy(set1)
 
     print "\nBuilding decision tree...\n"
     tree = buildtree(my_data)
     printtree(tree)
-    drawtree(tree,jpeg='treeview.jpg')
-    print classify(['(direct)','USA','yes',5],tree)
+    drawtree(tree, jpeg='treeview.jpg')
+    print classify(['(direct)', 'USA', 'yes', 5], tree)
 
     print "\nTree pruning (minimum gain 0.1):\n"
-    prune(tree,0.1)
+    prune(tree, 0.1)
     printtree(tree)
 
     print "\nTree pruning (minimum gain 1.0):\n"
-    prune(tree,1.0)
+    prune(tree, 1.0)
     printtree(tree)
 
     print "\nClassifying new instances:\n"
-    print mdclassify(['google',None,'yes',None],tree)
-    print mdclassify(['google','France',None,None],tree)
+    print mdclassify(['google', None, 'yes', None], tree)
+    print mdclassify(['google', 'France', None, None], tree)
 
 
 if __name__ == "__main__": main()

@@ -1,16 +1,17 @@
-import akismet      # pip install akismet
 import ConfigParser
+
+import akismet  # pip install akismet
 
 config = ConfigParser.RawConfigParser()
 config.read('config.ini')
 defaultkey = config.get('config', 'defaultkey')
 pageurl = config.get('config', 'pageurl')
 
-defaultagent="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.7) "
-defaultagent+="Gecko/20060909 Firefox/1.5.0.7"
+defaultagent = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.7) "
+defaultagent += "Gecko/20060909 Firefox/1.5.0.7"
 
 
-def isspam(comment,author,ipaddress, agent=defaultagent, apikey=defaultkey):
+def isspam(comment, author, ipaddress, agent=defaultagent, apikey=defaultkey):
     am = akismet.Akismet(apikey, pageurl)
     try:
         valid = am.verify_key()
@@ -28,6 +29,7 @@ def isspam(comment,author,ipaddress, agent=defaultagent, apikey=defaultkey):
 
 
 def main():
-    print isspam('Make money fast! Online Casino!','spammer@spam.com','127.0.0.1')
+    print isspam('Make money fast! Online Casino!', 'spammer@spam.com', '127.0.0.1')
+
 
 if __name__ == "__main__": main()

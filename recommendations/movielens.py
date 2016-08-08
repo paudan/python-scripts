@@ -4,13 +4,13 @@ import recommendations
 ## Get movie titles
 def loadMovieLens(path='./ml-100k'):
     movies = {}
-    for line in open(path+'/u.item'):
+    for line in open(path + '/u.item'):
         (id, title) = line.split('|')[0:2]
         movies[id] = title
     prefs = {}
-    for line in open(path+'/u.data'):
+    for line in open(path + '/u.data'):
         (user, movieid, rating, ts) = line.split('\t')
-        prefs.setdefault(user,{})
+        prefs.setdefault(user, {})
         prefs[user][movies[movieid]] = float(rating)
     return prefs
 
@@ -23,4 +23,3 @@ def main():
 
 
 if __name__ == "__main__": main()
-
