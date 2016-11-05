@@ -3,7 +3,6 @@
 import re
 import math
 
-
 def getwords(doc):
     splitter = re.compile('\\W*')
     print doc
@@ -183,53 +182,3 @@ def sampletrain(cl):
     cl.train('buy pharmaceuticals now', 'bad')
     cl.train('make quick money at the online casino', 'bad')
     cl.train('the quick brown fox jumps', 'good')
-
-
-def main():
-    # Train simple classifier
-    print('\nTraining simple classifier:\n')
-    cl = classifier(getwords)
-    sampletrain(cl)
-    # The probability that document, containing the word 'quick', will be labeled as 'good'
-    print(cl.fcount('quick','good'))
-    print(cl.fprob('quick', 'good'))
-    print(cl.fcount('quick','bad'))
-    print(cl.weightedprob('money','good',cl.fprob))
-    print(cl.weightedprob('money','good',cl.fprob))
-    # Train Naive Bayes classifier
-    print('\nTraining Naive Bayes classifier:\n')
-    cl=naivebayes(getwords)
-    sampletrain(cl)
-    print(cl.prob('quick rabbit','good'))
-    print(cl.prob('quick rabbit','bad'))
-    # Classify new instances
-    print('\nClassifying new instances:\n')
-    print(cl.classify('quick rabbit',default='unknown'))
-    print(cl.classify('quick money',default='unknown'))
-    cl.setthreshold('bad',3.0)
-    print(cl.classify('quick money',default='unknown'))
-    # Simple oversampling
-    for i in range(10): sampletrain(cl)
-    print(cl.classify('quick money',default='unknown'))
-    # Train Fisher classifier
-    print('\nTraining Fisher discriminant classifier:\n')
-    cl=fisherclassifier(getwords)
-    sampletrain(cl)
-    print(cl.cprob('quick','good'))
-    print(cl.cprob('money','bad'))
-    print(cl.weightedprob('money','bad',cl.cprob))
-    # Fisher probabilities
-    print('\nFisher probabilities:\n')
-    print(cl.fisherprob('quick rabbit','good'))
-    print(cl.fisherprob('quick rabbit','bad'))
-    # Perform classification with Fisher classifier
-    print('\nPerforming classification with Fisher discriminant classifier:\n')
-    print(cl.classify('quick rabbit'))
-    print(cl.classify('quick money'))
-    cl.setminimum('bad',0.8)
-    print(cl.classify('quick money'))
-    cl.setminimum('good',0.4)
-    print(cl.classify('quick money'))
-
-
-if __name__ == "__main__": main()

@@ -31,6 +31,4 @@ gen
 /mining mailboxes/config.ini
 /mining mailboxes/data/danpaulius.gmail.json
 /mining mailboxes/data/enron.mbox.json
-/github analysis/data/github.gpickle.3
-/github analysis/data/github.gpickle.2
-/github analysis/data/github.gpickle.1
+signal processing/

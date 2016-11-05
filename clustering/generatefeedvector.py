@@ -1,9 +1,7 @@
 # Example from Programming Collective Intelligence, Chapter 3
 
 import re
-
 import feedparser  # pip install feedparser
-
 
 # Returns title and dictionary of word counts for an RSS feed
 def getwordcounts(url):

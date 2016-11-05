@@ -2,7 +2,7 @@
 
 from math import sqrt
 import random
-
+import os
 from PIL import Image, ImageDraw, ImageFont
 
 
@@ -174,7 +174,7 @@ def getdepth(clust):
     return max(getdepth(clust.left), getdepth(clust.right)) + clust.distance
 
 
-def drawdendrogram(clust, labels, jpeg='clusters.jpg'):
+def drawdendrogram(clust, labels, fontfile='DejaVuSerif.ttf'):
     h = getheight(clust) * 20
     w = 1200
     depth = getdepth(clust)
@@ -185,12 +185,12 @@ def drawdendrogram(clust, labels, jpeg='clusters.jpg'):
     draw = ImageDraw.Draw(img)
     draw.line((0, h / 2, 10, h / 2), fill=(255, 0, 0))
     # Draw the first node
-    drawnode(draw, clust, 10, (h / 2), scaling, labels)
-    img.save(jpeg, 'JPEG')
+    drawnode(draw, clust, 10, (h / 2), scaling, labels, fontfile=fontfile)
+    return img
 
 
-def drawnode(draw, clust, x, y, scaling, labels):
-    font = ImageFont.truetype('DejaVuSerif.ttf', 12)
+def drawnode(draw, clust, x, y, scaling, labels, fontfile='DejaVuSerif.ttf'):
+    font = ImageFont.truetype(fontfile, 12)
     if clust.id < 0:
         h1 = getheight(clust.left) * 20
         h2 = getheight(clust.right) * 20
@@ -204,8 +204,8 @@ def drawnode(draw, clust, x, y, scaling, labels):
         # Horizontal line to right item
         draw.line((x, bottom - h2 / 2, x + 11, bottom - h2 / 2), fill=(255, 0, 0))
 
-        drawnode(draw, clust.left, x + 11, top + h1 / 2, scaling, labels)
-        drawnode(draw, clust.right, x + 11, bottom - h2 / 2, scaling, labels)
+        drawnode(draw, clust.left, x + 11, top + h1 / 2, scaling, labels, fontfile=fontfile)
+        drawnode(draw, clust.right, x + 11, bottom - h2 / 2, scaling, labels, fontfile=fontfile)
     else:
         # If this is an endpoint, draw the item label
         draw.text((x + 5, y - 7), labels[clust.id], (0, 0, 0), font=font)
@@ -228,7 +228,7 @@ def scaledown(data, distance=pearson, rate=0.01):
         grad = [[0.0, 0.0] for i in range(n)]
         totalerror = 0
         for k in range(n):
-            # TODO j should be greater than k? NO
+            # TODO j should be greater than k?
             for j in range(n):
                 # skip self(compared with self)
                 if j == k:
@@ -250,30 +250,12 @@ def scaledown(data, distance=pearson, rate=0.01):
     return loc
 
 
-def draw2d(data, labels, jpeg='mds2d.jpg'):
+def draw2d(data, labels):
     img = Image.new('RGB', (2000, 2000), (255, 255, 255))
     draw = ImageDraw.Draw(img)
     for i in range(len(data)):
         x = (data[i][0] + 0.5) * 1000
         y = (data[i][1] + 0.5) * 1000
         draw.text((x, y), labels[i], (0, 0, 0))
-    img.save(jpeg, 'JPEG')
+    return img
 
-
-def main():
-    blognames, words, data = readfile('blogdata.txt')
-    clust = hcluster(data)
-    # printclust(clust,labels=blognames)
-    drawdendrogram(clust, blognames, jpeg='blogclust.jpg')
-    coords = scaledown(data)
-    draw2d(coords, blognames, jpeg='blogs2d.jpg')
-
-    # kclust=kcluster(data,k=10)
-    # [rownames[r] for r in k[0]]
-
-    wants, people, data = readfile('zebo.txt')
-    clust = hcluster(data, distance=tanamoto)
-    drawdendrogram(clust, wants)
-
-
-if __name__ == "__main__": main()

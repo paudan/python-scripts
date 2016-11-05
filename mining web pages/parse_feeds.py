@@ -11,77 +11,31 @@ from os import path
 sys.path.insert(0, '../google analysis')
 from google_search import cleanHtml
 
-sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+# sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 FEED_URL = 'http://feeds.feedburner.com/oreilly/radar/atom'
 
 N = 100  # Number of words to consider
 CLUSTER_THRESHOLD = 5  # Distance between words to consider
 TOP_SENTENCES = 5  # Number of sentences to return for a "top n" summary
 
-
-def parse_feed():
-    fp = feedparser.parse(FEED_URL)
-    print "Fetched %s entries from '%s'" % (len(fp.entries[0].title), fp.feed.title)
-
-    blog_posts = []
-    for e in fp.entries:
-        blog_posts.append({'title': e.title, 'content': cleanHtml(e.content[0].value), 'link': e.links[0].href})
-
-    out_file = 'feed.json'
-    with io.open(out_file, 'w', encoding='utf-8') as f:
-        f.write(unicode(json.dumps(blog_posts, ensure_ascii=False, indent=1)))
-    print 'Wrote output file to %s' % (f.name,)
-
-
-def process_blog_data(fname):
-    # Download nltk packages used in this example
-    nltk.download('stopwords')
-    blog_data = json.loads(open(fname).read())
-    stop_words = nltk.corpus.stopwords.words('english') + [
-        '.',
-        ',',
-        '--',
-        '\'s',
-        '?',
-        ')',
-        '(',
-        ':',
-        '\'',
-        '\'re',
-        '"',
-        '-',
-        '}',
-        '{',
-        u'\x97'
-    ]
-
-    for post in blog_data:
-        sentences = nltk.tokenize.sent_tokenize(post['content'])
-
-        words = [w.lower().replace('\u', '') for sentence in sentences for w in
-                 nltk.tokenize.word_tokenize(sentence)]
-
-        fdist = nltk.FreqDist(words)
-        num_words = sum([i[1] for i in fdist.items()])
-        num_unique_words = len(fdist.keys())
-        # Hapaxes are words that appear only once
-        num_hapaxes = len(fdist.hapaxes())
-
-        top_10_words_sans_stop_words = [w for w in fdist.items()
-                                        if w[0] not in stop_words][:10]
-        print post['title']
-        print '\tNum Sentences:'.ljust(25), len(sentences)
-        print '\tNum Words:'.ljust(25), num_words
-        print '\tNum Unique Words:'.ljust(25), num_unique_words
-        print '\tNum Hapaxes:'.ljust(25), num_hapaxes
-        print '\tTop 10 Most Frequent Words (sans stop words):'
-        for w in top_10_words_sans_stop_words:
-            try:
-                print '\t\t%s (%s)' % (w[0], w[1])
-            except UnicodeDecodeError, e:
-                pass
-        print
-
+nltk.download('stopwords')
+stop_words = nltk.corpus.stopwords.words('english') + [
+    '.',
+    ',',
+    '--',
+    '\'s',
+    '?',
+    ')',
+    '(',
+    ':',
+    '\'',
+    '\'re',
+    '"',
+    '-',
+    '}',
+    '{',
+    u'\x97'
+]
 
 # Approach taken from "The Automatic Creation of Literature Abstracts" by H.P. Luhn
 def _score_sentences(sentences, important_words):
@@ -187,16 +141,9 @@ def visualize_summarization_results(fname):
 </html>"""
 
     blog_data = json.loads(open(fname).read())
-
+    dirname = path.join(path.dirname(path.realpath(__file__)), 'summarization')
     for post in blog_data:
-
-        # Uses previously defined summarize function.
         post.update(summarize(post['content']))
-
-        # You could also store a version of the full post with key sentences marked up
-        # for analysis with simple string replacement...
-
-        dirname = path.join(path.dirname(path.realpath(__file__)), 'summarization')
         if not path.isdir(dirname):
             os.mkdir(dirname)
         for summary_type in ['top_n_summary', 'mean_scored_summary']:
@@ -208,7 +155,6 @@ def visualize_summarization_results(fname):
             f = open(filename, 'w')
             html = HTML_TEMPLATE % (post['title'] + \
                                     ' Summary', post[summary_type + '_marked_up'],)
-
             f.write(html.encode('utf-8'))
             f.close()
 
@@ -216,9 +162,8 @@ def visualize_summarization_results(fname):
 
     # Display any of these files with an inline frame. This displays the
     # last file processed by using the last value of f.name...
-
     print "Displaying %s:" % f.name
-    display(IFrame('files/%s' % f.name, '100%', '600px'))
+    display(IFrame('file:///%s' % f.name, '100%', '300px'))
 
 
 def extract_entities(fname):
@@ -328,7 +273,7 @@ def visualize_interactions(fname):
 
         print "Data written to", f.name
         print "Displaying %s:" % f.name
-        display(IFrame('files/%s' % f.name, '100%', '600px'))
+        display(IFrame('file:///%s' % f.name, '100%', '300px'))
 
 
 def discover_interactions():
@@ -365,4 +310,4 @@ def create_summarizations():
 
 
 # create_summarizations()
-discover_interactions()
+# discover_interactions()

@@ -304,35 +304,3 @@ class searcher:
         scores = dict([(urlids[i], nnres[i]) for i in range(len(urlids))])
         return self.normalizescores(scores)
 
-
-def main():
-    # tarfile.open("wiki.tar.gz", 'r:gz').extractall(".")
-    crawlerObj = crawler('searchindex.db')
-    # crawlerObj.createindextables()
-    # pages = \
-    #    ['file:///'+os.path.dirname(os.path.realpath(__file__)) + '\\wiki\\Categorical_list_of_programming_languages.html']
-    # crawlerObj.crawl(pages)
-    # print([row for row in crawlerObj.con.execute('select rowid from wordlocation where wordid=22')])
-    # crawlerObj.calculatepagerank()
-
-    e = searcher('searchindex.db')
-    # print e.getmatchrows('functional programming')
-    rows, wordids = e.getmatchrows('functional programming')
-    print "Frequency score:"
-    print e.query(rows, wordids, [(1.0, e.frequencyscore(rows))])
-    print "Location score:"
-    print e.query(rows, wordids, [(1.0, e.locationscore(rows))])
-    print "ANN score"
-    print e.query(rows, wordids, [(1.0, e.nnscore(rows, wordids))])
-    print "Mixed score"
-    print e.query(rows, wordids, [(1.0, e.locationscore(rows)),
-                                  (1.0, e.frequencyscore(rows)), (1.0, e.pagerankscore(rows))])
-
-    print 'Pagerank results'
-    cur = crawlerObj.con.execute('select * from pagerank order by score desc')
-    for i in range(3):
-        ind = cur.next()
-        print '%f\t%s' % (ind[1], e.geturlname(ind[0]))
-
-
-if __name__ == "__main__": main()

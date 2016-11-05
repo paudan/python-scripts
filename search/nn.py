@@ -168,31 +168,3 @@ class searchnet:
                 self.setstrength(self.hiddenids[j], self.urlids[k], 1, self.wo[j][k])
         self.con.commit()
 
-
-def main():
-    mynet = searchnet('nn.db')
-    # mynet.maketables()
-    wWorld, wRiver, wBank = 101, 102, 103
-    uWorldBank, uRiver, uEarth = 201, 202, 203
-    # mynet.generatehiddennode([wWorld,wBank],[uWorldBank,uRiver,uEarth])
-    for c in mynet.con.execute('select * from wordhidden'): print c
-    for c in mynet.con.execute('select * from hiddenurl'): print c
-    # Setup network
-    print mynet.getresult([wWorld, wBank], [uWorldBank, uRiver, uEarth])
-    # Train and query network
-    print "Network output after training"
-    mynet.trainquery([wWorld, wBank], [uWorldBank, uRiver, uEarth], uWorldBank)
-    print mynet.getresult([wWorld, wBank], [uWorldBank, uRiver, uEarth])
-    print "Training test"
-    allurls = [uWorldBank, uRiver, uEarth]
-    for i in range(30):
-        mynet.trainquery([wWorld, wBank], allurls, uWorldBank)
-        mynet.trainquery([wRiver, wBank], allurls, uRiver)
-        mynet.trainquery([wWorld], allurls, uEarth)
-
-    print mynet.getresult([wWorld, wBank], allurls)
-    print mynet.getresult([wRiver, wBank], allurls)
-    print mynet.getresult([wBank], allurls)
-
-
-if __name__ == "__main__": main()

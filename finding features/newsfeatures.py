@@ -2,27 +2,6 @@
 
 import feedparser   # pip install feedparser
 import re
-import sys
-from sklearn.decomposition import NMF
-
-feedlist = ['http://feeds.reuters.com/reuters/topNews',
-            'http://feeds.reuters.com/Reuters/domesticNews',
-            'http://feeds.reuters.com/Reuters/worldNews',
-            'http://hosted2.ap.org/atom/APDEFAULT/3d281c11a96b4ad082fe88aa0db04305',
-            'http://hosted2.ap.org/atom/APDEFAULT/386c25518f464186bf7a2ac026580ce7',
-            'http://hosted2.ap.org/atom/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5',
-            'http://hosted2.ap.org/atom/APDEFAULT/89ae8247abe8493fae24405546e9a1aa',
-            'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml',
-            'http://www.nytimes.com/services/xml/rss/nyt/International.xml',
-            'http://news.google.com/?output=rss',
-            'http://feeds.salon.com/salon/news',
-            'http://www.foxnews.com/xmlfeed/rss/0,4313,0,00.rss',
-            'http://www.foxnews.com/xmlfeed/rss/0,4313,80,00.rss',
-            'http://www.foxnews.com/xmlfeed/rss/0,4313,81,00.rss',
-            'http://rss.cnn.com/rss/edition.rss',
-            'http://rss.cnn.com/rss/edition_world.rss',
-            'http://rss.cnn.com/rss/edition_us.rss']
-
 
 def stripHTML(h):
     p = ''
@@ -43,7 +22,7 @@ def separatewords(text):
     return [s.lower() for s in splitter.split(text) if len(s) > 3]
 
 
-def getarticlewords():
+def getarticlewords(feedlist):
     allwords = {}
     articlewords = []
     articletitles = []
@@ -59,7 +38,7 @@ def getarticlewords():
             if e.title in articletitles: continue
 
             # Extract the words
-            txt = e.title.encode('utf8') + stripHTML(e.description.encode('utf8'))
+            txt = e.title.encode('utf8') + stripHTML(e.description.encode('utf8') if e.has_key('description') else '')
             words = separatewords(txt)
             articlewords.append({})
             articletitles.append(e.title)
@@ -155,42 +134,3 @@ def showarticles(titles, toppatterns, patternnames, out='articles.txt'):
 
     outfile.close()
 
-
-def main():
-    allw,artw,artt= getarticlewords()
-    wordmatrix,wordvec= makematrix(allw,artw)
-    print wordvec[0:10]
-    print artt[1]
-
-    def wordmatrixfeatures(x):
-        return [wordvec[w] for w in range(len(x)) if x[w]>0]
-
-    # print 'Bayesian classification:'
-    # import docclass
-    # classifier=docclass.naivebayes(wordmatrixfeatures)
-    # classifier.setdb('newstest.db')
-    # print artt[0]
-    # classifier.train(wordmatrix[0],'iraq')
-    # print artt[1]
-    # classifier.train(wordmatrix[1],'india')
-    # print artt[2]
-    # print classifier.classify(wordmatrix[1])
-    #
-    # sys.path.insert(0, '../clustering')
-    # import clusters
-    # print "Clustering:"
-    # clust = clusters.hcluster(wordmatrix)
-    # clusters.drawdendrogram(clust,artt,jpeg='news.jpg')
-
-    print "Applying NNMF algorithm and show features"
-    v=matrix(wordmatrix)
-    # import nnmf           # Numerical problems!
-    # weights,feat=nnmf.factorize(v,pc=20,iter=20)
-    model = NMF(n_components=20, init='random', random_state=0)
-    weights = model.fit_transform(v);
-    feat = model.components_;
-    topp,pn = showfeatures(weights,feat,artt,wordvec)
-    showarticles(artt,topp,pn)
-
-
-if __name__ == "__main__": main()

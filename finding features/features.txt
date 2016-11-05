@@ -1,100 +1,100 @@
-['news', 'california', 'about', 'destroyed', 'homes', 'nbsp']
-(0.078298195922828162, u'\u200bMore than 1000 homes destroyed by 2 California fires - CBS News')
-(0.071548862799893698, u"Kasich: Comments about tipping Latina maid were about honoring people 'we run ... - USA TODAY")
-(0.027461479994641894, u"Fed's Williams still sees 2015 rate hike after 'close call'")
+['nbsp', 'giuliani', 'washington', 'post', 'that', 'news']
+(8.1315850044672047, u'Rudy Giuliani is claiming to have insider FBI knowledge. Does he really? - Washington Post')
+(1.7265927484589971, u'Analysis: If Clinton Wins, the Obamas Would Deserve Significant Amount of Credit - NBCNews.com')
+(0.30926647539723834, u'ISIS human shields describe escape from captors')
 
-['pope', 'francis', 'from', 'croatia', 'said', 'about']
-(0.038479598939667702, u'Insurgents killed 56 government troops at captured air base: Syria monitor')
-(0.03305878060440165, u'Francis in America: A Humble Pope, Challenging the World')
-(0.031442986711743462, u"Army's Bergdahl suffered some of the worst abuse of any U.S. POW: witness")
+['after', 'saturday', 'indonesia', 'will', 'reuters', 'world']
+(1.6659287856861966, u'Murray is new world No. 1 after Raonic withdraws')
+(1.6100536625098278, u'Indonesia president cancels trip abroad after deadly protest')
+(1.5732181582582858, u'UK backs judicial independence after judges face Brexit heat')
 
-['over', 'york', 'cuba', 'pope', 'ahead', 'race']
-(0.030529354483696355, u'Lawyers spar over ownership of oldest U.S. synagogue')
-(0.029665707836653923, u'Party Rules to Streamline Race May Backfire for G.O.P.')
-(0.029212094880116706, u'Saga surrounding Kentucky clerk may not be over')
+['military', 'reuters', 'jordan', 'said', 'dead', 'three']
+(2.054233312747789, u'Three U.S. trainers shot dead at Jordan base - military source')
+(1.1857598891842196, u'Turkish military says hits 71 Islamic State targets in northern Syria')
+(1.13303857484038, u'German military investigates 60 potential Islamists in Bundeswehr')
 
-['from', 'helicopter', 'police', 'angeles', 'deputy', 'after']
-(0.078541443826153329, u'Police shooting from helicopters -- rare but not unheard of - Los Angeles Times')
-(0.039384475074380455, u'Obama nominates first openly gay service secretary to lead Army')
-(0.037237464426002988, u'The Latest on the 2016 campaign: Bush hits Georgia football')
+['south', 'president', 'thousands', 'tens', 'korea', 'saturday']
+(2.443825995503905, u"Tens of thousands call on South Korea's president to quit")
+(2.0040703422064894, u'Tens of thousands protest in South Korea, call for president to quit')
+(1.1386723839012771, u'Amid political furor, ever-growing rumors permeate S. Korea')
 
-['biden', 'warm', 'black', 'europe', 'nbsp', 'caucus']
-(0.068831480872302703, u'Biden receives warm welcome at Congressional Black Caucus event - CNN')
-(0.034187602679159303, u'Crews gain ground on California blazes, search for missing goes on')
-(0.02968661791920809, u'Cubans Have Mixed Opinions on Effect of Visit by Pope Francis')
+['homeless', 'police', 'sandwich', 'antonio', 'fired', 'guardian']
+(5.4262798013217122, u'Texas police officer fired over claims he gave feces sandwich to homeless man - The Guardian')
+(0.79483364775216647, u'San Antonio police officer loses job after claiming to give fecal sandwich to homeless person')
+(0.27674986000375018, u'ISIS claims responsibility for Turkey blasts')
 
-['nbsp', 'news', 'black', 'biden', 'caucus', 'flood']
-(0.041494615053343051, u'Thousands Flood Into Austria as Migrants Are Bounced Around Europe - New York Times')
-(0.041288327765380259, u'Biden receives warm welcome at Congressional Black Caucus event - CNN')
-(0.024793798508356901, u'AP Interview: Black Lives Matter skipping 2016 endorsement')
+['stone', 'rolling', 'university', 'rape', 'magazine', 'about']
+(1.6472488089825787, u"Opinion: Magazine still hasn't learned its lesson")
+(1.1146682275672766, u'Rolling Stone Loses Defamation Case Over Rape Story')
+(1.108818270458354, u'Jury finds Rolling Stone liable in defamation suit')
 
-['been', 'ahead', 'friday', 'group', 'house', 'former']
-(0.02590547171529969, u'House Republicans vote to strip Planned Parenthood funds')
-(0.022216962423062907, u'The battle-worn face of Indian wrestling')
-(0.020865343276902298, u"Has Nefertiti's tomb finally been found?")
+['clinton', 'trump', 'hillary', 'donald', 'campaign', 'election']
+(1.6834943157971591, u'Analysis: If Clinton Wins, the Obamas Would Deserve Significant Amount of Credit - NBCNews.com')
+(1.0642514944155397, u'Clinton, Trump clash over economy in final campaign stretch')
+(0.71098412690021751, u'Trump says no need for celebs; Clinton hangs with Beyonc\xe9')
 
-['migrants', 'their', 'hungary', 'nbsp', 'thousands', 'europe']
-(0.059572245287207982, u'Thousands Flood Into Austria as Migrants Are Bounced Around Europe - New York Times')
-(0.059317977620983717, u'On Lesbos, endless waves of boats and fears of a more treacherous voyage - Washington Post')
-(0.039077090833378986, u'Pope exhorts US and Cuba to push detente further - Reuters')
+['trump', 'melania', 'nbsp', 'report', 'worked', 'washington']
+(3.7956268935665793, u'Report: Melania Trump worked in US without proper permit - Washington Post')
+(0.28999491528964455, u'Contributing Opinion Writer: Is Donald Trump an American Hugo Ch\xe1vez?')
+(0.1949560803936323, u'Dependent on migrant dollars, rural Mexico prays for Trump defeat')
 
-['kerry', 'syria', 'their', 'after', 'suspect', 'down']
-(0.091995990497559882, u"John Kerry says Syria's Bashar al-Assad must go but timing down to negotiation - ABC Online")
-(0.059000069631512567, u"Phoenix freeway shooting suspect: 'I'm the wrong guy'")
-(0.032656199303177633, u'Opinion: Should you let your kids play football?')
+['manning', 'suicide', 'chelsea', 'america', 'soldier', 'voice']
+(2.2791694038138148, u'Soldier Imprisoned in Classified Leak Attempts Suicide Again - Voice of America')
+(0.60224872792066253, u'Chelsea Manning Tried Committing Suicide a Second Time in October')
+(0.28725855219727398, u'Convicted leaker Manning made second suicide attempt, lawyers say')
 
-['suspect', 'wrong', 'news', 'shooting', 'freeway', 'phoenix']
-(0.059453764792199069, u'Arizona Freeway Shooting Suspect Leslie Allen Merritt Denies Being Gunman - NBCNews.com')
-(0.030843402643218078, u'Utah flood toll rises to 20; dead Zion National Park hikers named')
-(0.028818618216682419, u"'The face of our church is changing'")
+['libya', 'kidnapped', 'italy', 'released', 'canadian', 'unharmed']
+(2.5853716110867819, u'3 Kidnapped in Libya Are Released Unharmed and Flown to Italy - New York Times')
+(0.53443240593531793, u'3 Kidnapped in Libya Are Released Unharmed and Flown to Italy')
+(0.060675141289109259, u'New poll out on final weekend')
 
-['saturday', 'said', 'that', 'says', 'trump', 'muslim']
-(0.028626284858377562, u'U.S. says Assad must go, timing down to negotiation')
-(0.027610431106828065, u'The Saturday Profile: In Sierra Leone, Giving the Stigma of Ebola a Good, Swift Kick')
-(0.027333594789110564, u'Donald Trump breaks his silence on anti-Muslim comments - Fortune')
+['christie', 'jersey', 'bridgegate', 'chris', 'former', 'trial']
+(1.3683452974406964, u"Ex-Christie associates guilty in New Jersey 'Bridgegate' scandal")
+(1.1929122362920412, u"NJ Gov. Chris Christie's former allies found guilty in Bridgegate")
+(1.1758853098556075, u"Despite guilty verdicts, 'Bridgegate' charges vs New Jersey governor seen unlikely")
 
-['nbsp', 'suspect', 'news', 'shooting', 'trump', 'that']
-(0.10157464741992023, u'Arizona Freeway Shooting Suspect Leslie Allen Merritt Denies Being Gunman - NBCNews.com')
-(0.063992307273220764, u'Donald Trump breaks his silence on anti-Muslim comments - Fortune')
-(0.044022785658402022, u"John Kerry says Syria's Bashar al-Assad must go but timing down to negotiation - ABC Online")
+['police', 'killed', 'bronx', 'york', 'friday', 'suspect']
+(1.3313168956916595, u'New York police officer and suspect killed in Bronx shootout')
+(0.85486024900193869, u'Police Sergeant Fatally Shot in the Bronx; Another Is Injured')
+(0.53407197359850822, u"Detained Philippine mayor on Duterte's drug list killed in prison shootout")
 
-['pope', 'francis', 'police', 'austria', 'bounced', 'reuters']
-(0.044189283035661824, u'Police to review handling of Texas student handcuffed over clock')
-(0.040208926229357955, u'Thousands Flood Into Austria as Migrants Are Bounced Around Europe - New York Times')
-(0.025539083701917781, u'Pope Francis praises US-Cuba detente as model for world')
+['police', 'shooting', 'oakland', 'injured', 'least', 'people']
+(2.3616543414578004, u'Update: Police Investigate Shooting That Injured At Least Eight People - SFGate')
+(0.26271729372921943, u'At least 8 people injured in shooting outside nightclub')
+(0.22749029224267242, u'Indonesia Pres cancels trip after protest')
 
-['nbsp', 'news', 'suspect', 'times', 'trump', 'that']
-(0.095433830107246764, u'Arizona Freeway Shooting Suspect Leslie Allen Merritt Denies Being Gunman - NBCNews.com')
-(0.089752816550283054, u'Donald Trump breaks his silence on anti-Muslim comments - Fortune')
-(0.082436343145287486, u'Thousands Flood Into Austria as Migrants Are Bounced Around Europe - New York Times')
+['kong', 'hong', 'last', 'center', 'china', 'left']
+(1.4997843848886747, u'If China Meant to Chill Hong Kong Speech, Booksellers\u2019 Case Did the Job')
+(1.1334460892649914, u'China Plans to Intervene in Hong Kong Dispute')
+(0.83244265104930737, u'The Saturday Profile: From Hong Kong Pencil Pusher to Political Firebrand')
 
-['biden', 'nbsp', 'saturday', 'authorities', 'shootings', 'warm']
-(0.074960623683715089, u'Biden receives warm welcome at Congressional Black Caucus event - CNN')
-(0.062094558001438316, u'Suspect in string of Arizona shootings arrested: authorities')
-(0.036876626213296237, u'Insurgents killed 56 government troops at captured air base: Syria monitor')
+['iraqi', 'from', 'troops', 'isis', 'mosul', 'town']
+(2.0141319808255882, u'Iraqi troops storm town in bid to drive ISIS from Mosul')
+(1.3345987681046869, u'Iraqi troops on southern front battle for last town before Mosul')
+(0.88859655148445216, u'Iraqi units clear Mosul buildings after advances, IS attacks')
 
-['trump', 'about', 'obama', 'said', 'muslim', 'president']
-(0.034536732045288177, u"Kasich: Comments about tipping Latina maid were about honoring people 'we run ... - USA TODAY")
-(0.032489826273599476, u'Turkish jets hit Kurdish militant camps in Iraq, at least 55 killed: sources')
-(0.031776507502326634, u'Trump hits back on Obama claim')
+['obama', 'sentences', 'nbsp', 'commutes', 'white', 'inmates']
+(3.3837724567952137, u'Obama commutes sentences for 72 inmates - The Hill')
+(0.39662081591904352, u'More commutations by President Obama')
+(0.37071974778839828, u'Analysis: If Clinton Wins, the Obamas Would Deserve Significant Amount of Credit - NBCNews.com')
 
-['cuba', 'california', 'pope', 'reuters', 'news', 'francis']
-(0.094021205968445376, u'\u200bMore than 1000 homes destroyed by 2 California fires - CBS News')
-(0.074078550118409095, u'Pope exhorts US and Cuba to push detente further - Reuters')
-(0.046364907467899674, u"Army's Bergdahl suffered some of the worst abuse of any U.S. POW: witness")
+['with', 'like', 'have', 'what', 'this', 'race']
+(0.69511144336154373, u'NYC could have looked like this')
+(0.5819493567424624, u'What Would You Serve With Gin and Juice? At the Table With Martha Stewart and Snoop Dogg')
+(0.54591041071300139, u'Trump says no need for celebs; Clinton hangs with Beyonc\xe9')
 
-['saturday', 'reuters', 'california', 'hundreds', 'coup', 'since']
-(0.035668482257603995, u'Anti-coup protests in Burkina amid crisis talks')
-(0.035562882253990229, u'Hundreds of Thais defy protest ban in anti-junta march')
-(0.035553716852067492, u"Alabama court voids lesbian couple's Georgia adoption agreement")
+['obama', 'trump', 'this', 'news', 'nbsp', 'barack']
+(2.0309136407284503, u'Watch Barack Obama Talk Media, Marijuana, Trump With... - RollingStone.com')
+(0.23667844269314986, u'Analysis: If Clinton Wins, the Obamas Would Deserve Significant Amount of Credit - NBCNews.com')
+(0.16608995090361495, u'Fate of Obama legacy initiatives in hands of courts, successor')
 
-['should', 'highway', 'with', 'reuters', 'saturday', 'wednesday']
-(0.033026864197251593, u'Suspect charged in Arizona highway shootings, held on $1 million bond')
-(0.026757305203802349, u'House Republicans vote to strip Planned Parenthood funds')
-(0.024361654084566014, u"Venezuela's opposition protests 'wicked' Lopez sentence")
+['that', 'brexit', 'from', 'britain', 'court', 'could']
+(0.974663113047329, u'\u2018Brexit\u2019 Ruling Could Cause Britain to Drag Its Feet, Muddying E.U. Plans')
+(0.67945390572367059, u'Brexit case woman gets death, rape threats')
+(0.50720323969891135, u'A new perspective of our planet')
 
-['said', 'mother', 'syria', 'kerry', 'john', 'negotiation']
-(0.077204815406089103, u"John Kerry says Syria's Bashar al-Assad must go but timing down to negotiation - ABC Online")
-(0.068400118083043429, u'Mother, boyfriend charged in death of toddler found on Boston Harbor beach')
-(0.045297306312984717, u'Body in bag killing: Two charged')
+['baby', 'with', 'chibok', 'nbsp', 'news', 'found']
+(4.0981546381680012, u"Nigeria schoolgirl missing from Chibok 'found with baby' - BBC News")
+(0.59963011037747216, u'Nigeria: Missing Chibok girl found')
+(0.24462906225869882, u'Analysis: If Clinton Wins, the Obamas Would Deserve Significant Amount of Credit - NBCNews.com')
 

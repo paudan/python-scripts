@@ -2,24 +2,6 @@
 
 from PIL import Image, ImageDraw
 
-my_data = [['slashdot', 'USA', 'yes', 18, 'None'],
-           ['google', 'France', 'yes', 23, 'Premium'],
-           ['digg', 'USA', 'yes', 24, 'Basic'],
-           ['kiwitobes', 'France', 'yes', 23, 'Basic'],
-           ['google', 'UK', 'no', 21, 'Premium'],
-           ['(direct)', 'New Zealand', 'no', 12, 'None'],
-           ['(direct)', 'UK', 'no', 21, 'Basic'],
-           ['google', 'USA', 'no', 24, 'Premium'],
-           ['slashdot', 'France', 'yes', 19, 'None'],
-           ['digg', 'USA', 'no', 18, 'None'],
-           ['google', 'UK', 'no', 18, 'None'],
-           ['kiwitobes', 'UK', 'no', 19, 'None'],
-           ['digg', 'New Zealand', 'yes', 12, 'Basic'],
-           ['slashdot', 'UK', 'no', 21, 'None'],
-           ['google', 'UK', 'yes', 18, 'Basic'],
-           ['kiwitobes', 'France', 'yes', 19, 'Basic']]
-
-
 class decisionnode:
     def __init__(self, col=-1, value=None, results=None, tb=None, fb=None):
         self.col = col
@@ -112,7 +94,7 @@ def getdepth(tree):
     return max(getdepth(tree.tb), getdepth(tree.fb)) + 1
 
 
-def drawtree(tree, jpeg='tree.jpg'):
+def drawtree(tree):
     w = getwidth(tree) * 100
     h = getdepth(tree) * 100 + 120
 
@@ -120,7 +102,7 @@ def drawtree(tree, jpeg='tree.jpg'):
     draw = ImageDraw.Draw(img)
 
     drawnode(draw, tree, w / 2, 20)
-    img.save(jpeg, 'JPEG')
+    return img
 
 
 def drawnode(draw, tree, x, y):
@@ -266,33 +248,3 @@ def buildtree(rows, scoref=entropy):
                             tb=trueBranch, fb=falseBranch)
     else:
         return decisionnode(results=uniquecounts(rows))
-
-
-def main():
-    print divideset(my_data, 2, 'yes')
-    print "Gini impurity of the whole dataset: %f" % giniimpurity(my_data)
-    print "Entropy of the whole dataset: %f" % entropy(my_data)
-    set1, set2 = divideset(my_data, 2, 'yes')
-    print "Gini impurity of partial dataset: %f" % giniimpurity(set1)
-    print "Entropy of partial dataset: %f" % entropy(set1)
-
-    print "\nBuilding decision tree...\n"
-    tree = buildtree(my_data)
-    printtree(tree)
-    drawtree(tree, jpeg='treeview.jpg')
-    print classify(['(direct)', 'USA', 'yes', 5], tree)
-
-    print "\nTree pruning (minimum gain 0.1):\n"
-    prune(tree, 0.1)
-    printtree(tree)
-
-    print "\nTree pruning (minimum gain 1.0):\n"
-    prune(tree, 1.0)
-    printtree(tree)
-
-    print "\nClassifying new instances:\n"
-    print mdclassify(['google', None, 'yes', None], tree)
-    print mdclassify(['google', 'France', None, None], tree)
-
-
-if __name__ == "__main__": main()

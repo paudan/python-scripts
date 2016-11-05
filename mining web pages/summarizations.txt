@@ -1,222 +1,772 @@
-Blocks in Ruby
-==============
+Enabling enterprise-wide data analytics
+=======================================
 
 Top N Summary
 -------------
-The yield statement 
- As you know by now, a block must follow a method call. and without: 
- [crayon-56082082d7b8a869687801/] 
- Now redefine gimme to contain two yield s, and then call it with a block: 
- [crayon-56082082d7b91603795181/] 
- Another thing you ought know is that after yield executes, control goes back to the statement immediately following it. Kernel 's lambda method, for example, expects a block. An iterator method such as each without a block will return only an enumerator. Finally, stored procedures in Ruby — procs — use blocks as well.
+Jumping through the IT bottleneck 
+
+ For business users, the current process for getting insight from big data is often long and sometimes frustrating. The tool is accessed through a GUI built with the business analyst in mind, as well as modules for IT operations and data science. Adopting such a culture relies on support from both the top and the bottom, whereby management encourages and enables experimentation, and individuals take initiative to learn about new tools and build products that solve problems of immediate interest to them. As tools like Kylo mature, everyone who wants to will be able to use data to make their jobs easier or more fun—hopefully both. Continue reading Enabling enterprise-wide data analytics.
 -------------------
 Mean Scored Summary
 -------------------
-An iterator munches data, usually in sequence, and with a little help, can actually do something useful with that data. The braces actually have higher precedence than do / end , and the syntax is more concise, as you can see: 
- [crayon-56082082d7b4d637945346/] 
- Multiple parameters 
- A block may use more than one parameter. Compare these calls, for example: 
- [crayon-56082082d7b5d055566786/] 
- With these: 
- [crayon-56082082d7b64343657285/] 
- Nothing doing with the last two, except returned enumerators. The yield statement 
- As you know by now, a block must follow a method call. We don't always see yield at work — it is part of the underlying, implicit control structure of iterator methods. Redefine gimme with an if statement: 
- [crayon-56082082d7b83857171859/] 
- Try gimme again with a very simple block (not an iterator!) and without: 
- [crayon-56082082d7b8a869687801/] 
- Now redefine gimme to contain two yield s, and then call it with a block: 
- [crayon-56082082d7b91603795181/] 
- Another thing you ought know is that after yield executes, control goes back to the statement immediately following it. Kernel 's lambda method, for example, expects a block. An iterator method such as each without a block will return only an enumerator. Finally, stored procedures in Ruby — procs — use blocks as well.
+Primarily, the data lake itself is often not safe for mass use due to complexity, security, and governance issues. Jumping through the IT bottleneck 
 
-No, the IoT does not need strong privacy and security to flourish
-=================================================================
+ For business users, the current process for getting insight from big data is often long and sometimes frustrating. Depending on the department and the project’s complexity, this process could take weeks, if not longer, to be completed. But big data does not have to remain the domain of power users—this is simply a limitation of the current tools. The tool is accessed through a GUI built with the business analyst in mind, as well as modules for IT operations and data science. Adopting such a culture relies on support from both the top and the bottom, whereby management encourages and enables experimentation, and individuals take initiative to learn about new tools and build products that solve problems of immediate interest to them. The open source ecosystem is where this kind of self-driven learning thrives, since you don’t need to go through the process of acquiring—and paying for—a commercial tool in order to start using it or teaching others how to use it. While more feasible for some tools than others (for example, most users probably wouldn’t run a Hadoop cluster on their personal machine), the principle remains the same: learning new skills and tools from open source can be very enabling, and is becoming increasingly crucial in today’s business environment. At the same time, business users should be proactive in searching out new tools and developing skills on their own. As tools like Kylo mature, everyone who wants to will be able to use data to make their jobs easier or more fun—hopefully both. Continue reading Enabling enterprise-wide data analytics.
+
+Four short links: 4 November 2016
+=================================
 
 Top N Summary
 -------------
-To wit: 
- 1995: The global marketplace is doomed! "Unless security and privacy are protected, the [national information infrastructure] won't reach its full potential." "A networked economy will only reach its full potential if sectoral boundaries are dismantled and an even take-up of ICT in society is ensured." (There are plenty of uneven socio-economic qualities to the Internet and related technologies.) The argument that privacy and security must be addressed for the IoT to blossom, then, can be met with head nodding and warm feelings because it assuages fears.
--------------------
-Mean Scored Summary
--------------------
-Economic imperative and technology evolution will impel the IoT and its tremendous potential for increased monitoring forward, but citizen concern plays a minor role in operationalizing privacy. To wit: 
- 1995: The global marketplace is doomed! "Unless security and privacy are protected, the [national information infrastructure] won't reach its full potential." (Seems to be healthy and evolving.) "A networked economy will only reach its full potential if sectoral boundaries are dismantled and an even take-up of ICT in society is ensured." (There are plenty of uneven socio-economic qualities to the Internet and related technologies.) The argument that privacy and security must be addressed for the IoT to blossom, then, can be met with head nodding and warm feelings because it assuages fears. Such a view flies in the face of the economically driven belief that self-regulation is the main force by which we should engender privacy, or that "[e]ducating and empowering citizens is the better way" to address privacy failures – two more orthodoxies.
-
-Translating data into knowledge
-===============================
-
-Top N Summary
--------------
-Data is growing at an exponential rate worldwide, with huge business opportunities and challenges for every industry. In 2016, global Internet traffic will reach 90 exabytes per month , according to a recent Cisco report. Having a clear picture of the business model and the relationships with distributors, suppliers, and customers is extremely useful in order to design a tactical and strategic decision-making process. We explore the common problems of data preparation and the different steps involved, including data cleaning, combination, and transformation. Public domain image on article and category pages via Wikimedia Commons .
--------------------
-Mean Scored Summary
--------------------
-Data is growing at an exponential rate worldwide, with huge business opportunities and challenges for every industry. In 2016, global Internet traffic will reach 90 exabytes per month , according to a recent Cisco report. Having a clear picture of the business model and the relationships with distributors, suppliers, and customers is extremely useful in order to design a tactical and strategic decision-making process. We explore the common problems of data preparation and the different steps involved, including data cleaning, combination, and transformation. This free report begins by discussing the importance of identifying and exploring your business question. Public domain image on article and category pages via Wikimedia Commons .
-
-Four short links: 25 September 2015
-===================================
-
-Top N Summary
--------------
-Apple's Assault on Advertising and Google (Calacanis) -- Google wants to be proud of their legacy, and tricking people into clicking ads and selling our profiles to advertisers is an awesome business – but a horrible legacy for Larry and Sergey. Read beside the Bloomberg piece on click fraud and the future isn't too rosy for advertising. China Is Building The Mother Of All Reputation Systems To Monitor Citizen Behavior -- The document talks about the "construction of credibility" — the ability to give and take away credits — across more than 30 areas of life, from energy saving to advertising. $9 Computer Hardware (Makezine) -- open hardware project, with open source software. The board’s spec is a 1GHz R8 ARM processor with 512MB of RAM, 4GB of NAND storage, and Wi-Fi and Bluetooth built in.
--------------------
-Mean Scored Summary
--------------------
-Apple's Assault on Advertising and Google (Calacanis) -- Google wants to be proud of their legacy, and tricking people into clicking ads and selling our profiles to advertisers is an awesome business – but a horrible legacy for Larry and Sergey. China Is Building The Mother Of All Reputation Systems To Monitor Citizen Behavior -- The document talks about the "construction of credibility" — the ability to give and take away credits — across more than 30 areas of life, from energy saving to advertising.
-
-DevOps for Finance
-==================
-
-Top N Summary
--------------
-[/caption] 
- Download a free copy of DevOps for Finance , an O’Reilly report by Jim Bird for the financial services software insider who's heard about DevOps, but is unsure whether it represents solution or suicide. Businesses (and IT) are under constantly increasing pressure to deliver faster, and with greater efficiency — but not at the expense of reliability of service or security. A common DevOps toolchain includes: 
+We provide efficient, scalable methods with theoretical guarantees for generating maps. (via O'Reilly Data Show Podcast ) 
  
- Version control and artifact repositories 
- Continuous Integration/Continuous Delivery servers like Jenkins, Bamboo, TeamCity, and Go 
- Automated testing tools (including static analysis checkers and 
-automated test frameworks) 
- Automated release/deployment tools 
- Infrastructure as Code: software-defined configuration management tools like Ansible, Chef, CFEngine, and Puppet 
- Virtualization and containerization technologies such as Docker 
-and Vagrant 
+ Val Aurora's Teaching Men to Fight Sexism (The Guardian) -- “It is the exact opposite of Lean In,” says Aurora. I have reframed it as ‘what can men do to stop sexism, because it is their responsibility.’” (via Zoe Corbyn ) 
  
- Build management tools like Maven and Continuous Integration servers like Jenkins are already well established across the industry through Agile development programs. Something like this could violate securities laws. This means that a massive amount of activity is compressed into a small amount of time.
--------------------
-Mean Scored Summary
--------------------
-[/caption] 
- Download a free copy of DevOps for Finance , an O’Reilly report by Jim Bird for the financial services software insider who's heard about DevOps, but is unsure whether it represents solution or suicide. Businesses (and IT) are under constantly increasing pressure to deliver faster, and with greater efficiency — but not at the expense of reliability of service or security. A common DevOps toolchain includes: 
+ Brief History of Distributed Programming RPC (Caitie McCaffrey, Christopher Meiklejohn) -- caution: contains CORBA. (via Caitie on Twitter ) 
  
- Version control and artifact repositories 
- Continuous Integration/Continuous Delivery servers like Jenkins, Bamboo, TeamCity, and Go 
- Automated testing tools (including static analysis checkers and 
-automated test frameworks) 
- Automated release/deployment tools 
- Infrastructure as Code: software-defined configuration management tools like Ansible, Chef, CFEngine, and Puppet 
- Virtualization and containerization technologies such as Docker 
-and Vagrant 
+ Knowledge Repo -- AirBNB's open source next-generation curated knowledge sharing platform for data scientists and other technical professions . (via Ricardo Bion ) 
  
- Build management tools like Maven and Continuous Integration servers like Jenkins are already well established across the industry through Agile development programs. Something like this could violate securities laws.
-
-Learning the Web
-================
-
-Top N Summary
--------------
-Our free report, Getting Started with the Web , provides the core foundations beginners need. Tools are just part of the challenge, though - the ever-expanding universe of devices on which people view the Web makes it all more daunting. Andrew addressed that too : 
- that battle about "what do we do with these phones?" ...we sidestepped [making multiple sites] with responsible design but there are still issues of performance, things we're trying to work out as a community. Managing large audio and video files remains a challenge of its own, but including them in a document has become much more like including an image in a document - manageable.
+ Continue reading Four short links: 4 November 2016.
 -------------------
 Mean Scored Summary
 -------------------
-Our free report, Getting Started with the Web , provides the core foundations beginners need. Tools are just part of the challenge, though - the ever-expanding universe of devices on which people view the Web makes it all more daunting. ...we sidestepped [making multiple sites] with responsible design but there are still issues of performance, things we're trying to work out as a community. Managing large audio and video files remains a challenge of its own, but including them in a document has become much more like including an image in a document - manageable.
+(via O'Reilly Data Show Podcast ) 
+ 
+ Val Aurora's Teaching Men to Fight Sexism (The Guardian) -- “It is the exact opposite of Lean In,” says Aurora. I have reframed it as ‘what can men do to stop sexism, because it is their responsibility.’” (via Zoe Corbyn ) 
+ 
+ Brief History of Distributed Programming RPC (Caitie McCaffrey, Christopher Meiklejohn) -- caution: contains CORBA. (via Caitie on Twitter ) 
+ 
+ Knowledge Repo -- AirBNB's open source next-generation curated knowledge sharing platform for data scientists and other technical professions . (via Ricardo Bion ) 
+ 
+ Continue reading Four short links: 4 November 2016.
 
-Training in the big data ecosystem
-==================================
-
-Top N Summary
--------------
-Their discussion focuses on the training landscape in the big data ecosystem, their teaching techniques and particular content they choose, and a look at some expected future trends. I created a course I call the Business of Big Data to address that. ... How do I use data in order to make a decision? I think there's a lot of room for that because people really want to understand the context before they could ever jump into a contract. Public domain image on article and category pages via Wikimedia Commons.
--------------------
-Mean Scored Summary
--------------------
-In this week's Radar Podcast, O'Reilly's Ben Lorica talks to Paco Nathan , director of O'Reilly Learning, and Jesse Anderson , technical trainer and creative engineer at Confluent. Their discussion focuses on the training landscape in the big data ecosystem, their teaching techniques and particular content they choose, and a look at some expected future trends. As it evolved, that really didn't work. Nathan: "People want to focus on the context. Really, what's the business context and what kind of architectural patterns work for the right kind of use cases? Educating the enterprise 
- Anderson: "One of the big gaps is that we've done great things for engineers and for analysts and for some of the operations people, but we really haven't dealt with the business people. I saw this when I was teaching at Cloudera; I'd have managers or even sometimes director-level people that publicly traded companies sitting through my entire four-day class. I thought, they either have a great love of knowledge or they're really wasting their time — they could have gotten about what they needed in a day or so. I created a course I call the Business of Big Data to address that. ... How do I use data in order to make a decision? I think there's a lot of room for that because people really want to understand the context before they could ever jump into a contract. Public domain image on article and category pages via Wikimedia Commons.
-
-Building enterprise data applications with open source components
-=================================================================
+Open source 101
+===============
 
 Top N Summary
 -------------
-It's obviously not as mature an ecosystem as the Hadoop ecosystem but not everybody needs that maturity. Some people would rather have the flexibility of Mesos or of solving more focused problems. Behind the scenes, obviously you don't want that data to get lost if the machine goes down. You can listen to our entire interview in the SoundCloud player above, or subscribe through Stitcher , SoundCloud , TuneIn , or iTunes . Image on article and category pages by L Rempe-Gillen on Wikimedia Commons .
+Open source software is everywhere, but do you know where to start if you want to contribute, convince your manager your next project should be open source, or avoid recreating the wheel? Continue reading Open source 101.
 -------------------
 Mean Scored Summary
 -------------------
-For this Data Show Podcast, I spoke with O'Reilly author and Typesafe's resident big data architect Dean Wampler about Scala and other programming languages, the big data ecosystem, and his recent interest in real-time applications. … But, of course, the real interesting part is to run on a cluster. You need some cluster infrastructure and, fortunately, it works very nicely with YARN. It basically treats your cluster as one giant machine of resources and gives you that illusion, ignoring things like network latencies and stuff. It's obviously not as mature an ecosystem as the Hadoop ecosystem but not everybody needs that maturity. Some people would rather have the flexibility of Mesos or of solving more focused problems. In Spark's case, it would be the so-called resilient distributed data sets. Behind the scenes, obviously you don't want that data to get lost if the machine goes down. You don't like that but the flipside is, all right, make these things bounded buffers but you still haven't completely solved your problems because then what do you do when that fills up? You can listen to our entire interview in the SoundCloud player above, or subscribe through Stitcher , SoundCloud , TuneIn , or iTunes . Image on article and category pages by L Rempe-Gillen on Wikimedia Commons .
+Continue reading Open source 101.
 
-Major players and important partnerships in the big data market
-===============================================================
-
-Top N Summary
--------------
-For this new report, San Francisco-based startup Relato mapped the intersection of companies throughout the data ecosystem — curating a network with tens of thousands of nodes and edges representing companies and partnerships in the big data space. Relato created the network by extracting data from company home pages on the Web and analyzed it using social network analysis; market experts interpreted the results to yield the insights presented in the report. The report ranks and compare the major players in the market — those who have enabled the development of the market — Hadoop platform vendors Cloudera, Hortonworks, and MapR. You'll see how we compare and contrast vendors using traditional metrics and various types of centrality. No longer do market analyses need to rely only on surveys and produce completely subjective quadrant charts.
--------------------
-Mean Scored Summary
--------------------
-For this new report, San Francisco-based startup Relato mapped the intersection of companies throughout the data ecosystem — curating a network with tens of thousands of nodes and edges representing companies and partnerships in the big data space. Relato created the network by extracting data from company home pages on the Web and analyzed it using social network analysis; market experts interpreted the results to yield the insights presented in the report. You'll see how we compare and contrast vendors using traditional metrics and various types of centrality. No longer do market analyses need to rely only on surveys and produce completely subjective quadrant charts.
-
-Renaming isomorphic JavaScript?
-===============================
-
-Top N Summary
--------------
-The name of this approach was coined by Charlie Robbins and later popularized by Spike Brehm as "isomorphic" JavaScript. Just as the two isomorphic graphs have a mapping, so do isomorphic JavaScript environments. This term borrows from Apple's description of app bundles that ran on different CPU architectures (i.e. This gives the name a distinct flavor and helps in expanding the discussion beyond the traditional web application client-server model. image via Wikimedia Commons .
--------------------
-Mean Scored Summary
--------------------
-The name of this approach was coined by Charlie Robbins and later popularized by Spike Brehm as "isomorphic" JavaScript. Take for example the two graphs in the following figure. [/caption] 
- These graphs are isomorphic, even though they look much different. For example, the node A can be mapped to node 1 while maintaining its adjacency in the second graph. Just as the two isomorphic graphs have a mapping, so do isomorphic JavaScript environments. This term borrows from Apple's description of app bundles that ran on different CPU architectures (i.e. The term "universal" also highlights JavaScript code that can run "not only on servers and browsers, but on native devices and embedded architectures as well". This gives the name a distinct flavor and helps in expanding the discussion beyond the traditional web application client-server model. image via Wikimedia Commons .
-
-Improving corporate planning through insight generation
-=======================================================
-
-Top N Summary
--------------
-EPM, in other words, is not just a matter of streamlining data provisions within the enterprise; it's an opportunity to provide a true insight generation solution. Throughout this evolution, improving the financial planning, forecasting, close, and reporting processes continue to be a priority for corporations. Like many other strategic enterprise applications, EPM started moving to the cloud a few years ago. In most corporations, this data remains disconnected. Image on article and category pages via Wellcome on Wikimedia Commons .
--------------------
-Mean Scored Summary
--------------------
-Contrary to what many believe, insights are difficult to identify and effectively apply. In this post, I will discuss a few of the trends that have enabled insight as a service (IaaS) and discuss the general case of using a software-as-a-service (SaaS) EPM solution to corral data and deliver insight as a service as the next level of product. Insight as a service is a distinct layer of the cloud stack (I've discussed IaaS in earlier posts here and here ). EPM, in other words, is not just a matter of streamlining data provisions within the enterprise; it's an opportunity to provide a true insight generation solution. Throughout this evolution, improving the financial planning, forecasting, close, and reporting processes continue to be a priority for corporations. Like many other strategic enterprise applications, EPM started moving to the cloud a few years ago. The rise of big data — and the access and management of such data by SaaS applications, in particular — are enabling the business user to access internal and external data, including public data. This led to several different operational "data hubs" existing within each corporation. In most corporations, this data remains disconnected. Image on article and category pages via Wellcome on Wikimedia Commons .
-
-Integrate, catalog, and preserve metadata
+Blockchain-enabled open science framework
 =========================================
 
 Top N Summary
 -------------
-Bernard is now a field engineer at Tamr, where she's involved in a new project that aims to integrate and catalog a variety of data across an enterprise, while preserving metadata. Tracking metadata allows you to reproduce your data pipelines, and understand the lineage, and provenance of your data. I worked at CERN for a couple years and worked on the ATLAS experiment at the Large Hadron Collider. What are your thoughts on the state of enterprise data in most large organizations? My initial reaction was, "Wait, really?"
+Further clinical R&D into drug candidates and targets is turning up wasteful because published results can't be replicated (Freedman 2015, Begley 2012). There are similar problems with clinical research: Drug trials are published with mostly positive data supporting the claims, and negligible negative data (Ioannidis 2015). In this article, the discussion will mostly remain limited to preclinical research outcomes. The lack of replicability can be attributed to two broad reasons: a lack of consensus on protocols being used in research labs and the level of access to tools and equipment required for performing experiments. To solve these problems and standardize research equipment, we need the scientific community to reach a consensus on specific protocols and also provide generalized methods with sufficient flexibility for minor substitutions.
 -------------------
 Mean Scored Summary
 -------------------
-During a special edition of The O'Reilly Podcast , host and O'Reilly chief data scientist Ben Lorica interviewed Dr. Clare Bernard, a former particle physicist at CERN, who worked on the ATLAS experiment at the Large Hadron Collider. Bernard is now a field engineer at Tamr, where she's involved in a new project that aims to integrate and catalog a variety of data across an enterprise, while preserving metadata. Tracking metadata allows you to reproduce your data pipelines, and understand the lineage, and provenance of your data. I worked at CERN for a couple years and worked on the ATLAS experiment at the Large Hadron Collider. BL: What kind of tools did you use in the academic world, for that type of work? Some of the other experiments proposed for the future are more related to precision measurements, rather than looking for new particles, which was what I was particularly interested in. What are your thoughts on the state of enterprise data in most large organizations? Another challenge is too many systems, and then even within one system you can have duplicate records about something like a customer. CB: One big initiative that a lot of companies have started on is centralizing all of their data into a central repository (the data lake). A lot of companies are realizing that this is an issue, and they're trying to track all of the metadata about the data they're putting into HDFS, into their data lake. They don't necessarily want the exact same transformations. BL: What are the tools for making that happen? CB: I think there are a lot of tools that address parts of this issue. BL: There's an open source academic project right now that's just starting, by Joe Hellerstein, one of the co-founders of Trifacta that attempts to do this; that's something you can share across different frameworks. My initial reaction was, "Wait, really?" CB: Customers often ask us: how do we integrate our data sets and make them into the type of data set that a data scientist would want to use? It's focused on connecting to as many systems as possible, and then capturing collaborative insights. The core Tamr difference is that Catalog can connect to any system. Cropped image on article and category pages via Nevit Dilmen on Wikimedia Commons .
+Further clinical R&D into drug candidates and targets is turning up wasteful because published results can't be replicated (Freedman 2015, Begley 2012). There are similar problems with clinical research: Drug trials are published with mostly positive data supporting the claims, and negligible negative data (Ioannidis 2015). To solve these problems and standardize research equipment, we need the scientific community to reach a consensus on specific protocols and also provide generalized methods with sufficient flexibility for minor substitutions.
 
-The validated learning process for building a hardware startup
+Richard Cook and David Woods on successful anomaly response
+===========================================================
+
+Top N Summary
+-------------
+O'Reilly Radar Podcast: SNAFU Catchers, knowing how things work, and the proper response to system discrepancies. In this week's episode, O'Reilly's Mac Slocum sits down with Richard Cook and David Woods . Cook is a physician, researcher, and educator, who is currently a research scientist in the Department of Integrated Systems Engineering at Ohio State University, and emeritus professor of health care systems safety at Sweden’s KTH. Woods also is a professor at Ohio State University and is leading the Initiative on Complexity in Natural, Social, and Engineered Systems, and he's the co-director of Ohio State University’s Cognitive Systems Engineering Laboratory. Continue reading Richard Cook and David Woods on successful anomaly response.
+-------------------
+Mean Scored Summary
+-------------------
+O'Reilly Radar Podcast: SNAFU Catchers, knowing how things work, and the proper response to system discrepancies. Cook is a physician, researcher, and educator, who is currently a research scientist in the Department of Integrated Systems Engineering at Ohio State University, and emeritus professor of health care systems safety at Sweden’s KTH. Woods also is a professor at Ohio State University and is leading the Initiative on Complexity in Natural, Social, and Engineered Systems, and he's the co-director of Ohio State University’s Cognitive Systems Engineering Laboratory.
+
+Visual tools for overcoming information overload
+================================================
+
+Top N Summary
+-------------
+The O’Reilly Data Show Podcast: Dafna Shahaf on information cartography and AI, and Sam Wang on probabilistic methods for forecasting political elections. In this special two-segment episode of the Data Show , I spoke with Dafna Shahaf , assistant professor at the School of Computer Science and Engineering at the Hebrew University of Jerusalem. Her area of research is focused on tools and techniques for overcoming information overload, an area of increasing importance in an attention economy . With the upcoming U.S. Presidential Elections right around the corner, I included a conversation between Jenn Webb , host of the O’Reilly Radar Podcast , and Sam Wang , co-founder of the Princeton Election Consortium and professor of neuroscience and molecular biology at Princeton University. Continue reading Visual tools for overcoming information overload.
+-------------------
+Mean Scored Summary
+-------------------
+The O’Reilly Data Show Podcast: Dafna Shahaf on information cartography and AI, and Sam Wang on probabilistic methods for forecasting political elections. With the upcoming U.S. Presidential Elections right around the corner, I included a conversation between Jenn Webb , host of the O’Reilly Radar Podcast , and Sam Wang , co-founder of the Princeton Election Consortium and professor of neuroscience and molecular biology at Princeton University.
+
+Andrew Therriault on how data is transforming political campaigns
+=================================================================
+
+Top N Summary
+-------------
+The O’Reilly Bots Podcast: Using data science to allocate campaign resources. The problem confronting a modern campaign manager is similar to the problem that any marketer encounters: how to spend finite resources to reach the right people and convince them to act. In this episode of the O’Reilly Bots Podcast , I talk data strategy with Andrew Therriault , chief data officer for the City of Boston. He was previously director of data science for the Democratic National Committee and is the editor of a free O’Reilly ebook called “ Data and Democracy: How Political Data Science is Shaping the 2016 Elections .” We talk about how data is changing today’s political campaigns—particularly the way that campaigns now determine which potential supporters to target with phone calls, mailings, and door-to-door contact. Continue reading Andrew Therriault on how data is transforming political campaigns.
+-------------------
+Mean Scored Summary
+-------------------
+The O’Reilly Bots Podcast: Using data science to allocate campaign resources. He was previously director of data science for the Democratic National Committee and is the editor of a free O’Reilly ebook called “ Data and Democracy: How Political Data Science is Shaping the 2016 Elections .” We talk about how data is changing today’s political campaigns—particularly the way that campaigns now determine which potential supporters to target with phone calls, mailings, and door-to-door contact.
+
+Four short links: 3 November 2016
+=================================
+
+Top N Summary
+-------------
+Accessorize to a Crime (PDF) -- We define and investigate a novel class of attacks: attacks that are physically realizable and inconspicuous, and allow an attacker to evade recognition or impersonate another individual. When worn by the attacker whose image is supplied to a state-of-the-art face-recognition algorithm, the eyeglasses allow her to evade being recognized or to impersonate another individual. Microsoft Concept Graph -- concepts and categories, built off Probase from Microsoft Research. Knowledge in Probase is harnessed from billions of web pages and years' worth of search logs , an example of useful data exhaust from an unrelated app. Continue reading Four short links: 3 November 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Accessorize to a Crime (PDF) -- We define and investigate a novel class of attacks: attacks that are physically realizable and inconspicuous, and allow an attacker to evade recognition or impersonate another individual. Knowledge in Probase is harnessed from billions of web pages and years' worth of search logs , an example of useful data exhaust from an unrelated app.
+
+Systems engineering and the customer experience
+===============================================
+
+Top N Summary
+-------------
+Five questions for Caskey Dickson: Insights on the changing role of IT ops. Furthermore, having metrics of the appropriate resolution and granularity is needed. If you only know a metric’s average fleet-wide then you have no idea if there are particular server instances that are failing your users. Having the right metrics presented in the right way provides a smoking gun that drives down TTD (time to detect) and TTM (time to mitigate) for the benefit of your customers. Continue reading Systems engineering and the customer experience.
+-------------------
+Mean Scored Summary
+-------------------
+Five questions for Caskey Dickson: Insights on the changing role of IT ops. Furthermore, having metrics of the appropriate resolution and granularity is needed. Having the right metrics presented in the right way provides a smoking gun that drives down TTD (time to detect) and TTM (time to mitigate) for the benefit of your customers. Continue reading Systems engineering and the customer experience.
+
+What is the correct JSON content type?
+======================================
+
+Top N Summary
+-------------
+Learn about MIME types and how the browser and your JSON code interacts. Continue reading What is the correct JSON content type?.
+-------------------
+Mean Scored Summary
+-------------------
+Continue reading What is the correct JSON content type?.
+
+What href attribute should you use for JavaScript-only links?
+=============================================================
+
+Top N Summary
+-------------
+Learn the best practices for adding JavaScript links to your code using buttons and divs. Continue reading What href attribute should you use for JavaScript-only links?.
+-------------------
+Mean Scored Summary
+-------------------
+Learn the best practices for adding JavaScript links to your code using buttons and divs.
+
+The big data ecosystem for science
+==================================
+
+Top N Summary
+-------------
+A look at the data pipeline architecture for five key NERSC projects. Telescopes, particle accelerators and detectors, and gene sequencers, for example, generate hundreds of petabytes of data that must be processed to extract secrets and patterns in life and in the universe. The data technologies used in these various science communities often predate those in the rapidly growing industry big data world, and, in many cases, continue to develop independently, occupying a parallel big data ecosystem for science (see Figure 1). This post highlights some of these technologies, focusing on those used by several projects supported by the National Energy Research Scientific Computing Centre (NERSC) . Continue reading The big data ecosystem for science.
+-------------------
+Mean Scored Summary
+-------------------
+The data technologies used in these various science communities often predate those in the rapidly growing industry big data world, and, in many cases, continue to develop independently, occupying a parallel big data ecosystem for science (see Figure 1). This post highlights some of these technologies, focusing on those used by several projects supported by the National Energy Research Scientific Computing Centre (NERSC) .
+
+How to build great designers
+============================
+
+Top N Summary
+-------------
+BRS is a design studio / maker space within the company that is open to the members of Nike Design. We also run a BRS Academy within the space, which teaches everything from Laser Cutting 101 to Ikebana to Stonewashing to Sign Painting. I was interested in all things art and design early on. You’re giving a talk with like minded designers from IBM, Airbnb, and Pinterest on creating space for making in the workplace. There is inspiration in everyday things all around us—it’s a positive attitude and outlook that makes them exciting.
+-------------------
+Mean Scored Summary
+-------------------
+I recently asked Ryan Noon , designer at Nike, to discuss his journey into design, making, and the power of looking beyond the screen. I have a background in design and art—where I’ve worked for Alexander McQueen, Henrik Vibskov, and run my own collection, Ryan Noon . BRS is a design studio / maker space within the company that is open to the members of Nike Design. We also run a BRS Academy within the space, which teaches everything from Laser Cutting 101 to Ikebana to Stonewashing to Sign Painting. It’s a global / local studio, too—we love the creative community and want to make sure we have perspective from all around the world. I was interested in all things art and design early on. You’re giving a talk with like minded designers from IBM, Airbnb, and Pinterest on creating space for making in the workplace. Being in an energetic space with a diversity of disciplines adds to better product and ideas. There is inspiration in everyday things all around us—it’s a positive attitude and outlook that makes them exciting.
+
+Highlights from the O'Reilly Security Conference in New York 2016
+=================================================================
+
+Top N Summary
+-------------
+Once upon a future 
+
+ Heather Adkins explores various events in security history to show how we need to alter our course to change the future. Playing through the pain: The impact of secrets and dark knowledge on security and intelligence professionals 
+
+ Richard Thieme says the cost of security work and professional intelligence goes beyond dollars. It's measured in family life, relationships, and mental and physical well-being. Watch " Playing through the pain: The impact of secrets and dark knowledge on security and intelligence professionals ." Continue reading Highlights from the O'Reilly Security Conference in New York 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Once upon a future 
+
+ Heather Adkins explores various events in security history to show how we need to alter our course to change the future. Playing through the pain: The impact of secrets and dark knowledge on security and intelligence professionals 
+
+ Richard Thieme says the cost of security work and professional intelligence goes beyond dollars. Watch " Playing through the pain: The impact of secrets and dark knowledge on security and intelligence professionals ."
+
+Four short links: 2 November 2016
+=================================
+
+Top N Summary
+-------------
+Beyond MVP, Questioning Data, No Tech Industry, and Dealing with Resistance 
+ 
+ Getting Beyond MVP (Adrian Colyer) -- great advice for those whose prototype worked but now face scaling up on a rickety but small codebase. In short: big data isn't the panacea many think it is, has led to bad outcomes in many areas, and the simplistic approach it promotes may be actively dangerous. There Is No Technology Industry -- Rather than accepting that a company like Facebook, which knows more about our personal lives than any entity that’s ever existed, is simply “tech,” we should talk about it as an information broker, as an agent of government surveillance, as a media publisher, as a producer of unmanned drones, or in any other specific description that will assign appropriate accountability and context to their actions. Dealing with Resistance (Bill Martin) -- To deal with resistors you must understand their source of power. Continue reading Four short links: 2 November 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Beyond MVP, Questioning Data, No Tech Industry, and Dealing with Resistance 
+ 
+ Getting Beyond MVP (Adrian Colyer) -- great advice for those whose prototype worked but now face scaling up on a rickety but small codebase. In short: big data isn't the panacea many think it is, has led to bad outcomes in many areas, and the simplistic approach it promotes may be actively dangerous. Dealing with Resistance (Bill Martin) -- To deal with resistors you must understand their source of power. Continue reading Four short links: 2 November 2016.
+
+A vision for future cybersecurity
+=================================
+
+Top N Summary
+-------------
+Rebecca Bace explains what we need to do to consolidate our efforts in cybersecurity so that we can instigate a new generation of techniques and applications. Continue reading A vision for future cybersecurity.
+-------------------
+Mean Scored Summary
+-------------------
+Continue reading A vision for future cybersecurity.
+
+Once upon a future
+==================
+
+Top N Summary
+-------------
+Heather Adkins explores various events in security history to show how we need to alter our course to change the future. Continue reading Once upon a future.
+-------------------
+Mean Scored Summary
+-------------------
+Heather Adkins explores various events in security history to show how we need to alter our course to change the future.
+
+Playing through the pain: The impact of secrets and dark knowledge on security and intelligence professionals
+=============================================================================================================
+
+Top N Summary
+-------------
+Richard Thieme says the cost of security work and professional intelligence goes beyond dollars. It's measured in family life, relationships, and mental and physical well-being. Continue reading Playing through the pain: The impact of secrets and dark knowledge on security and intelligence professionals.
+-------------------
+Mean Scored Summary
+-------------------
+Richard Thieme says the cost of security work and professional intelligence goes beyond dollars.
+
+Let’s fix this thing: Results from our first hackathon
+======================================================
+
+Top N Summary
+-------------
+Dan Kaminsky on the progress made at O’Reilly Security’s first hackathon to make web security easier. So, White Ops Labs and O’Reilly Security put out the call last week: Let’s get together, let’s write some code—all open source, with one clear directive—let’s make security easy. I’d like to specifically thank Code for America , who took our hacker invasion in stride. They were fantastic hosts, and like us, they’re trying to make a lot of unnecessarily difficult things much more achievable. Continue reading Let’s fix this thing: Results from our first hackathon.
+-------------------
+Mean Scored Summary
+-------------------
+So, White Ops Labs and O’Reilly Security put out the call last week: Let’s get together, let’s write some code—all open source, with one clear directive—let’s make security easy.
+
+Real-time data for the real world
+=================================
+
+Top N Summary
+-------------
+Close the time gap between analysis and action to bring about the next wave of improvements in efficiency and reliability—and magic. The world of renewable energy is a perfect example of the possibilities—and challenges—of the 21st-century economy. The first step to speeding up the time-to-delivered-insight is real-time data access and insights dashboards. Where does real time go next? The engineering work of getting data from sensors and users to databases and algorithms, and in turn getting analyses and decisions back to users (or actors like robots) is often the most important work in enabling data-driven action, especially in real-time contexts.
+-------------------
+Mean Scored Summary
+-------------------
+Close the time gap between analysis and action to bring about the next wave of improvements in efficiency and reliability—and magic. Embracing real time is the only option for companies seeking to elevate both the speed and the quality of information their business is analyzing. The world of renewable energy is a perfect example of the possibilities—and challenges—of the 21st-century economy. In a transportation firm, for example, data analytics may be able to recommend new truck routes given traffic conditions. The first step to speeding up the time-to-delivered-insight is real-time data access and insights dashboards. As we replace fossil fuels with renewables (solar, wind, and hydro), and seek to use less energy overall, it is clear that the interplay of numerous machines, human analysts, and timescales necessitate real-time data pipelines. While it takes a half hour or so to spin up a natural-gas turbine, solar panels and wind turbines depend on the weather; hydroelectric plants can be brought online in minutes, but need to pay attention to the long-term seasonal cycles of rain and snowfall, irrigation needs, and even fish migration. For example, one Internet of Things simulated application that tracks the status of nearly 200,000 wind turbines around the world shows how real-time data can empower businesses in the energy sector. Where does real time go next? The engineering work of getting data from sensors and users to databases and algorithms, and in turn getting analyses and decisions back to users (or actors like robots) is often the most important work in enabling data-driven action, especially in real-time contexts.
+
+Artificial creativity
+=====================
+
+Top N Summary
+-------------
+Then in measure 27, the lament suddenly becomes a fugue , also without a break. If you trained an AI with the entire body of Western music prior to Beethoven's birth in 1770, could it come up with something equally radical? But whether an AI can push an artistic tradition to a new level is only the start of the problem. Will Spotify and Pandora (or, more precisely, their algorithms) take risks on challenging music? Yes, there is a market for Elvis on Velvet, and perhaps even paintings in doctors' offices.
+-------------------
+Mean Scored Summary
+-------------------
+As a classical pianist, I'll choose Beethoven, who was probably the most radical composer in the history of music. Then those four notes again, in another key. The second movement really moves straight ahead into the third, without a break . Then in measure 27, the lament suddenly becomes a fugue , also without a break. If you trained an AI with the entire body of Western music prior to Beethoven's birth in 1770, could it come up with something equally radical? All of these musicians were working out of traditions and styles that came before, whether the high classical music of Mozart and Haydn, or the blues of Leadbelly and Blind Lemon Jefferson. But whether an AI can push an artistic tradition to a new level is only the start of the problem. Talking about the decline of the music industry, Frank Zappa says : 
+ One thing that did happen during the 60s was some music of an unusual or experimental nature did get recorded or did get released. We were better off with those guys than we are now with the supposedly hip young executives who are making the decisions of what people should see and hear in the marketplace. ", music would have taken a different course. That's not a technical requirement; it's a human one. Will Spotify and Pandora (or, more precisely, their algorithms) take risks on challenging music? If an AI wrote the 5th symphony, would a music exec say "pretty good, could be better, let's tweak the model and get something people will really like"? It will be at the mercy of record execs and program managers who aren't likely to say "Who knows what it is... if it sells, alright." And nobody will have the time or patience to go through it. There is certainly room for music-as-product; you need something to listen to in elevators. Yes, there is a market for Elvis on Velvet, and perhaps even paintings in doctors' offices. It will be about breaking with established norms and making something new.
+
+Four short links: 1 November 2016
+=================================
+
+Top N Summary
+-------------
+Automatic Security Updates, Client Feedback, PWA Performance, and Beating Burnout 
+ 
+ Guide to Automatic Security Updates -- Automatic updates are a specific instance of a more general problem: secure code delivery. But in addition to the problems involved with securely delivering code from the developer to the user (with a healthy dose of distrust toward the delivery infrastructure), you have additional engineering challenges to contend with due to the automatic nature of the whole process. (via Scott Arciszewsk ) 
+ 
+ Client Feedback on Famous Designs -- brilliant. Lighthouse -- auditing and performance metrics for Progressive Web Apps. Practical Frameworks for Beating Burnout -- The overarching theme: “Do fewer things, but do them extremely well.” 
+ 
+ 
+ Continue reading Four short links: 1 November 2016.
+-------------------
+Mean Scored Summary
+-------------------
+But in addition to the problems involved with securely delivering code from the developer to the user (with a healthy dose of distrust toward the delivery infrastructure), you have additional engineering challenges to contend with due to the automatic nature of the whole process. Practical Frameworks for Beating Burnout -- The overarching theme: “Do fewer things, but do them extremely well.” 
+ 
+ 
+ Continue reading Four short links: 1 November 2016.
+
+How do you put a web server onto a tiny $10 Wi-Fi module?
+=========================================================
+
+Top N Summary
+-------------
+Learn to serve web pages from the inexpensive and tiny ESP8266 module in a few lines of Arduino code. Continue reading How do you put a web server onto a tiny $10 Wi-Fi module?.
+-------------------
+Mean Scored Summary
+-------------------
+Continue reading How do you put a web server onto a tiny $10 Wi-Fi module?.
+
+Disaster preparedness for security professionals
+================================================
+
+Top N Summary
+-------------
+You begin the process with situational awareness of a cybersecurity breach to emphasize the importance of defining the environment, discussing with a team, and then laying out the details before jumping to conclusions. How would FIT’s three-step methodology to solve problems in crisis situations apply to a security breach? Collaboration is a pattern in emergency response that is paramount in all situations, including a security breach. As you mentioned, you're leading an interactive exercise on designing for cyber-security solutions at the O’Reilly Security Conference in Amsterdam this November. Continue reading Disaster preparedness for security professionals.
+-------------------
+Mean Scored Summary
+-------------------
+What are some patterns you see in groups that successfully maneuver through emergency situations? You begin the process with situational awareness of a cybersecurity breach to emphasize the importance of defining the environment, discussing with a team, and then laying out the details before jumping to conclusions. How would FIT’s three-step methodology to solve problems in crisis situations apply to a security breach? What are the benefits of utilizing emergency management language in the case of a security breach? Collaboration is a pattern in emergency response that is paramount in all situations, including a security breach. As you mentioned, you're leading an interactive exercise on designing for cyber-security solutions at the O’Reilly Security Conference in Amsterdam this November. Continue reading Disaster preparedness for security professionals.
+
+Four short links: 31 October 2016
+=================================
+
+Top N Summary
+-------------
+RegTech -- IBM applying Watson to regulations. Knowledge-based Interventions are More Likely to Reduce Legal Disparities than are Implicit Bias Interventions -- argues that trying to educate about implicit bias doesn't change outcomes; instead, we should change people’s knowledge about how the structure of the social environment makes them complicit in the perpetuation of bias. Not sure how this will fare in today's individualistic world, where we aren't allowed to acknowledge that we operate in a cultural system of largely unspoken and completely arbitrary expectations, values, and other mutually constructed fictions. (via Patrick Forscher ) 
+ 
+ TSFRESH -- Automatic extraction of relevant features from time series. Continue reading Four short links: 31 October 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Not sure how this will fare in today's individualistic world, where we aren't allowed to acknowledge that we operate in a cultural system of largely unspoken and completely arbitrary expectations, values, and other mutually constructed fictions. (via Patrick Forscher ) 
+ 
+ TSFRESH -- Automatic extraction of relevant features from time series. Continue reading Four short links: 31 October 2016.
+
+Inside IndieBio Demo Day
+========================
+
+Top N Summary
+-------------
+The latest event revealed a pervading feeling that DIY biotech is maturing at an accelerating rate. This spring's IndieBio Demo Day, held as usual at the Folsom Street Foundry, felt distinctly different from its predecessors. The microbrews still flowed freely if not excessively, and the finger foods were elegant and savory. People were standing cheek by jowl, save for the fact that very few jowls were in evidence among the largely under-35 crowd. Continue reading Inside IndieBio Demo Day.
+-------------------
+Mean Scored Summary
+-------------------
+This spring's IndieBio Demo Day, held as usual at the Folsom Street Foundry, felt distinctly different from its predecessors. People were standing cheek by jowl, save for the fact that very few jowls were in evidence among the largely under-35 crowd.
+
+Move fast and fix things
+========================
+
+Top N Summary
+-------------
+Well-defined interfaces, known good state. We didn’t used to have a quarter terabyte of RAM, or thousands of parallel processors, or clouds willing to manage microservices by the instantiation. Solutions don’t have to happen in full, instantly; compromises are still effective. It piggybacks on existing netflow monitoring infrastructure, provides abuse contact data, anti spoof, a bunch of neat properties. If it all sounds crazy, good.
+-------------------
+Mean Scored Summary
+-------------------
+Join Dan Kaminsky at the O’Reilly Security Hackathon to help make web security easier and more effective. Well-defined interfaces, known good state. It’s not a zero sum game. We didn’t used to have a quarter terabyte of RAM, or thousands of parallel processors, or clouds willing to manage microservices by the instantiation. So we’ve been hacking on Jump to Full Encryption (JFE) and writing code that just certifiably encrypts everything—Apache, NGINX, MySQL, MongoDB, Java, Node.js, Python; it just works. Solutions don’t have to happen in full, instantly; compromises are still effective. Constraining and precisely defining our potential losses is a theme of that work; we’re hoping to create an actual, effective, and performant isolation technique. It piggybacks on existing netflow monitoring infrastructure, provides abuse contact data, anti spoof, a bunch of neat properties. If it all sounds crazy, good.
+
+Breaking the security status quo: Let’s make security easy(er)
 ==============================================================
 
 Top N Summary
 -------------
-Founder incompatibility is one of the most common reasons young companies fail. Strong mentor relationships develop over time. Or, alternatively, they might be bound by shared circumstances, such as sexual orientation. If you don't have a strong circle of contacts, or have avoided developing a presence on popular social channels, consider putting in a small amount of time each day to foster one. Passionate community members will enjoy feeling like they're part of the process.
+The greater awareness of threats leads to opportunities for focused and effective security conversations. Full talks and sessions will be also available after the events on Safari . A malicious actor (still unknown) used nefarious means ( the Mirai botnet ) to wreak havoc, this time on our beloved Internet. To that end, we’re hosting our first hackathon this week in San Francisco with Dan Kaminsky, Chief Scientist at White Ops . We see the value and the importance of making strong isolation of insecure code a smooth experience.
 -------------------
 Mean Scored Summary
 -------------------
-Buy "The Hardware Startup: Building Your Product, Business, and Brand," by Renee DiResta, Brady Forrest, and Ryan Vinyard. Many first-time hardware founders are coming from software, or are hobbyist makers who haven't developed extensive personal networks within the hardware startup community. Fortunately, it's easier than ever to find fellow hardwarians. The Hackerspace Wiki is a great resource for finding like-minded people, and it has the added benefit of potentially helping you discover a shared workspace or machine shop. Building a well-rounded team right from the start is crucial. If you're planning to build a connected device, wearable, or any product that interfaces with your customer via software, you'll want to bring on a software engineer as early as possible, preferably one with some UI/UX design experience. If you went to a university with a strong alumni network, join your school's listserve or LinkedIn group. Founder incompatibility is one of the most common reasons young companies fail. Strong mentor relationships develop over time. Strategic help, such as participation in recruiting or introduction to customers, or expert value-adds, such as work on a particular project, typically increase the amount of equity offered. Or, alternatively, they might be bound by shared circumstances, such as sexual orientation. If you don't have a strong circle of contacts, or have avoided developing a presence on popular social channels, consider putting in a small amount of time each day to foster one. Passionate community members will enjoy feeling like they're part of the process.
+The greater awareness of threats leads to opportunities for focused and effective security conversations. Full talks and sessions will be also available after the events on Safari . A malicious actor (still unknown) used nefarious means ( the Mirai botnet ) to wreak havoc, this time on our beloved Internet. We see the value and the importance of making strong isolation of insecure code a smooth experience.
 
-Four short links: 24 September 2015
+Four short links: 28 October 2016
+=================================
+
+Top N Summary
+-------------
+Engineering Management, Object Spreadsheets, Microservices Hindsight, and Slack Shaping 
+ 
+ Management in 10 Tweets (Marc Hedlund) -- My most frequently given pieces of management advice. End-user developers can use it directly to work with a data set, or to build a web application that offers constrained view and update access to a larger population of users. What I Wish I'd Known Before I Scaled Uber to 1,000 Services (YouTube) -- watch before you get seduced by the microservices press machine. Shaping Your Slack -- Rand's advice for conventions and configuration that make good communities. Continue reading Four short links: 28 October 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Engineering Management, Object Spreadsheets, Microservices Hindsight, and Slack Shaping 
+ 
+ Management in 10 Tweets (Marc Hedlund) -- My most frequently given pieces of management advice. End-user developers can use it directly to work with a data set, or to build a web application that offers constrained view and update access to a larger population of users. What I Wish I'd Known Before I Scaled Uber to 1,000 Services (YouTube) -- watch before you get seduced by the microservices press machine.
+
+How the EU’s GDPR affects all of us
 ===================================
 
 Top N Summary
 -------------
-The Hit Charade (MIT TR) -- Spotify’s deep-learning system still has to be trained using millions of example songs, and it would be perplexed by a bold new style of music. Nor can they distinguish between a truly original piece and yet another me-too imitation of a popular sound. Johnson acknowledges this limitation, and he says human expertise will remain a key part of Spotify’s algorithms for the foreseeable future. The Future of War is the Distant Past (John Birmingham) -- the Naval Academy is hedging against the future by creating cybersecurity midshipmen, and by requiring every midshipman to learn how to do celestial navigation. Go Will Dominate the Next Decade (Ian Eyberg) -- COBOL OF THE 2020s.
+This requirement is made more daunting by the fact that the GDPR expands the definition of personal data to include any information that has even the potential , alone or in conjunction with other information, to identify a person. This is a non-negotiable boardroom-level privacy posture call. Nineteen months to enforcement date, I am not aware of any large IT household name that has a GDPR-compliant or GDPR-proof product or service on the market. I am a bona fide conference junkie and find it exhilarating to attend large events where brains come together and faces light up all the time in those very precious “ah-ha” moments. I make it a point of attending the ones I do not even grasp the title of—if I already understand 80% of the words and concepts in the presentation, I'm not learning and am sitting in the wrong room!
 -------------------
 Mean Scored Summary
 -------------------
-The Hit Charade (MIT TR) -- Spotify’s deep-learning system still has to be trained using millions of example songs, and it would be perplexed by a bold new style of music.
+This requirement is made more daunting by the fact that the GDPR expands the definition of personal data to include any information that has even the potential , alone or in conjunction with other information, to identify a person. Why are we allowing the design of this app to collect these categories of personal information? This is a non-negotiable boardroom-level privacy posture call. Nineteen months to enforcement date, I am not aware of any large IT household name that has a GDPR-compliant or GDPR-proof product or service on the market. I am a bona fide conference junkie and find it exhilarating to attend large events where brains come together and faces light up all the time in those very precious “ah-ha” moments. I make it a point of attending the ones I do not even grasp the title of—if I already understand 80% of the words and concepts in the presentation, I'm not learning and am sitting in the wrong room!
 
-Understanding the experience design of consumer IoT products
+Understanding the ELK stack
+===========================
+
+Top N Summary
+-------------
+ELK stands for Elasticsearch, Logstash and Kibana. Logstash, which is in the front, is responsible for giving structure to your data (like parsing unstructured logs) and sending it to Elasticsearch. I think there are two main things that make ELK so popular and different. Those who just started their adventure with logs usually run into data structure problems, so-called mappings in Elasticsearch. There are multiple talks I would like to attend, especially related to container orchestration, Internet of Things, monitoring, and understanding data.
+-------------------
+Mean Scored Summary
+-------------------
+I recently sat down with Rafał Kuć, search consultant and software engineer at Sematext Group, to discuss the benefits and common pitfalls of using the ELK stack to manage logs. ELK stands for Elasticsearch, Logstash and Kibana. Logstash, which is in the front, is responsible for giving structure to your data (like parsing unstructured logs) and sending it to Elasticsearch. Why is it so useful for dealing with logs? Having hundreds of servers running different applications, virtual machines, containers—all that adds up to a lot of data that needs to be analyzed when problems happen or when you need to understand how things work. Being able to narrow down your data or easily find the information you are looking for really helps with operations-related tasks. Adding metrics to the equation gives you even more visibility compared to logs only. I think there are two main things that make ELK so popular and different. We see a variety of problems when we help clients at Sematext. Those who just started their adventure with logs usually run into data structure problems, so-called mappings in Elasticsearch. There are multiple talks I would like to attend, especially related to container orchestration, Internet of Things, monitoring, and understanding data. Examples of talks I can't wait to attend are " How humans see data " by John Rauser from Snapchat, and " Kubernetes and Prometheus: The beginning of a beautiful friendship " by Björn Rabenstein from SoundCloud.
+
+12 patterns for hypermedia service architecture
+===============================================
+
+Top N Summary
+-------------
+Open source software is everywhere, but do you know where to start if you want to contribute, convince your manager your next project should be open source, or avoid recreating the wheel? Continue reading 12 patterns for hypermedia service architecture.
+-------------------
+Mean Scored Summary
+-------------------
+Continue reading 12 patterns for hypermedia service architecture.
+
+Open source in Brazil
+=====================
+
+Top N Summary
+-------------
+Exploring the many trends in business, education, and government that have contributed to the current state of open source activity in Brazil. Open Source in Brazil: Growing Despite Barriers
+ 
+
+
+ Foi pesado o sono pra quem não sonhou 
+
+   Continue reading Open source in Brazil.
+-------------------
+Mean Scored Summary
+-------------------
+Exploring the many trends in business, education, and government that have contributed to the current state of open source activity in Brazil.
+
+How to build an app with client-side storage
+============================================
+
+Top N Summary
+-------------
+Our application will be a tool for a company intranet (“Camden Incorporated”—coming to the NYSE soon) that lets you search for your coworkers. This could be built using a traditional application server model, but we’ve decided to build something fancy using modern web standards. This, of course, opens up all kinds of interesting issues. First off, how do we handle   synchronization? How often that happens, of course, depends on the company itself, but obviously you have to consider some form of strategy for keeping the user’s copy of data in sync with the real list on the server.
+-------------------
+Mean Scored Summary
+-------------------
+Our application will be a tool for a company intranet (“Camden Incorporated”—coming to the NYSE soon) that lets you search for your coworkers. This could be built using a traditional application server model, but we’ve decided to build something fancy using modern web standards. This, of course, opens up all kinds of interesting issues.
+
+3 challenges for artificial intelligence in medicine
+====================================================
+
+Top N Summary
+-------------
+Overcoming the dearth of labeled data, deployment issues, and regulation fears to increase the use of AI in health care. Why is the world’s most advanced AI used for cat videos , but not to help us live longer and healthier lives? Imagine yourself as a young graduate student in Stanford’s Artificial Intelligence Lab, building a system to diagnose a common infectious disease. After years of sweat and toil, the day comes for the test: a head-to-head comparison with five of the top human experts in infectious disease. Your system squeezes a narrow victory over the first expert, winning by just 4%.
+-------------------
+Mean Scored Summary
+-------------------
+Overcoming the dearth of labeled data, deployment issues, and regulation fears to increase the use of AI in health care. Why is the world’s most advanced AI used for cat videos , but not to help us live longer and healthier lives? Imagine yourself as a young graduate student in Stanford’s Artificial Intelligence Lab, building a system to diagnose a common infectious disease. After years of sweat and toil, the day comes for the test: a head-to-head comparison with five of the top human experts in infectious disease.
+
+Danielle Malik on mentoring the next generation of designers
 ============================================================
 
 Top N Summary
 -------------
-We also need a common vocabulary for discussing them so that when we use the word "design," we're talking about the same things. This report introduces a framework for understanding the experience design of consumer IoT products. It explains the extra complexities that surround designing for connected products. Parts of the system will inevitably go offline from time to time. Users control visual representations of objects and immediately see the outcome of their actions, which can be reversed.
+The O’Reilly Design Podcast: Design education, mentoring, and what design skills matter the most. In this week’s Design Podcast, I sit down with Danielle Malik , designer, owner, and mentor at Design Equation. We talk about mentoring the next generation of designers, what she is learning from recent design grads, and the role fear can play in our work. Continue reading Danielle Malik on mentoring the next generation of designers.
 -------------------
 Mean Scored Summary
 -------------------
-Some of this reflects our as-yet immature understanding of compelling consumer IoT value propositions. Some of this stems from the fact that there are more aspects of design to consider. Tackling them independently creates an incoherent user experience (UX). We also need a common vocabulary for discussing them so that when we use the word "design," we're talking about the same things. This report introduces a framework for understanding the experience design of consumer IoT products. It explains the extra complexities that surround designing for connected products. How tricky those challenges prove will depend on: 
+We talk about mentoring the next generation of designers, what she is learning from recent design grads, and the role fear can play in our work.
+
+Shivon Zilis on the machine intelligence landscape, and Bot Day wrap-up
+=======================================================================
+
+Top N Summary
+-------------
+The O’Reilly Bots Podcast: Bots are the new web. In this episode of the O’Reilly Bots Podcast , Pete Skomoroch and I recap O’Reilly Bot Day , held October 19, 2016, in San Francisco. The event gave us a good picture of what the bot community—and bot landscape—looks like, and the diverse group of attendees conveyed a strong sense of optimism about bots. Slides from Bot Day presentations are available here . Continue reading Shivon Zilis on the machine intelligence landscape, and Bot Day wrap-up.
+-------------------
+Mean Scored Summary
+-------------------
+In this episode of the O’Reilly Bots Podcast , Pete Skomoroch and I recap O’Reilly Bot Day , held October 19, 2016, in San Francisco. The event gave us a good picture of what the bot community—and bot landscape—looks like, and the diverse group of attendees conveyed a strong sense of optimism about bots.
+
+Four short links: 27 October 2016
+=================================
+
+Top N Summary
+-------------
+This guide is best accessed via your mobile phone as you walk along a busy city street with headphones on. (via On Limiting Children's Screen Time ) 
  
- The maturity of the technology you're working with 
- The context of use, and the expectations your users have of the system, and 
- The complexity of your service (for example, how many devices the user has to interact with) 
+ Traveling Salesman Problem Solved With Magnets (Stanford) -- this is the press release that explains the Science paper. Ingenious computation through lasers, simulating magnetics, representing the constraints to which a solution must be found. Parsing JSON is a Minefield -- a variation of "the great thing about standards is there's so many of them to choose from," JSON is defined in at least six different documents and it just gets sadder from there. Continue reading Four short links: 27 October 2016.
+-------------------
+Mean Scored Summary
+-------------------
+(via On Limiting Children's Screen Time ) 
  
- But for most connected products, you'll need to consider the following factors: 
- Specialized devices, with different capabilities 
- Many of the 'things' in the internet of things are specialized embedded computing devices. And permissions in some smart home systems allow an "admin" user to grant or deny access to certain devices to others in the house, such as controlling TV/games console time for children or locking cupboards containing dangerous things. Few people enjoy feeling like sysadmins for their own homes. Parts of the system will inevitably go offline from time to time. Users control visual representations of objects and immediately see the outcome of their actions, which can be reversed. This breaks the link between user actions and visible, reversible consequences we have come to expect from modern software (PDF) . Designing for networks 
- Another major factor is the impact of the network on UX. Emails can be slow to download and Skype calls can fail. The video shows instant responses between the mobile app and washing machine, running over the Internet.
+ Traveling Salesman Problem Solved With Magnets (Stanford) -- this is the press release that explains the Science paper. Parsing JSON is a Minefield -- a variation of "the great thing about standards is there's so many of them to choose from," JSON is defined in at least six different documents and it just gets sadder from there.
+
+6 ways to hack the O’Reilly Security Conference CFP
+===================================================
+
+Top N Summary
+-------------
+Now, we’re sharing common traits of the highest-reviewed proposals to help you successfully navigate the CFP process next year. Consistently, the program committee prioritized presentations with a fresh approach. So we tried to focus on building an agenda that delivers on the promise to provide attendees with practical, useful tips they can apply immediately. When you’re tasked with reviewing 400+ proposals, the sloppy ones are usually the first to go. It was the focused, buzzword-free proposals that consistently received strong ratings.
+-------------------
+Mean Scored Summary
+-------------------
+Recently, we provided an inside look at the call for proposals (CFP) process for the O’Reilly Security Conference . Now, we’re sharing common traits of the highest-reviewed proposals to help you successfully navigate the CFP process next year. Then, flip the topic around and tell us how to fix it. Consistently, the program committee prioritized presentations with a fresh approach. So we tried to focus on building an agenda that delivers on the promise to provide attendees with practical, useful tips they can apply immediately. The O'Reilly-ans describe this as "separation of church and state" and we think strict adherence to this principle yields the best results for everyone involved. When you’re tasked with reviewing 400+ proposals, the sloppy ones are usually the first to go. It was the focused, buzzword-free proposals that consistently received strong ratings.
+
+Google infrastructure for everyone else
+=======================================
+
+Top N Summary
+-------------
+Another part of the answer to your question is what I call the shared spiritual ancestry of both, or, as a colleague phrased it: “They are twins separated at birth.” Kubernetes directly builds on Google's decade-long experience with their own cluster scheduling system, Borg. The existence of the many Google-inspired tools and technologies out there are in a way both a cause and a consequence of that development. (Rumors that Google would use Men-in-Black-style neuralyzers during offboarding are strongly exaggerated.) At the same time, you still need to be able to drill down to explore causes. With event logging being another important pillar of monitoring (besides metrics, what Prometheus is for), I really look forward to the two talks about using Elasticsearch for monitoring.
+-------------------
+Mean Scored Summary
+-------------------
+I recently sat down with Björn Rabenstein, production engineer at SoundCloud and co-developer of Prometheus , to discuss Google-inspired tools and why Kubernetes and Prometheus work so well together. Another part of the answer to your question is what I call the shared spiritual ancestry of both, or, as a colleague phrased it: “They are twins separated at birth.” Kubernetes directly builds on Google's decade-long experience with their own cluster scheduling system, Borg. While Google engineers certainly still live far in the future, I daresay that the technological differences to “normal” mid-size tech companies are much less fundamental these days. The existence of the many Google-inspired tools and technologies out there are in a way both a cause and a consequence of that development. Another source of inspiration are the many whitepapers Googlers have published (like the aforementioned GFS and MapReduce papers) or just the brains of ex-Googlers that miss the awesome infrastructure after leaving the company. (Rumors that Google would use Men-in-Black-style neuralyzers during offboarding are strongly exaggerated.) Not only are single-host failures increasingly likely in large distributed systems, but those systems are explicitly designed to tolerate single-host failures. In the words of Rob Ewaschuk , symptom-based alerting is preferred over cause-based alerting. At the same time, you still need to be able to drill down to explore causes. With event logging being another important pillar of monitoring (besides metrics, what Prometheus is for), I really look forward to the two talks about using Elasticsearch for monitoring. Finally, I always enjoy Astrid Atkinson's presentations very much.
+
+Highlights from the O'Reilly Software Architecture Conference in London 2016
+============================================================================
+
+Top N Summary
+-------------
+Watch highlights covering software architecture, microservices, distributed systems, and more. Microservices: Pros and cons 
+
+ Taking opposing sides, Rachel Laycock and Cassie Shum debate the merits of microservices. Watch " Microservices: Pros and cons ." The architecture of uncertainty 
+
+ Kevlin Henney explains how uncertainty, lack of knowledge, and options can be used to drive a system’s architecture and its development schedule. Continue reading Highlights from the O'Reilly Software Architecture Conference in London 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Watch highlights covering software architecture, microservices, distributed systems, and more. Experts from across the software architecture world came together in London for the O’Reilly Software Architecture Conference . Microservices: Pros and cons 
+
+ Taking opposing sides, Rachel Laycock and Cassie Shum debate the merits of microservices. Watch " Microservices: Pros and cons ." The architecture of uncertainty 
+
+ Kevlin Henney explains how uncertainty, lack of knowledge, and options can be used to drive a system’s architecture and its development schedule. Continue reading Highlights from the O'Reilly Software Architecture Conference in London 2016.
+
+Brendan O’Connor on security as a monoculture
+=============================================
+
+Top N Summary
+-------------
+The O’Reilly Security Podcast: Building cathedrals, empowering the watchers, and breaking out of the security monoculture. In this episode, I talk with Brendan O’Connor, a security researcher, lawyer (but not your lawyer) and owner of security consulting firm Malice Afterthought . We discuss creating a culture that celebrates collaborative teamwork over harried heroes, how monitoring and checklists really can save lives, and breaking out of the security monoculture. Continue reading Brendan O’Connor on security as a monoculture.
+-------------------
+Mean Scored Summary
+-------------------
+We discuss creating a culture that celebrates collaborative teamwork over harried heroes, how monitoring and checklists really can save lives, and breaking out of the security monoculture.
+
+Visualizing Value: How to Align Teams with Experience Mapping
+=============================================================
+
+Top N Summary
+-------------
+Jim Kalbach explains how he uses maps as collaborative tools, highlighting the importance of value alignment, and demonstrates how to engage others in workshops and exercises. Continue reading Visualizing Value: How to Align Teams with Experience Mapping.
+-------------------
+Mean Scored Summary
+-------------------
+Jim Kalbach explains how he uses maps as collaborative tools, highlighting the importance of value alignment, and demonstrates how to engage others in workshops and exercises.
+
+Data science gophers
+====================
+
+Top N Summary
+-------------
+As soon as a data science application breaks down without explanation, people won’t trust it and, thus, will cease making data-driven decisions based on insights from the application. Finally, engineers and devops already love Go. Thus, in order to be productive in Go, data scientists must be able to gather data, organize data, parse values, and do arithmetic and statistics. Nevertheless, there are occasions where importing a well-understood and well-maintained package saves considerable effort without unnecessarily reducing clarity. There is also a Go API for Tensorflow in the works.
+-------------------
+Mean Scored Summary
+-------------------
+Without a great deal of forethought into testing and edge cases, you can end up in a situation where your data science application is behaving in a way you did not expect and cannot explain (e.g., because the behavior is caused by errors that were unexpected and unhandled). As soon as a data science application breaks down without explanation, people won’t trust it and, thus, will cease making data-driven decisions based on insights from the application. In contrast, heavy-weight Python data science applications may need readability-killing packages like Twisted to fit into modern event-driven systems and likely rely on an ecosystem of tooling that takes significant effort to deploy. Because Go is statically typed and because the Go community encourages and teaches handling errors gracefully , data scientists exploiting these features can have confidence in the applications and services they deploy. In the world of Python or R, errors may hide themselves behind convenience. Finally, engineers and devops already love Go. The point is not that Go is perfect for every scenario imaginable, so data scientists should use Go, or that Go is fast and scalable (which it is), so data scientists should use Go. Moreover, data scientists really should love Go, as it alleviates their main struggles while still providing them the tooling to be productive, as we will see below (with the added benefits of efficiency, scalability, and low memory usage). Sure, they get to train a machine learning model on occasion, but there are a huge number of business problems that can be solved via some data gathering/organization/cleaning and aggregation/statistics. Thus, in order to be productive in Go, data scientists must be able to gather data, organize data, parse values, and do arithmetic and statistics. Also, keep in mind that, as gophers, we want to produce clear code over being clever (a feature which also helps us as scientists or data scientists/engineers) and introduce a little copying rather than a little dependency. Nevertheless, there are occasions where importing a well-understood and well-maintained package saves considerable effort without unnecessarily reducing clarity. Data gathering, organization, and parsing 
+
+ Thankfully, Go has already proven itself useful at data gathering and organization, as evidenced by the number and variety of databases and datastores written in Go, including InfluxDB , Cayley , LedisDB , Tile38 , Minio , Rend , and CockroachDB . The gonum organization provides numerical functionality that can power a great number of common data science related computations. In fact, you don’t have to abandon certain things you hold dear like Jupyter when working with Go. Check out these projects: 
+
+
+ 
+ 
+ gophernotes —Go kernel for Jupyter notebooks 
+
+ 
+ dashing-go —dashboarding 
+
+ 
+ gonum/plot —plotting 
+ 
+
+
+ In addition to this, it is worth noting that Go fits in so well with web development that powering visualizations or web apps (e.g., utilizing D3 ) via custom APIs, etc., can be extremely successful. Machine learning 
+
+ Even though the above tooling makes data scientists productive about 90% of the time, data scientists still need to be able to do some machine learning (and let’s face it, machine learning is awesome!). There is also a Go API for Tensorflow in the works.
+
+TensorFlow for mobile poets
+===========================
+
+Top N Summary
+-------------
+Running your image classifier in your own iOS application. In TensorFlow for Poets , I showed how you could train a neural network to recognize objects using your own custom images. The next step is getting that model into users’ hands, so in this tutorial, I'll show you what you need to do to run it in your own iOS application. You’ll find written instructions in this post, along with a screencast with commentary showing exactly what I am doing. Continue reading TensorFlow for mobile poets.
+-------------------
+Mean Scored Summary
+-------------------
+In TensorFlow for Poets , I showed how you could train a neural network to recognize objects using your own custom images.
+
+How leaders can build a great culture: Own it, articulate it, live it
+=====================================================================
+
+Top N Summary
+-------------
+Experiencing the feeling of receiving a personal gesture did more to build the culture of service than any point system or other gimmick ever could. Physical space matters to team communication 
+
+ A company I know well recently moved to a new neighborhood. Little return is perceived from innovation behind the wall and, in fact, functions such as accounting may be governed more by laws and regulations than shifts in the marketplace. Listen carefully for what resonates and what causes dissonance in the organization. We may never learn who first said that culture beats strategy.
+-------------------
+Mean Scored Summary
+-------------------
+It is composed of every person, process, and protocol in the organization. Experiencing the feeling of receiving a personal gesture did more to build the culture of service than any point system or other gimmick ever could. Doug Conant will be delighted if you follow his lead in sending handwritten notes. Physical space matters to team communication 
+
+ A company I know well recently moved to a new neighborhood. Even without hammers and saws, there are steps you can take. Little return is perceived from innovation behind the wall and, in fact, functions such as accounting may be governed more by laws and regulations than shifts in the marketplace. Listen carefully for what resonates and what causes dissonance in the organization. We may never learn who first said that culture beats strategy.
+
+Mark Wright and Darren Beck on the IoT and sustainability
+=========================================================
+
+Top N Summary
+-------------
+The O’Reilly Hardware Podcast: How connected devices are leading to energy and cost savings. In this episode of the Hardware Podcast , I speak with Mark Wright, director of product management at Samsung Strategy and Innovation Center , and Darren Beck , author of the newly-published O'Reilly ebook " Smart Business: Gaining an Edge Through IoT-Powered Sustainability ." Continue reading Mark Wright and Darren Beck on the IoT and sustainability.
+-------------------
+Mean Scored Summary
+-------------------
+In this episode of the Hardware Podcast , I speak with Mark Wright, director of product management at Samsung Strategy and Innovation Center , and Darren Beck , author of the newly-published O'Reilly ebook " Smart Business: Gaining an Edge Through IoT-Powered Sustainability ."
+
+Building a data-driven culture
+==============================
+
+Top N Summary
+-------------
+“A data-driven culture is a combination of processes, people, and technology that allows companies to bring data into day-to-day conversation,” Thusoo says. “Traditionally, when data was not available, a lot of the decision-making process, both at the tactical and strategic level, would be made through gut intuition. Infrastructure that’s accessible to anyone in the organization is essential, says Thusoo. “It’s easy to train people on interfaces that are in tune with their capabilities,” says Thusoo. Continue reading Building a data-driven culture.
+-------------------
+Mean Scored Summary
+-------------------
+In this O’Reilly Podcast episode, I pose that question to Ashish Thusoo , founder of Qubole . “A data-driven culture is a combination of processes, people, and technology that allows companies to bring data into day-to-day conversation,” Thusoo says. “Traditionally, when data was not available, a lot of the decision-making process, both at the tactical and strategic level, would be made through gut intuition. Infrastructure that’s accessible to anyone in the organization is essential, says Thusoo. “It’s easy to train people on interfaces that are in tune with their capabilities,” says Thusoo. Continue reading Building a data-driven culture.
+
+Four short links: 26 October 2016
+=================================
+
+Top N Summary
+-------------
+Computer Security MOOC, Human-Data Interaction, Baidu's Open Source, and Termination of Transfer 
+ 
+ Cyber Security Base with F‑Secure -- free computer security MOOC from University of Helsinki and F-Secure. Human-Data Interaction -- from the Encyclopaedia of Human-Computer Interaction, 2nd ed. Baidu's Open Source -- interesting to see the different code bases they're working on, and the areas around IoT, "Internet-scale" databases, charting, speech, deep learning—all the goodies. Termination of Transfer (Creative Commons) -- in keeping with this year’s Open Access theme “Open in Action,” Creative Commons and Authors Alliance are pleased to announce a new tool that empowers authors to learn about whether and when they have the right to terminate licensing arrangements they have made with publishers that prevent them from sharing their works openly. Continue reading Four short links: 26 October 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Baidu's Open Source -- interesting to see the different code bases they're working on, and the areas around IoT, "Internet-scale" databases, charting, speech, deep learning—all the goodies.
+
+The myth of the sophisticated hack
+==================================
+
+Top N Summary
+-------------
+After each major login/password breach, analysts review the data and find people use the same passwords. Often seen as MITM, MitM, MIM, MiM attack, or MITMA, a man-in-the-middle attack is when the hacker relays communication between two other parties using the opportunity to capture or modify the data (see Figure 1). Figure 1. As soon as a hole is created or identified, a hacker can take advantage and install malware onto a network. As long as there’s data worth stealing, there will be people attempting to get at it by whatever means necessary.
+-------------------
+Mean Scored Summary
+-------------------
+After each major login/password breach, analysts review the data and find people use the same passwords. As a quick aside, this is very easily stopped if companies occasionally reviewed the most common passwords and didn’t allow users to set them. Here, the hacker manipulates people into performing an action or divulging confidential information. Often seen as MITM, MitM, MIM, MiM attack, or MITMA, a man-in-the-middle attack is when the hacker relays communication between two other parties using the opportunity to capture or modify the data (see Figure 1). Figure 1. As soon as a hole is created or identified, a hacker can take advantage and install malware onto a network. As long as there’s data worth stealing, there will be people attempting to get at it by whatever means necessary.
+
+Dealing with growing pains without sacrificing sustainability
+=============================================================
+
+Top N Summary
+-------------
+Balancing optimization efforts across processes, technologies, and teams. The tensions between maintaining what we've already built, shipping new work that addresses urgent needs, and keeping an eye on what new opportunities lie just beyond the horizon can leave us feeling overworked and spread thin. And the default assumption is that a team that cannot easily keep up with the pace of demand is one that needs to grow as soon as possible: that an extra set of hands will help lighten the load, and miraculously cure all problems. This leads many businesses to rush their hiring process, but the expected cure either never comes or is too little, too late. Continue reading Dealing with growing pains without sacrificing sustainability.
+-------------------
+Mean Scored Summary
+-------------------
+The tensions between maintaining what we've already built, shipping new work that addresses urgent needs, and keeping an eye on what new opportunities lie just beyond the horizon can leave us feeling overworked and spread thin. And the default assumption is that a team that cannot easily keep up with the pace of demand is one that needs to grow as soon as possible: that an extra set of hands will help lighten the load, and miraculously cure all problems.
+
+How to build an autonomous, voice-controlled, face-recognizing drone for $200
+=============================================================================
+
+Top N Summary
+-------------
+The goal of dimensionality reduction is to map high-dimensional data points onto a lower dimensional space. The challenge is to keep similar data points close together on the lower-dimensional mapping. As we’ll see in the next section, our data set contains 13 features. Most dimensionality reduction algorithms are unsupervised, which means that they don’t employ the labels of the data points in order to construct the lower-dimensional mapping. Continue reading How to build an autonomous, voice-controlled, face-recognizing drone for $200 .
+-------------------
+Mean Scored Summary
+-------------------
+The goal of dimensionality reduction is to map high-dimensional data points onto a lower dimensional space. As we’ll see in the next section, our data set contains 13 features. Most dimensionality reduction algorithms are unsupervised, which means that they don’t employ the labels of the data points in order to construct the lower-dimensional mapping. Continue reading How to build an autonomous, voice-controlled, face-recognizing drone for $200 .
+
+Four short links: 25 October 2016
+=================================
+
+Top N Summary
+-------------
+EdTech Dictionary, Choose Simple, Dictator's Handbook, and Medical Bioinspiration 
+ 
+ A Devil's Dictionary of Educational Technology -- brilliant! (via Living in the Age of Software Fuckery ) 
+ 
+ The Dictator's Handbook (Amazon) -- added to my queue, to read with open source projects in mind. BioInspiration -- profile of Jeffrey Karp, whose lab at MIT creates useful medical inventions inspired by natural phenomena. “When we look to solve problems, it’s not so we can publish papers and get pats on the back from the academic community,” said Nick Sherman, a research technician at Karp Lab. If not, how do we make it help them?’” 
+ 
+ 
+ Continue reading Four short links: 25 October 2016.
+-------------------
+Mean Scored Summary
+-------------------
+EdTech Dictionary, Choose Simple, Dictator's Handbook, and Medical Bioinspiration 
+ 
+ A Devil's Dictionary of Educational Technology -- brilliant! (via Living in the Age of Software Fuckery ) 
+ 
+ The Dictator's Handbook (Amazon) -- added to my queue, to read with open source projects in mind. BioInspiration -- profile of Jeffrey Karp, whose lab at MIT creates useful medical inventions inspired by natural phenomena. If not, how do we make it help them?’” 
+ 
+ 
+ Continue reading Four short links: 25 October 2016.
+
+An introduction to Arista's MLAG
+================================
+
+Top N Summary
+-------------
+Combining two switches to look like one can be daunting and complex. Not with Arista. Learn how Arista's MLAG makes accomplishing this task very simple. Continue reading An introduction to Arista's MLAG.
+-------------------
+Mean Scored Summary
+-------------------
+Combining two switches to look like one can be daunting and complex. Learn how Arista's MLAG makes accomplishing this task very simple.
+
+How do you correct a commit message in Git?
+===========================================
+
+Top N Summary
+-------------
+Learn how to fix a mistake using the “git commit -amend” command and understand when it is appropriate to force push a changed commit. Continue reading How do you correct a commit message in Git?.
+-------------------
+Mean Scored Summary
+-------------------
+Learn how to fix a mistake using the “git commit -amend” command and understand when it is appropriate to force push a changed commit.
+
+Distributed tracing: What it is and why it will become a default tool
+=====================================================================
+
+Top N Summary
+-------------
+An interview with Reshmi Krishna, cloud application and platform architect at Pivotal. Continue reading Distributed tracing: What it is and why it will become a default tool.
+-------------------
+Mean Scored Summary
+-------------------
+An interview with Reshmi Krishna, cloud application and platform architect at Pivotal.
+
+How do you check if one string contains a substring in JavaScript?
+==================================================================
+
+Top N Summary
+-------------
+Learn eight methods for determining if a string contains a substring in JavaScript. Continue reading How do you check if one string contains a substring in JavaScript?.
+-------------------
+Mean Scored Summary
+-------------------
+Continue reading How do you check if one string contains a substring in JavaScript?.
+
+How do you check if an HTML form checkbox field is checked in JavaScript?
+=========================================================================
+
+Top N Summary
+-------------
+Learn how to verify if a checkbox or radio button is checked using the .checked property in JavaScript. Continue reading How do you check if an HTML form checkbox field is checked in JavaScript?.
+-------------------
+Mean Scored Summary
+-------------------
+Continue reading How do you check if an HTML form checkbox field is checked in JavaScript?.
+
+Four short links: 24 October 2016
+=================================
+
+Top N Summary
+-------------
+Soviet Internet, Deep Learning Papers, Chinese Black Mirror, and Coding Conventions 
+ 
+ The Internyet -- Soviet scientists tried for decades to network their nation. [...] Glushkov’s story is also a stirring reminder to the investor classes and other agents of technological change that astonishing genius, far-seeing foresight, and political acumen are not enough to change the world. China's Plan to Organize its Society Relies on "Big Data" to Rate Everyone (WaPo) -- The ambition is to collect every scrap of information available online about China’s companies and citizens in a single place — and then assign each of them a score based on their political, commercial, social, and legal “credit.” Just in time for Black Mirror Season 3, episode 1. Code Like Shakespeare -- great title, better than any article can be when it's on coding conventions that help people read your code more easily. Continue reading Four short links: 24 October 2016.
+-------------------
+Mean Scored Summary
+-------------------
+Soviet Internet, Deep Learning Papers, Chinese Black Mirror, and Coding Conventions 
+ 
+ The Internyet -- Soviet scientists tried for decades to network their nation. [...] Glushkov’s story is also a stirring reminder to the investor classes and other agents of technological change that astonishing genius, far-seeing foresight, and political acumen are not enough to change the world. Continue reading Four short links: 24 October 2016.
+
+Am I only streaming? Thinking Reactive
+======================================
+
+Top N Summary
+-------------
+Rob Harrop looks at how we can use the concepts of CSP, Actors, and Reactive as powerful tools for reasoning about our systems. Continue reading Am I only streaming? Thinking Reactive.
+-------------------
+Mean Scored Summary
+-------------------
+Rob Harrop looks at how we can use the concepts of CSP, Actors, and Reactive as powerful tools for reasoning about our systems.
 
