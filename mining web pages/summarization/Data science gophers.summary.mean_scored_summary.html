@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Data science gophers Summary</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body><p>Python and R are widely accepted as logical languages for data science—but what about Go? If you follow the data science community, you have very likely seen something like “language wars” unfold between Python and R users. They seem to be the only choices. But there might be a somewhat surprising third option: Go , the open source programming language created at Google. 
+
+
+
+ In this post, we are going to explore how the unique features of Go, along with the mindset of Go programmers, could help data scientists overcome common struggles. We are also going to peek into the world of Go-based data science to see what tools are available and how an ever-growing group of data science gophers are already solving real-world data science problems with Go. 
+
+
+
+ Go, a cure for common data science pains 
+
+ Data scientists are already working in Python and R. These languages are undoubtedly producing value, and it’s not necessary to rehearse their virtues here, but, looking at the community of data scientists as a whole, certain struggles seem to surface quite frequently. The following pains commonly emerge as obstacles for data science teams working to provide value to a business: 
+
+
+ 
+ 
+ Difficulties building “production-ready” applications or services: Unfortunately, the very process of interactively exploring data and developing code in notebooks along with the dynamically typed, single-threaded languages commonly used in data science cause data scientists to produce code that is almost impossible to productionize. There could be a huge amount of effort in transitioning a model off of a data scientist’s laptop into an application that could actually be deployed, handle errors, be tested, and log properly. This barrier of effort often causes data scientists’ models to stay on their laptops or, possibly worse, be deployed to production without proper monitoring, testing, etc. Jeff Magnussen at Stitchfix and Robert Chang at Twitter have each discussed these sorts of cases. 
+
+ 
+ Applications or services that don’t behave as expected: Dynamic typing and convenient parsing functionality can be wonderful, but these features of languages like Python or R can turn their back on you in a hurry. <strong>Without a great deal of forethought into testing and edge cases, you can end up in a situation where your data science application is behaving in a way you did not expect and cannot explain (e.g., because the behavior is caused by errors that were unexpected and unhandled).</strong> This is dangerous for data science applications whose main purpose is to provide actionable insights within an organization. <strong>As soon as a data science application breaks down without explanation, people won’t trust it and, thus, will cease making data-driven decisions based on insights from the application.</strong> The Cookiecutter Data Science project is one notable effort at a “logical, reasonably standardized, but flexible project structure for doing and sharing data science work” in Python—but the static typing and nudges toward clarity of Go make these workflows more likely. 
+
+ 
+ An inability to integrate data science development into an engineering organization: Often, data engineers, devops engineers, and others view data science development as a mysterious process that produces inefficient, unscalable, and hard-to-support applications. Thus, data science can produce what Josh Wills at Slack calls an “ infinite-loop-of-sadness ” within an engineering organization. 
+ 
+
+
+ Now, if we look at Go as a potential language for data science, we can see that, for many use cases, it alleviates these struggles: 
+
+ 
+
+ Go has a proven track record in production, with widespread adoption by devops engineers, as evidenced by game-changing tools like Docker , Kubernetes , and Consul being developed in Go. Go is just plain simple to deploy (via static binaries ), and it allows developers to produce readable, efficient applications that fit within a modern microservices architecture. <strong>In contrast, heavy-weight Python data science applications may need readability-killing packages like Twisted to fit into modern event-driven systems and likely rely on an ecosystem of tooling that takes significant effort to deploy.</strong> Go itself also provides amazing tooling for testing, formatting, vetting, and linting (gofmt, go vet, etc.) that can easily be integrated in your workflow (see here for a starter guide with Vim). Combined, these features can help data scientists and engineers spend most of their time building interesting applications and services, without a huge barrier to deployment. 
+
+ Next, regarding expected behavior (especially with unexpected input) and errors, Go certainly takes a different approach, compared to Python and R. Go code uses error values to indicate an abnormal state, and the language's design and conventions encourage you to explicitly check for errors where they occur. Some might take this as a negative (as it can introduce some verbosity and a different way of thinking). But for those using Go for data science work, handling errors in an idiomatic Go manner produces rock-solid applications with predictable behavior. <strong>Because Go is statically typed and because the Go community encourages and teaches handling errors gracefully , data scientists exploiting these features can have confidence in the applications and services they deploy.</strong> They can be sure that integrity is maintained over time, and they can be sure that, when something does behave in an unexpected way, there will be errors, logs, or other information helping them understand the issue. <strong>In the world of Python or R, errors may hide themselves behind convenience.</strong> For example, Python pandas will return a maximum value or a merged dataframe to you, even when the underlying data experiences a profound change (e.g., 99% of values are suddenly null, or the type of a column used for indexing is unexpectedly inferred as float). The point is not that there is no way to deal with issues (as readers will surely know). The point is that there seem to be a million of these ways to shoot yourself in the foot when the language does not force you deal with errors or edge cases. 
+
+ <strong>Finally, engineers and devops already love Go.</strong> This is evidenced by the growing number of small and even large companies developing the bulk of their technology stack in Go. Go allows them to build easily deployable and maintainable services (see points 1 and 2 above) that can also be highly concurrent and scalable (important in modern microservices environments). By working in Go, data scientists can be unified with their engineering organization and produce data-driven applications that fit right in with the rest of their company’s architecture. 
+ 
+
+
+ Note a few things here. <strong>The point is not that Go is perfect for every scenario imaginable, so data scientists should use Go, or that Go is fast and scalable (which it is), so data scientists should use Go.</strong> The point is that Go can help data scientists produce deliverables that are actually useful in an organization and that they will be able to support. <strong>Moreover, data scientists really should love Go, as it alleviates their main struggles while still providing them the tooling to be productive, as we will see below (with the added benefits of efficiency, scalability, and low memory usage).</strong> 
+
+ The Go data science ecosystem 
+
+ Ok, you might buy into the fact that Go is adored by engineers for its clarity, ease of deployment, low memory use, and scalability, but can people actually do data science with Go? Are there things like pandas, numpy, etc., in Go? What if I want to train a model—can I do that with Go? 
+
+
+
+ Yes, yes, and yes! In fact, there are already a great number of open source tools, packages, and resources for doing data science in Go, and communities and organization such as the high energy physics community and the coral project are actively using Go for data science. I will highlight some of this tooling shortly (and a more complete list can be found here ). However, before I do that, let’s take a minute to think about what sort of tooling we actually need to be productive as data scientists. 
+
+
+
+ Contrary to popular belief and as evidenced by polls and experience (see here and here , for example), data scientists spend most of their time (around 90%) gathering data, organizing data, parsing values, and doing a lot of basic arithmetic and statistics. <strong>Sure, they get to train a machine learning model on occasion, but there are a huge number of business problems that can be solved via some data gathering/organization/cleaning and aggregation/statistics.</strong> <strong>Thus, in order to be productive in Go, data scientists must be able to gather data, organize data, parse values, and do arithmetic and statistics.</strong> 
+
+
+
+ <strong>Also, keep in mind that, as gophers, we want to produce clear code over being clever (a feature which also helps us as scientists or data scientists/engineers) and introduce a little copying rather than a little dependency.</strong> In some cases, writing a for loop may be preferable over importing a package just for one function. You might want to write your own function for a Chi-squared measure of distance metric (or just copy that function into your code) rather than pulling in a whole package for one of those things. This philosophy can greatly improve readability and give your colleagues a clear picture of what you are doing. 
+
+
+
+ <strong>Nevertheless, there are occasions where importing a well-understood and well-maintained package saves considerable effort without unnecessarily reducing clarity.</strong> The following provides something of a “state of the ecosystem” for common data science/analytics activities. See here for a more complete list of active/maintained Go data science tools, packages, libraries, etc. 
+
+ <strong>Data gathering, organization, and parsing 
+
+ Thankfully, Go has already proven itself useful at data gathering and organization, as evidenced by the number and variety of databases and datastores written in Go, including InfluxDB , Cayley , LedisDB , Tile38 , Minio , Rend , and CockroachDB .</strong> Go also has libraries or APIs for all of the commonly used datastores (Mongo, Postgres, etc.). 
+
+
+
+ However, regarding parsing and cleaning data, you might be surprised to find out that Go also has a lot to offer here as well. To highlight just a few: 
+
+
+ 
+ 
+ GJSON —quick parsing of JSON values 
+
+ 
+ ffjson —fast JSON serialization 
+
+ 
+ gota —data frames 
+
+ 
+ c svutil —registering a CSV file as a table and running SQL statements on the CSV file 
+
+ 
+ scrape —web scraping 
+
+ 
+ go-freeling —NLP 
+ 
+
+ Arithmetic and statistics 
+
+ This is an area where Go has greatly improved over the last couple of years. <strong>The gonum organization provides numerical functionality that can power a great number of common data science related computations.</strong> There is even a proposal to add multidimensional slices to the language itself. In general, the Go community is producing a some great projects related to arithmetic, data analysis, and statistics. Here are just a few: 
+
+
+ 
+ 
+ math —stdlib math functionality 
+
+ 
+ gonum/matrix —matrices and matrix operations 
+
+ 
+ gonum/floats —various helper functions for dealing with slices of floats 
+
+ 
+ gonum/stats —statistics including covariance, PCA, ROC, etc. 
+
+ 
+ gonum/graph or gograph —graph data structure and algorithms 
+
+ 
+ gonum/optimize —function optimizations, minimization 
+ 
+
+ Exploratory analysis and visualization 
+
+ Go is a compiled language, so you can’t do exploratory data analysis, right? Wrong. <strong>In fact, you don’t have to abandon certain things you hold dear like Jupyter when working with Go.</strong> <strong>Check out these projects: 
+
+
+ 
+ 
+ gophernotes —Go kernel for Jupyter notebooks 
+
+ 
+ dashing-go —dashboarding 
+
+ 
+ gonum/plot —plotting 
+ 
+
+
+ In addition to this, it is worth noting that Go fits in so well with web development that powering visualizations or web apps (e.g., utilizing D3 ) via custom APIs, etc., can be extremely successful.</strong> 
+
+ <strong>Machine learning 
+
+ Even though the above tooling makes data scientists productive about 90% of the time, data scientists still need to be able to do some machine learning (and let’s face it, machine learning is awesome!).</strong> So when/if you need to scratch that itch, Go does not disappoint: 
+
+
+ 
+ 
+ sajari/regression —multivariable regression 
+
+ 
+ goml , golearn , and hector —general purpose machine learning 
+
+ 
+ bayesian —bayesian classification, TF-IDF 
+
+ 
+ sajari/word2vec —word2vec 
+
+ 
+ go-neural , gonn , and neurgo —neural networks 
+ 
+
+
+ And, of course, you can integrate with any number of machine learning frameworks and APIs (such as H2O or IBM Watson ) to enable a whole host of machine learning functionality. <strong>There is also a Go API for Tensorflow in the works.</strong> 
+
+ Get started with Go for data science 
+
+ The Go community is extremely welcoming and helpful, so if you are curious about developing a data science application or service in Go or if you just want to experiment with data science using Go, make sure you get plugged into community events and discussions. The easiest place to start is on gophers slack , the golang-nuts mailing list (focused generally on Go), or the gopherds mailing list (focused more specifically on data science). The #data-science channel is extremely active and welcoming, so be sure to introduce yourself, ask questions, and get involved. Many larger cities have Go meetups as well. 
+
+
+
+ Thanks to Sebastien Binet for providing feedback on this post. 
+ Continue reading Data science gophers.</p></body>
+</html>

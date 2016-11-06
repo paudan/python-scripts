@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>How to build an app with client-side storage Summary</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body><p>A​ ​hands-on guide​ ​that​ ​demonstrates several storage APIs in action.​ Let’s Build Something! 
+
+ Now   that you’ve seen multiple types of client-side storage techniques as well as some libraries to help make using them easier, let’s build a real, if simple, application that makes use of some of these techniques. <strong>Our application will be a tool for a company intranet (“Camden Incorporated”—coming to the NYSE soon) that lets you search for your coworkers.</strong> <strong>This could be built using a traditional application server model, but we’ve decided to build something fancy using modern web standards.</strong> To make the search near instantaneous, we’ll use client-side storage to keep a copy of the employee database on the user’s browser. <strong>This, of course, opens up all kinds of interesting issues.</strong> 
+
+ <strong>First off, how do we handle   synchronization?</strong> Companies aren’t static. People join or leave companies all the time. <strong>How often that happens, of course, depends on the company itself, but obviously you have to consider some form of strategy for keeping the user’s copy of data in sync with the real list on the server.</strong> Luckily, in our scenario we don’t have to worry about user edits. The server side is always “truth,” which means we can ignore changes on the client side when syncs happen. For our demo we’re not going to worry about syncing at all, but in a real-world demo your application server could provide an API where the client says—and by “says” I mean via code, of course—“My copy of the data was last updated on October 10, 2015 at 8:55 AM.” The server could then respond with a set of changes that have occurred since that date. Those changes could cover deletions (people who left the company), changes (people getting married and changing their name, or getting new titles), and additions (new hires). The client-side code would apply those changes and then make a note of the current time so that the next time it speaks to the server it can correctly receive the changes. Continue reading How to build an app with client-side storage.</p></body>
+</html>

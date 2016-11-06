@@ -1,6 +1,5 @@
-import feedparser
+import shutil
 import sys
-import codecs
 import json
 import nltk
 import io
@@ -142,10 +141,11 @@ def visualize_summarization_results(fname):
 
     blog_data = json.loads(open(fname).read())
     dirname = path.join(path.dirname(path.realpath(__file__)), 'summarization')
+    if path.isdir(dirname):
+        shutil.rmtree(dirname)
+    os.mkdir(dirname)
     for post in blog_data:
         post.update(summarize(post['content']))
-        if not path.isdir(dirname):
-            os.mkdir(dirname)
         for summary_type in ['top_n_summary', 'mean_scored_summary']:
             post[summary_type + '_marked_up'] = '<p>%s</p>' % (post['content'],)
             for s in post[summary_type]:
@@ -250,8 +250,9 @@ def visualize_interactions(fname):
 
     blog_data = json.loads(open(fname).read())
     dirname = path.join(path.dirname(path.realpath(__file__)), 'interactions')
-    if not path.isdir(dirname):
-        os.mkdir(dirname)
+    if path.isdir(dirname):
+        shutil.rmtree(dirname)
+    os.mkdir(dirname)
     for post in blog_data:
         post.update(extract_interactions(post['content']))
 

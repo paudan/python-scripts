@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Move fast and fix things Summary</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body><p>Join Dan Kaminsky at the O’Reilly Security Hackathon to help make web security easier and more effective. A lot of security is just making computers behave like we think they do: effective security reduces the complexity of systems. <strong>Well-defined interfaces, known good state.</strong> This has been my mantra for a while—know what’s communicated, know what’s stored. We think we do this already; we have all sorts of very nice flow diagrams, a request goes in, a response goes out, and anything stored goes into the database. It’s simple, easy, and generally incorrect. But security can, and absolutely will, become more effective. 
+
+ How we got here 
+
+ We have systems leaking memory over time, and network services willing to communicate a bit too much. Quietly, there’s been a significant increase in the difficulty of converting memory corruption—where a system’s behavior becomes “undefined”—into controlled, well redefined attacker controlled code. What used to take days really does take months now. We’ve made things much harder for attackers but not much harder for defenders. It’s not a zero sum game. 
+
+ Computers are different now than they were even just a few years back. <strong>We didn’t used to have a quarter terabyte of RAM, or thousands of parallel processors, or clouds willing to manage microservices by the instantiation.</strong> These sorts of shifts have completely changed how software is written and deployed (and maybe eliminated the difference between the two). We need to adapt our security strategies to keep pace with all this change. 
+
+ What we’re fixing 
+
+ The driving demand of the first O’Reilly Security Hackathon really is: Make Security Easy. Possible is not enough. I think at this point every developer has tried some API, where there are a hundred possible ways to do something, and maybe one that actually works. Meanwhile, a delightful variety of misleading error messages serves to obscure the one working path. And that is how APIs die. Security is not remotely special in this regard. 
+
+ We’ve been exploring how to move fast and fix real security issues in the hackathon, and it’s been a lot of fun. We didn’t used to have a way to automatically certify a computer’s identity. With Let’s Encrypt (aka CertBot), we do now. So we’ve been hacking on Jump to Full Encryption (JFE) and writing code that just certifiably encrypts everything—Apache, NGINX, MySQL, MongoDB, Java, Node.js, Python; it just works. 
+
+ You don’t configure IP addresses and DHCP leases and DNS servers for each random component in your infrastructure. Security’s been a lot harder than insecurity: a lot more expensive, a lot more difficult, a lot more error prone. But it’s the same job, for all of these services. You know what’s great at doing the same job over and over again? Computers. 
+
+ Calling all coders 
+
+ There’s so much to work on. Maybe you can help us. <strong>Solutions don’t have to happen in full, instantly; compromises are still effective.</strong> I for one would like to see credit card breaches that only affect 500 customers. Along with JFE, there are properties of the cloud that we’re exploring under the Ratelock project . Constraining and precisely defining our potential losses is a theme of that work; we’re hoping to create an actual, effective, and performant isolation technique. 
+
+ We’re also trying to do something about the drudgery of handling the attacks that are starting to consume our networks. Remediation has to be accelerated or there won’t be a network to remediate. With Overflowd, for every one out of a million packets a tracer goes to the source and destination. <strong>It piggybacks on existing netflow monitoring infrastructure, provides abuse contact data, anti spoof, a bunch of neat properties.</strong> We need to aim traffic at it and see what happens. 
+
+ <strong>If it all sounds crazy, good.</strong> The software security status quo is not OK and nothing good should sound sane in the context of it. We’re here to write code and see what it can do. Move fast and fix things. Let’s make security easy. 
+
+ I hope to see you at the Hackathon in San Francisco (happening now), and at the O’Reilly Security Conferences in New York and Amsterdam , or of course, on this Internet that we’d really like to keep from burning . 
+ Continue reading Move fast and fix things.</p></body>
+</html>

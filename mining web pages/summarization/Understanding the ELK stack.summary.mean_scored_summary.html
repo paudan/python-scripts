@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Understanding the ELK stack Summary</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body><p>Five questions for Rafał Kuć: Insights on what sets the ELK stack apart from other log management solutions, common user pitfalls, and tips for getting started. <strong>I recently sat down with Rafał Kuć, search consultant and software engineer at Sematext Group, to discuss the benefits and common pitfalls of using the ELK stack to manage logs.</strong> Here are some highlights from our talk. 
+
+ 1. What is the ELK stack? 
+
+ <strong>ELK stands for Elasticsearch, Logstash and Kibana.</strong> The trio, which was once separate, joined together to give users the ability to run log analysis on top of open sourced software that everyone can run for free. 
+
+ 
+	 Elasticsearch is the search and analysis system. It is the place where your data is finally stored, from where it is fetched, and is responsible for providing all the search and analysis results. 
+	 <strong>Logstash, which is in the front, is responsible for giving structure to your data (like parsing unstructured logs) and sending it to Elasticsearch.</strong> 
+	 Kibana allows you to build pretty graphs and dashboards to help understand the data so you don’t have to work with the raw data Elasticsearch returns. 
+ 
+
+ It doesn't matter if you are running a modest company producing small mobile games or a large enterprise—ELK can come in handy when you need time-based data analysis. 
+
+ 2. <strong>Why is it so useful for dealing with logs?</strong> And what makes it different from other solutions for managing logs? 
+
+ Visibility is the key here. <strong>Having hundreds of servers running different applications, virtual machines, containers—all that adds up to a lot of data that needs to be analyzed when problems happen or when you need to understand how things work.</strong> <strong>Being able to narrow down your data or easily find the information you are looking for really helps with operations-related tasks.</strong> <strong>Adding metrics to the equation gives you even more visibility compared to logs only.</strong> When you see your metrics correlated to logs you have the full picture—not only of what is happening now, but also about the history and how your software pieces were behaving. 
+
+ <strong>I think there are two main things that make ELK so popular and different.</strong> First, it’s simple to use and is very DevOps friendly—especially the Elasticsearch part; it’s manageable with a great rest API and easy setup. Second is the pricing. If you are a small company, want to build things in house, and can’t afford enterprise-level log analysis solutions, ELK is great—if, of course, you can pay the price of managing it yourself. 
+
+ 3. What do people often get wrong with the ELK stack? 
+
+ <strong>We see a variety of problems when we help clients at Sematext.</strong> Every case is different, and it is very dependant on the knowledge and experience of the user. <strong>Those who just started their adventure with logs usually run into data structure problems, so-called mappings in Elasticsearch.</strong> Mappings define what fields are there in your documents and what the behavior of the fields is. Depending on the field configuration, it can or can't be used with certain functionalities. (For example, a numeric field can be used for range aggregation, which can divide our search system query logs by their latency—like queries that were running up to 10 milliseconds, from 11 to 100 and so on. You can't do that on text data.) More advanced users often run into scaling- and performance-related problems, like how to use the hardware in the most efficient way, how many servers to have, whether their setup is really the best way to approach their problem, and so on. 
+
+ 4. What's the best way to get started using the ELK stack with your infrastructure? 
+
+ Just start using it, really. There are lots of good tutorials on how to begin. And you don't even need to start with tens of servers to see how useful it will be for you. If your logs are not standard, get an example, like Apache (very known, very simple to work), and just run Logstash, put your data to Elasticsearch and start building your visualizations using Kibana. It may not be easy to build complicated dashboards initially, but the more practice you have, the easier it gets. Just start. 
+
+ 5. You're speaking at the Velocity Conference in Amsterdam this November. What presentations are you looking forward to attending while there? 
+
+ <strong>There are multiple talks I would like to attend, especially related to container orchestration, Internet of Things, monitoring, and understanding data.</strong> <strong>Examples of talks I can't wait to attend are " How humans see data " by John Rauser from Snapchat, and " Kubernetes and Prometheus: The beginning of a beautiful friendship " by Björn Rabenstein from SoundCloud.</strong> 
+ Continue reading Understanding the ELK stack.</p></body>
+</html>
